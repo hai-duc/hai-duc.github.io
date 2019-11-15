@@ -47,10 +47,11 @@
     grid-template-rows: 200px 200px;
 }
 #image1{
-    margin-top: 50px;
-    margin-left: 120px;
+    /*margin-top: 50px;
+    margin-left: 120px;*/
     grid-column: 1/2;
     grid-row: 1/2;
+    /*width: 100%;*/
     
 }
 #image2{
@@ -115,4 +116,7 @@
     font-size: 30px;
     justify-content: center;
     
+}
+.img-content{
+    width: 100%;
 }

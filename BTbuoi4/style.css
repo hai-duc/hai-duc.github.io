@@ -65,6 +65,7 @@ div.desc {
   background-color: turquoise;
   text-align: center;
   border-style: groove;
+  float: left;
   
   
 }
