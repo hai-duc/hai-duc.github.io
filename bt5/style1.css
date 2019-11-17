@@ -37,70 +37,60 @@
 }
 #content{
     max-width: 90%;
-    height: 800px;
+    height: 700px;
     margin: auto;
     background-color: wheat;
     display: grid;
     text-align: center;
     border-style: groove;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px 200px;
     
     
 }
 #image1{
-   
-    margin-top: 50px;
-    margin-left: 120px;
+    padding-top: 20px;
     grid-column: 1/2;
     grid-row: 1/2;
     
 }
 #image2{
-    margin-top: 50px;
-    margin-left: 120px;
+    padding-top: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
 }
 #image3{
-    margin-top: 50px;
-    margin-left: 120px;
+    padding-top: 20px;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 #image4{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 1/2;
     grid-row: 2/3;
 }
 #image5{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 2/3;
     grid-row: 2/3;
 }
 #image6{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 3/4;
     grid-row: 2/3;
 }
 #image7{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 1/2;
     grid-row: 3/4;
 }
 #image8{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 2/3;
     grid-row: 3/4;
 }
 #image9{
-    margin-top: 50px;
-    margin-left: 120px;
+    
     grid-column: 3/4;
     grid-row: 3/4;
 }
