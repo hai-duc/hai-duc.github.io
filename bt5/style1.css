@@ -37,21 +37,23 @@
 }
 #content{
     max-width: 90%;
-    height: 700px;
+    height: 800px;
     margin: auto;
     background-color: wheat;
     display: grid;
     text-align: center;
     border-style: groove;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    
 }
 #image1{
-    /*margin-top: 50px;
-    margin-left: 120px;*/
+   
+    margin-top: 50px;
+    margin-left: 120px;
     grid-column: 1/2;
     grid-row: 1/2;
-    /*width: 100%;*/
     
 }
 #image2{
@@ -116,7 +118,4 @@
     font-size: 30px;
     justify-content: center;
     
-}
-.img-content{
-    width: 100%;
 }
