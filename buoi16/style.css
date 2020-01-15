@@ -11,6 +11,8 @@
 .row{
     margin: 0 auto;
 }   
+
+
 @media only screen and (min-width: 1510px){
 
  
@@ -164,6 +166,7 @@
     color: #3DC281;
     margin-top: -36px;
     margin-left: -66px;
+    width: 130px;
     
 }
 
@@ -691,8 +694,41 @@
     margin-left: 135px;
 }
 
+.noUi-target{
+    margin-top: 50px;
+    max-width: 381px;
+    height: 23px;
+    margin: 10%;
+}
+
+.noUi-handle{
+    border-radius: 80% !important;
+    background: #71D07D !important;
+    box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+    width: 25px !important;
+    height: 25px !important;
+    
+}
+#btn1 {
+    width: 89px !important;
+    height: 40px !important;
+    background: #E8F7FE !important;
+    border-radius: 4px !important;
+    margin-top: 58px;
+    margin-left: 321px;
+    
+}
+
+.dropdown-toggle::after{
+    
+    color: black;
+    position: relative !important;
+    top: -21px !important;
+    left: 30px !important;
+
+}
 .square1{
-    margin-top: 148px;
+    margin-top: 58px;
     margin-left: 327px;
 
     background: #E8F7FE;
@@ -700,15 +736,89 @@
 }
 
 .icon11{
-    margin-top: -22px;
-    margin-left: 341px;
-
-   
+    margin-top: -1px;
+    margin-left: -47px;
 }
 
 .text34{
+    margin-top: -16px;
+    margin-left: 15px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.296471px;
+    color: #010101;
+}
+
+#dropdown1{
+    width: 90px !important;
+    min-width: 0 !important;
+}
+
+.icon50{
+    margin-left: -15px;
+    margin-top: 0px;
+}
+
+.text50{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
+    margin-top: -16px;
+    margin-left: 15px;
+}
+
+.icon51{
+    margin-left: -15px;
+}
+
+.text51{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
     margin-top: -17px;
-    margin-left: 366px;
+    margin-left: 15px;
+}
+
+.icon52{
+    margin-left: -15px;
+}
+
+.text52{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+
+.icon59{
+    margin-left: -14px;
+}
+
+.text59{
+    margin-top: -17px;
+    margin-left: 16px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 600;
@@ -720,11 +830,41 @@
     color: #010101;
 }
 
-.angle5{
-    margin-top: -20px;
-    margin-left: 399px;
+.icon56{
+    margin-left: -14px;
 }
 
+.text56{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
+}
+
+.icon57{
+    margin-left: -14px;
+}
+
+.text57{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
+}
 .icon12{
     margin-left: 52px;
     margin-top: 46px;
@@ -735,14 +875,11 @@
     margin-left: 79px;
 }
 
-.icon14{
-    margin-top: -161px;
-    margin-left: 23px;
+.icon15{
+    margin-top: -46px;
+    margin-left: 47px;
 }
 
-.icon15{
-    margin-left: 40px;
-}
 
 .text32{
     font-family: Source Sans Pro;
@@ -753,7 +890,7 @@
     letter-spacing: 0.5px;
     
     color: #010101;
-    margin-top: 61px;
+    margin-top: -34px;
     margin-left: 66px;
 }
 
@@ -773,22 +910,28 @@
     margin-left: 70px;
 }
 
-.square2{
-    background: #E8F7FE;
-    border-radius: 4px;
-    margin-top: -28px;
+#btn2{
+    margin-top: -40px!important;
+    margin-left: 321px!important;
+    width: 89px !important;
+    height: 40px !important;
+    background: #E8F7FE !important;
+    border-radius: 4px !important;
+}
+
+#dropdown2{
+    width: 90px !important;
+    min-width: 0 !important;
+}
+
+.icon58{
+    margin-left: -48px;
     
-    margin-left: 327px;
 }
 
-.icon16{
-    margin-left: 341px;
-    margin-top: -34px;
-}
-
-.text36{
-    margin-top: -16px;
-    margin-left: 366px;
+.text58{
+    margin-top: -17px;
+    margin-left: 15px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 600;
@@ -798,7 +941,9 @@
     letter-spacing: 0.296471px;
     
     color: #010101;
+
 }
+
 
 .angle6{
     margin-top: -20px;
@@ -816,14 +961,13 @@
 
 .text37{
     text-align: center;
-    margin-top: -37px;
+    margin-top: -33px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.395294px;
-    
     color: #FFFFFF;
 }
 }
@@ -832,9 +976,6 @@
 
     .main1{
         background: linear-gradient(152.11deg, #0FB786 0%, #B0DF77 100%);
-        
-        
-        
         border-left: groove;
         border-right: groove;
         
@@ -844,13 +985,20 @@
         padding-top: 30px;
     }
 
+    #row1{
+        margin: 0 auto;
+    }
+    #row2{
+        margin: 0 auto;
+    }
+
     #parentcontent1{
         max-width: 75px;
         margin-left: 11px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.303571px;
         
@@ -861,7 +1009,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.303571px;
         
@@ -881,8 +1029,8 @@
         opacity: 0.35;
         border-radius: 100px;
         
-        height: 27px;
-        width: 483px;
+        height: 24px;
+        width: 437px;
         margin-left: -85px;
     
     }
@@ -893,8 +1041,9 @@
         width: 40px;
         height: 16px;
         line-height: 27px;
-        margin-top: -22px;
-        margin-left: -77px;
+        margin-top: -20px;
+        margin-left: -67px;
+    
     }
     
     .text1{
@@ -905,22 +1054,22 @@
         line-height: 16px;
         letter-spacing: 0.232143px;
         color: #FFFFFF;
-        margin-top: -14px;
-        margin-left: -73px;
+        margin-top: -15px;
+        margin-left: -62px;
     }
     
     .text2{
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
         letter-spacing: 0.55px;
         height: 21px;
         color: #FFFFFF;
         margin-top: -17px;
-        margin-left: -26px;
-        width: 391px;
+        margin-left: -16px;
+        width: 340px;
     
     }
     
@@ -928,14 +1077,14 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 42px;
+        font-size: 29px;
         line-height: 53px;
         letter-spacing: 0.06px;
         height: 53px;
         color: #FFFFFF;
-        margin-top: 64px;
-        margin-left: -85px;
-        width: 499px;
+        margin-top: 29px;
+        margin-left: -73px;
+        width: 416px;
     
     }
     
@@ -943,22 +1092,25 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 28px;
         letter-spacing: 0.42px;
         color: #D9FCFF;
         margin-top: 24px;
         margin-top: 24px;
-        width: 459px;
-        margin-left: -85px;
+        width: 408px;
+        margin-left: -73px;
     }
     
+    .createaccount{
+
+    }
     .create{
         max-width: 164px;
         width: 100%;
         height: 40px;
         margin-top: 57px;
-        margin-left: -85px;
+        margin-left: -73px;
         background: #FFFFFF;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
         border-radius: 4px;
@@ -968,27 +1120,62 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 20px;
         letter-spacing: 0.8px;
         color: #3DC281;
         margin-top: -36px;
-        margin-left: -66px;
+        margin-left: -65px;
+        width: 105px;
         
     }
 
     .square{
-        width: 463px;
+        width: 440px;
         height: 444px;
         border: groove;
         background: #FFFFFF;
         border-radius: 4px;
-        margin-left: -269px;
-        margin-top: 440px;
+        margin-left: -236px;
+        margin-top: 385px;
+
     }
     
+    .noUi-target{
+        margin-top: 50px;
+        max-width: 381px;
+        height: 23px;
+        margin: 10%;
+    }
+    
+    .noUi-handle{
+        border-radius: 80% !important;
+        background: #71D07D !important;
+        box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+        width: 25px !important;
+        height: 25px !important;
+        
+    }
+    #btn1 {
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+        margin-top: 58px;
+        margin-left: 321px;
+        
+    }
+    
+    .dropdown-toggle::after{
+        
+        color: black;
+        position: relative !important;
+        top: -21px !important;
+        left: 30px !important;
+    
+    }
     .square1{
-        margin-top: 148px;
+        margin-top: 58px;
         margin-left: 327px;
     
         background: #E8F7FE;
@@ -996,15 +1183,89 @@
     }
     
     .icon11{
-        margin-top: -22px;
-        margin-left: 341px;
-    
-       
+        margin-top: -1px;
+        margin-left: -47px;
     }
     
     .text34{
+        margin-top: -16px;
+        margin-left: 15px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.296471px;
+        color: #010101;
+    }
+    
+    #dropdown1{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon50{
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    
+    .text50{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -16px;
+        margin-left: 15px;
+    }
+    
+    .icon51{
+        margin-left: -15px;
+    }
+    
+    .text51{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
         margin-top: -17px;
-        margin-left: 366px;
+        margin-left: 15px;
+    }
+    
+    .icon52{
+        margin-left: -15px;
+    }
+    
+    .text52{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -17px;
+        margin-left: 15px;
+    }
+    
+    .icon59{
+        margin-left: -14px;
+    }
+    
+    .text59{
+        margin-top: -17px;
+        margin-left: 16px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -1016,11 +1277,41 @@
         color: #010101;
     }
     
-    .angle5{
-        margin-top: -20px;
-        margin-left: 399px;
+    .icon56{
+        margin-left: -14px;
     }
     
+    .text56{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
+    
+    .icon57{
+        margin-left: -14px;
+    }
+    
+    .text57{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
     .icon12{
         margin-left: 52px;
         margin-top: 46px;
@@ -1031,14 +1322,12 @@
         margin-left: 79px;
     }
     
-    .icon14{
-        margin-top: -161px;
-        margin-left: 23px;
+    .icon15{
+        margin-top: -46px;
+        margin-left: 31px;
+        
     }
     
-    .icon15{
-        margin-left: 40px;
-    }
     
     .text32{
         font-family: Source Sans Pro;
@@ -1049,7 +1338,7 @@
         letter-spacing: 0.5px;
         
         color: #010101;
-        margin-top: 61px;
+        margin-top: -34px;
         margin-left: 66px;
     }
     
@@ -1069,22 +1358,28 @@
         margin-left: 70px;
     }
     
-    .square2{
-        background: #E8F7FE;
-        border-radius: 4px;
-        margin-top: -28px;
+    #btn2{
+        margin-top: -40px!important;
+        margin-left: 321px!important;
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+    }
+    
+    #dropdown2{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon58{
+        margin-left: -48px;
         
-        margin-left: 327px;
     }
     
-    .icon16{
-        margin-left: 341px;
-        margin-top: -34px;
-    }
-    
-    .text36{
-        margin-top: -16px;
-        margin-left: 366px;
+    .text58{
+        margin-top: -17px;
+        margin-left: 15px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -1094,7 +1389,9 @@
         letter-spacing: 0.296471px;
         
         color: #010101;
+    
     }
+    
     
     .angle6{
         margin-top: -20px;
@@ -1107,19 +1404,18 @@
         background: #99D979;
         box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.1);
         margin-top: 39px;
-        margin-left: 49px;
+        margin-left: 32px;
     }
     
     .text37{
         text-align: center;
-        margin-top: -37px;
+        margin-top: -33px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0.395294px;
-        
         color: #FFFFFF;
     }
 
@@ -1157,7 +1453,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 0.5;
         letter-spacing: 0.4px;
         color: #6B7C93;
@@ -1202,7 +1498,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         
         letter-spacing: 0.4px;
         margin-top: 11px;
@@ -1250,7 +1546,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
     
     
         letter-spacing: 0.4px;
@@ -1301,7 +1597,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         
         letter-spacing: 0.4px;
         
@@ -1415,7 +1711,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 14px;
         
         /* or 153% */
         letter-spacing: 0.4px;
@@ -1449,7 +1745,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 0.5;
         /* or 153% */
         letter-spacing: 0.4px;
@@ -1484,7 +1780,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 0.5;
         /* or 153% */
         letter-spacing: 0.4px;
@@ -1518,7 +1814,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 0.5;
         /* or 153% */
         letter-spacing: 0.4px;
@@ -1533,6 +1829,7 @@
         justify-content: space-between;
         border-left: groove;
         border-right: groove;
+        
     }
     
     .text29{
@@ -1563,7 +1860,12 @@
         
         color: #32325D;
     }
-    
+    .soncontent6{
+
+        margin-left: 507px;
+        margin-top: -56px;
+
+    }
     .createlogo{
         width: 217px;
         height: 40px;
@@ -1807,11 +2109,45 @@
         border: groove;
         background: #FFFFFF;
         border-radius: 4px;
-        margin-left: 75px;
+        margin-left: -17px;
+        
     }
     
+    .noUi-target{
+        margin-top: 50px;
+        max-width: 381px;
+        height: 23px;
+        margin: 10%;
+    }
+    
+    .noUi-handle{
+        border-radius: 80% !important;
+        background: #71D07D !important;
+        box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+        width: 25px !important;
+        height: 25px !important;
+        
+    }
+    #btn1 {
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+        margin-top: 58px;
+        margin-left: 321px;
+        
+    }
+    
+    .dropdown-toggle::after{
+        
+        color: black;
+        position: relative !important;
+        top: -21px !important;
+        left: 30px !important;
+    
+    }
     .square1{
-        margin-top: 148px;
+        margin-top: 58px;
         margin-left: 327px;
     
         background: #E8F7FE;
@@ -1819,15 +2155,89 @@
     }
     
     .icon11{
-        margin-top: -22px;
-        margin-left: 341px;
-    
-       
+        margin-top: -1px;
+        margin-left: -47px;
     }
     
     .text34{
+        margin-top: -16px;
+        margin-left: 15px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.296471px;
+        color: #010101;
+    }
+    
+    #dropdown1{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon50{
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    
+    .text50{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -16px;
+        margin-left: 15px;
+    }
+    
+    .icon51{
+        margin-left: -15px;
+    }
+    
+    .text51{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
         margin-top: -17px;
-        margin-left: 366px;
+        margin-left: 15px;
+    }
+    
+    .icon52{
+        margin-left: -15px;
+    }
+    
+    .text52{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -17px;
+        margin-left: 15px;
+    }
+    
+    .icon59{
+        margin-left: -14px;
+    }
+    
+    .text59{
+        margin-top: -17px;
+        margin-left: 16px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -1839,11 +2249,41 @@
         color: #010101;
     }
     
-    .angle5{
-        margin-top: -20px;
-        margin-left: 399px;
+    .icon56{
+        margin-left: -14px;
     }
     
+    .text56{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
+    
+    .icon57{
+        margin-left: -14px;
+    }
+    
+    .text57{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
     .icon12{
         margin-left: 52px;
         margin-top: 46px;
@@ -1854,14 +2294,11 @@
         margin-left: 79px;
     }
     
-    .icon14{
-        margin-top: -161px;
-        margin-left: 23px;
+    .icon15{
+        margin-top: -46px;
+        margin-left: 47px;
     }
     
-    .icon15{
-        margin-left: 40px;
-    }
     
     .text32{
         font-family: Source Sans Pro;
@@ -1872,7 +2309,7 @@
         letter-spacing: 0.5px;
         
         color: #010101;
-        margin-top: 61px;
+        margin-top: -34px;
         margin-left: 66px;
     }
     
@@ -1892,22 +2329,28 @@
         margin-left: 70px;
     }
     
-    .square2{
-        background: #E8F7FE;
-        border-radius: 4px;
-        margin-top: -28px;
+    #btn2{
+        margin-top: -40px!important;
+        margin-left: 321px!important;
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+    }
+    
+    #dropdown2{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon58{
+        margin-left: -48px;
         
-        margin-left: 327px;
     }
     
-    .icon16{
-        margin-left: 341px;
-        margin-top: -34px;
-    }
-    
-    .text36{
-        margin-top: -16px;
-        margin-left: 366px;
+    .text58{
+        margin-top: -17px;
+        margin-left: 15px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -1917,7 +2360,9 @@
         letter-spacing: 0.296471px;
         
         color: #010101;
+    
     }
+    
     
     .angle6{
         margin-top: -20px;
@@ -1935,7 +2380,7 @@
     
     .text37{
         text-align: center;
-        margin-top: -37px;
+        margin-top: -33px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -2518,7 +2963,7 @@
         border-radius: 100px;
         
         height: 27px;
-        width: 483px;
+        width: 431px;
         margin-left: -137px;
     
     }
@@ -2549,7 +2994,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
         letter-spacing: 0.55px;
         height: 21px;
@@ -2564,7 +3009,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 42px;
+        font-size: 32px;
         line-height: 53px;
         letter-spacing: 0.06px;
         height: 53px;
@@ -2579,7 +3024,7 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 28px;
         letter-spacing: 0.42px;
         color: #D9FCFF;
@@ -2621,12 +3066,45 @@
         border: groove;
         background: #FFFFFF;
         border-radius: 4px;
-        margin-left: -460px;
-        margin-top: 439px;
+        margin-left: -17px;
+        
     }
     
+    .noUi-target{
+        margin-top: 50px;
+        max-width: 381px;
+        height: 23px;
+        margin: 10%;
+    }
+    
+    .noUi-handle{
+        border-radius: 80% !important;
+        background: #71D07D !important;
+        box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+        width: 25px !important;
+        height: 25px !important;
+        
+    }
+    #btn1 {
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+        margin-top: 58px;
+        margin-left: 321px;
+        
+    }
+    
+    .dropdown-toggle::after{
+        
+        color: black;
+        position: relative !important;
+        top: -21px !important;
+        left: 30px !important;
+    
+    }
     .square1{
-        margin-top: 148px;
+        margin-top: 58px;
         margin-left: 327px;
     
         background: #E8F7FE;
@@ -2634,15 +3112,89 @@
     }
     
     .icon11{
-        margin-top: -22px;
-        margin-left: 341px;
-    
-       
+        margin-top: -1px;
+        margin-left: -47px;
     }
     
     .text34{
+        margin-top: -16px;
+        margin-left: 15px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.296471px;
+        color: #010101;
+    }
+    
+    #dropdown1{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon50{
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    
+    .text50{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -16px;
+        margin-left: 15px;
+    }
+    
+    .icon51{
+        margin-left: -15px;
+    }
+    
+    .text51{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
         margin-top: -17px;
-        margin-left: 366px;
+        margin-left: 15px;
+    }
+    
+    .icon52{
+        margin-left: -15px;
+    }
+    
+    .text52{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -17px;
+        margin-left: 15px;
+    }
+    
+    .icon59{
+        margin-left: -14px;
+    }
+    
+    .text59{
+        margin-top: -17px;
+        margin-left: 16px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -2654,11 +3206,41 @@
         color: #010101;
     }
     
-    .angle5{
-        margin-top: -20px;
-        margin-left: 399px;
+    .icon56{
+        margin-left: -14px;
     }
     
+    .text56{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
+    
+    .icon57{
+        margin-left: -14px;
+    }
+    
+    .text57{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
     .icon12{
         margin-left: 52px;
         margin-top: 46px;
@@ -2669,14 +3251,11 @@
         margin-left: 79px;
     }
     
-    .icon14{
-        margin-top: -161px;
-        margin-left: 23px;
+    .icon15{
+        margin-top: -46px;
+        margin-left: 47px;
     }
     
-    .icon15{
-        margin-left: 40px;
-    }
     
     .text32{
         font-family: Source Sans Pro;
@@ -2687,7 +3266,7 @@
         letter-spacing: 0.5px;
         
         color: #010101;
-        margin-top: 61px;
+        margin-top: -34px;
         margin-left: 66px;
     }
     
@@ -2707,22 +3286,28 @@
         margin-left: 70px;
     }
     
-    .square2{
-        background: #E8F7FE;
-        border-radius: 4px;
-        margin-top: -28px;
+    #btn2{
+        margin-top: -40px!important;
+        margin-left: 321px!important;
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+    }
+    
+    #dropdown2{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon58{
+        margin-left: -48px;
         
-        margin-left: 327px;
     }
     
-    .icon16{
-        margin-left: 341px;
-        margin-top: -34px;
-    }
-    
-    .text36{
-        margin-top: -16px;
-        margin-left: 366px;
+    .text58{
+        margin-top: -17px;
+        margin-left: 15px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -2732,7 +3317,9 @@
         letter-spacing: 0.296471px;
         
         color: #010101;
+    
     }
+    
     
     .angle6{
         margin-top: -20px;
@@ -2750,7 +3337,7 @@
     
     .text37{
         text-align: center;
-        margin-top: -37px;
+        margin-top: -33px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -3284,6 +3871,28 @@
         
     }
     
+    #row1{
+        margin: 0 auto;
+    }
+    #row2{
+        margin: 0 auto;
+    }
+    #row5{
+        margin: 0 auto;
+    }
+    #row6{
+        margin: 0 auto;
+    }
+    #row8{
+        margin: 0 auto;
+    }
+
+    #row9{
+        margin: 0 auto;
+    }
+    #row10{
+        margin: 0 auto;
+    }
     .justify-content-between{
         
         padding-top: 30px;
@@ -3433,12 +4042,45 @@
         border: groove;
         background: #FFFFFF;
         border-radius: 4px;
-        margin-left: -307px;
-        margin-top: 439px;
+        margin-left: -365px;
+        margin-top: 433px;
     }
     
+    .noUi-target{
+        margin-top: 50px;
+        max-width: 381px;
+        height: 23px;
+        margin: 10%;
+    }
+    
+    .noUi-handle{
+        border-radius: 80% !important;
+        background: #71D07D !important;
+        box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+        width: 25px !important;
+        height: 25px !important;
+        
+    }
+    #btn1 {
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+        margin-top: 58px;
+        margin-left: 321px;
+        
+    }
+    
+    .dropdown-toggle::after{
+        
+        color: black;
+        position: relative !important;
+        top: -21px !important;
+        left: 30px !important;
+    
+    }
     .square1{
-        margin-top: 148px;
+        margin-top: 58px;
         margin-left: 327px;
     
         background: #E8F7FE;
@@ -3446,15 +4088,89 @@
     }
     
     .icon11{
-        margin-top: -22px;
-        margin-left: 341px;
-    
-       
+        margin-top: -1px;
+        margin-left: -47px;
     }
     
     .text34{
+        margin-top: -16px;
+        margin-left: 15px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.296471px;
+        color: #010101;
+    }
+    
+    #dropdown1{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon50{
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    
+    .text50{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -16px;
+        margin-left: 15px;
+    }
+    
+    .icon51{
+        margin-left: -15px;
+    }
+    
+    .text51{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
         margin-top: -17px;
-        margin-left: 366px;
+        margin-left: 15px;
+    }
+    
+    .icon52{
+        margin-left: -15px;
+    }
+    
+    .text52{
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+        margin-top: -17px;
+        margin-left: 15px;
+    }
+    
+    .icon59{
+        margin-left: -14px;
+    }
+    
+    .text59{
+        margin-top: -17px;
+        margin-left: 16px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -3466,11 +4182,41 @@
         color: #010101;
     }
     
-    .angle5{
-        margin-top: -20px;
-        margin-left: 399px;
+    .icon56{
+        margin-left: -14px;
     }
     
+    .text56{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
+    
+    .icon57{
+        margin-left: -14px;
+    }
+    
+    .text57{
+        margin-top: -17px;
+        margin-left: 16px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        
+        letter-spacing: 0.296471px;
+        
+        color: #010101;
+    }
     .icon12{
         margin-left: 52px;
         margin-top: 46px;
@@ -3481,14 +4227,11 @@
         margin-left: 79px;
     }
     
-    .icon14{
-        margin-top: -161px;
-        margin-left: 23px;
+    .icon15{
+        margin-top: -46px;
+        margin-left: 47px;
     }
     
-    .icon15{
-        margin-left: 40px;
-    }
     
     .text32{
         font-family: Source Sans Pro;
@@ -3499,7 +4242,7 @@
         letter-spacing: 0.5px;
         
         color: #010101;
-        margin-top: 61px;
+        margin-top: -34px;
         margin-left: 66px;
     }
     
@@ -3519,22 +4262,28 @@
         margin-left: 70px;
     }
     
-    .square2{
-        background: #E8F7FE;
-        border-radius: 4px;
-        margin-top: -28px;
+    #btn2{
+        margin-top: -40px!important;
+        margin-left: 321px!important;
+        width: 89px !important;
+        height: 40px !important;
+        background: #E8F7FE !important;
+        border-radius: 4px !important;
+    }
+    
+    #dropdown2{
+        width: 90px !important;
+        min-width: 0 !important;
+    }
+    
+    .icon58{
+        margin-left: -48px;
         
-        margin-left: 327px;
     }
     
-    .icon16{
-        margin-left: 341px;
-        margin-top: -34px;
-    }
-    
-    .text36{
-        margin-top: -16px;
-        margin-left: 366px;
+    .text58{
+        margin-top: -17px;
+        margin-left: 15px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -3544,7 +4293,9 @@
         letter-spacing: 0.296471px;
         
         color: #010101;
+    
     }
+    
     
     .angle6{
         margin-top: -20px;
@@ -3562,7 +4313,7 @@
     
     .text37{
         text-align: center;
-        margin-top: -37px;
+        margin-top: -33px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
@@ -3607,7 +4358,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
-        line-height: 1;
+        line-height: 2;
         letter-spacing: 0.4px;
         color: #6B7C93;
         margin-left: 86px;
@@ -3647,7 +4398,7 @@
     
     .text10{
         margin-left: 86px;
-        line-height: 1;
+        line-height: 2;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
@@ -3695,7 +4446,7 @@
         margin-top: 30px;
 
         margin-left: 81px;
-        line-height: 1;
+        line-height: 2;
             
         font-family: Source Sans Pro;
         font-style: normal;
@@ -3745,7 +4496,7 @@
         margin-top: 40px;
         margin-left: 27px;
         
-        line-height: 1;
+        line-height: 2;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
@@ -3860,7 +4611,7 @@
     .text22{
         margin-top: 7px;
         margin-left: 104px;
-        line-height: 1;
+        line-height: 1.8;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
@@ -3895,15 +4646,13 @@
     }
     
     .text24{
-        position: relative;
-        top: 10px;
-        left: 91px;
         
+        margin-left: 91px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
-        line-height: 1;
+        line-height: 1.8;
         /* or 153% */
         letter-spacing: 0.4px;
         
@@ -3939,7 +4688,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
-        line-height: 1;
+        line-height: 1.8;
         /* or 153% */
         letter-spacing: 0.4px;
         
@@ -3974,7 +4723,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
-        line-height: 1;
+        line-height: 1.8;
         /* or 153% */
         letter-spacing: 0.4px;
         
@@ -4106,6 +4855,13 @@
         
     }
     
+    #row1{
+        margin: 0 auto;
+    }
+    #row2{
+        margin: 0 auto;
+    }
+
     .justify-content-between{
         
         padding-top: 30px;
@@ -4152,7 +4908,7 @@
         border-radius: 100px;
         
         height: 27px;
-        width: 483px;
+        width: 466px;
         margin-left: -56px;
     
     }
@@ -4198,14 +4954,14 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 42px;
+        font-size: 29px;
         line-height: 53px;
         letter-spacing: 0.06px;
         height: 53px;
         color: #FFFFFF;
         margin-top: 64px;
         margin-left: -56px;
-        width: 499px;
+        width: 358px;
     
     }
     
@@ -4250,149 +5006,291 @@
     }
 
     .square{
-        width: 463px;
-        height: 444px;
-        border: groove;
-        background: #FFFFFF;
-        border-radius: 4px;
-        margin-left: -243px;
-        margin-top: 439px;
-    }
+    width: 463px;
+    height: 444px;
+    border: groove;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-left: -272px;
+    margin-top: 433px;
+}
+
+.noUi-target{
+    margin-top: 50px;
+    max-width: 381px;
+    height: 23px;
+    margin: 10%;
+}
+
+.noUi-handle{
+    border-radius: 80% !important;
+    background: #71D07D !important;
+    box-shadow: 0px 0px 10px rgba(113, 208, 125, 0.453493) !important;
+    width: 25px !important;
+    height: 25px !important;
     
-    .square1{
-        margin-top: 148px;
-        margin-left: 327px;
+}
+#btn1 {
+    width: 89px !important;
+    height: 40px !important;
+    background: #E8F7FE !important;
+    border-radius: 4px !important;
+    margin-top: 58px;
+    margin-left: 321px;
     
-        background: #E8F7FE;
-        border-radius: 4px;
-    }
+}
+
+.dropdown-toggle::after{
     
-    .icon11{
-        margin-top: -22px;
-        margin-left: 341px;
+    color: black;
+    position: relative !important;
+    top: -21px !important;
+    left: 30px !important;
+
+}
+.square1{
+    margin-top: 58px;
+    margin-left: 327px;
+
+    background: #E8F7FE;
+    border-radius: 4px;
+}
+
+.icon11{
+    margin-top: -1px;
+    margin-left: -47px;
+}
+
+.text34{
+    margin-top: -16px;
+    margin-left: 15px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.296471px;
+    color: #010101;
+}
+
+#dropdown1{
+    width: 90px !important;
+    min-width: 0 !important;
+}
+
+.icon50{
+    margin-left: -15px;
+    margin-top: 0px;
+}
+
+.text50{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-       
-    }
+    letter-spacing: 0.296471px;
     
-    .text34{
-        margin-top: -17px;
-        margin-left: 366px;
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        
-        letter-spacing: 0.296471px;
-        
-        color: #010101;
-    }
+    color: #010101;
+    margin-top: -16px;
+    margin-left: 15px;
+}
+
+.icon51{
+    margin-left: -15px;
+}
+
+.text51{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .angle5{
-        margin-top: -20px;
-        margin-left: 399px;
-    }
+    letter-spacing: 0.296471px;
     
-    .icon12{
-        margin-left: 52px;
-        margin-top: 46px;
-    }
+    color: #010101;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+
+.icon52{
+    margin-left: -15px;
+}
+
+.text52{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .icon13{
-        margin-top: -26px;
-        margin-left: 79px;
-    }
+    letter-spacing: 0.296471px;
     
-    .icon14{
-        margin-top: -161px;
-        margin-left: 23px;
-    }
+    color: #010101;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+
+.icon59{
+    margin-left: -14px;
+}
+
+.text59{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .icon15{
-        margin-left: 40px;
-    }
+    letter-spacing: 0.296471px;
     
-    .text32{
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.5px;
-        
-        color: #010101;
-        margin-top: 61px;
-        margin-left: 66px;
-    }
+    color: #010101;
+}
+
+.icon56{
+    margin-left: -14px;
+}
+
+.text56{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .text35{
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.5px;
-        
-        color: #010101;
-    }
+    letter-spacing: 0.296471px;
     
-    .text35{
-        margin-top: 47px;
-        margin-left: 70px;
-    }
+    color: #010101;
+}
+
+.icon57{
+    margin-left: -14px;
+}
+
+.text57{
+    margin-top: -17px;
+    margin-left: 16px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .square2{
-        background: #E8F7FE;
-        border-radius: 4px;
-        margin-top: -28px;
-        
-        margin-left: 327px;
-    }
+    letter-spacing: 0.296471px;
     
-    .icon16{
-        margin-left: 341px;
-        margin-top: -34px;
-    }
+    color: #010101;
+}
+.icon12{
+    margin-left: 52px;
+    margin-top: 46px;
+}
+
+.icon13{
+    margin-top: -26px;
+    margin-left: 79px;
+}
+
+.icon15{
+    margin-top: -46px;
+    margin-left: 47px;
+}
+
+
+.text32{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
     
-    .text36{
-        margin-top: -16px;
-        margin-left: 366px;
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        
-        letter-spacing: 0.296471px;
-        
-        color: #010101;
-    }
+    color: #010101;
+    margin-top: -34px;
+    margin-left: 66px;
+}
+
+.text35{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
     
-    .angle6{
-        margin-top: -20px;
-        margin-left: 399px;
-    }
+    color: #010101;
+}
+
+.text35{
+    margin-top: 47px;
+    margin-left: 70px;
+}
+
+#btn2{
+    margin-top: -40px!important;
+    margin-left: 321px!important;
+    width: 89px !important;
+    height: 40px !important;
+    background: #E8F7FE !important;
+    border-radius: 4px !important;
+}
+
+#dropdown2{
+    width: 90px !important;
+    min-width: 0 !important;
+}
+
+.icon58{
+    margin-left: -48px;
     
-    .square3{
-        width: 379px;
-        height: 47px;
-        background: #99D979;
-        box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.1);
-        margin-top: 39px;
-        margin-left: 49px;
-    }
+}
+
+.text58{
+    margin-top: -17px;
+    margin-left: 15px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
     
-    .text37{
-        text-align: center;
-        margin-top: -37px;
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.395294px;
-        color: #FFFFFF;
-    }
+    letter-spacing: 0.296471px;
+    
+    color: #010101;
+
+}
+
+
+.angle6{
+    margin-top: -20px;
+    margin-left: 399px;
+}
+
+.square3{
+    width: 379px;
+    height: 47px;
+    background: #99D979;
+    box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.1);
+    margin-top: 39px;
+    margin-left: 49px;
+}
+
+.text37{
+    text-align: center;
+    margin-top: -33px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.395294px;
+    color: #FFFFFF;
+}
     
     .main2{
     
@@ -4416,10 +5314,9 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 11px;
         line-height: 21px;
         letter-spacing: 1.55px;
-        
         color: #24B47E;
         height: 21px;
     }
@@ -4441,32 +5338,33 @@
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.5px;
-        
         color: #24B47E;
         height: 21px;
         margin-left: 86px;
     }
     
     .icon2{
-        margin-top: 111px;
-        margin-left: -312px;
+        margin-top: 27px;
+        margin-left: -38px;
     }
     
     .text9{
-        margin-left: -236px;
-
+        margin-left: 35px;
+        margin-top: -62px;
+        max-width: 140px;
+        width: 100%;
+        
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 11px;
         line-height: 21px;
         letter-spacing: 1.55px;
-        height: 21px;
         color: #24B47E;
-        margin-top: -58px;
+        height: 21px;
     }
     
     .text10{
@@ -4485,18 +5383,25 @@
     }
     
     .text11{
-        margin-left: -235px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.5px;
-        height: 21px;
         color: #24B47E;
+        height: 21px;
+        margin-left: 36px;
         
     }
     
+    #row5{
+        margin: 0 auto;
+    }
+    #row8{
+        margin: 0 auto;
+    }
+
     .icon3{
         
         margin-top: 48px;
@@ -4504,16 +5409,18 @@
     }
     
     .text12{
-        margin-top: -59px;
-        margin-left: 81px;
+        max-width: 188px;
+        width: 100%;
+        margin-left: 86px;
+        margin-top: -62px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 11px;
         line-height: 21px;
         letter-spacing: 1.55px;
-        height: 21px;
         color: #24B47E;
+        height: 21px;
     }
     
     .text13{
@@ -4536,36 +5443,38 @@
     
     .text14{
         
-        margin-left: 81px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 12px;
         line-height: 21px;
         letter-spacing: 0.5px;
-        height: 21px;
         color: #24B47E;
-        margin-top: 22px;
+        height: 21px;
+        margin-left: 86px;
     }
     
     .icon4{
         
-        margin-top: 146px;
-        margin-left: -266px;
+        margin-top: 48px;
+        margin-left: 20px;
     }
     
     .text15{
         
-        margin-top: -59px;
-        margin-left: -193px;
+        margin-left: 95px;
+
+        margin-top: -62px;
+        max-width: 140px;
+        width: 100%;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 17px;
+        font-size: 11px;
         line-height: 21px;
         letter-spacing: 1.55px;
-        
         color: #24B47E;
+        height: 21px;
     }
     .text16{
         margin-top: 40px;
@@ -4586,16 +5495,15 @@
     .text17{
         
         
-        margin-left: -193px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
-        line-height: 0.5;
+        font-size: 12px;
+        line-height: 21px;
         letter-spacing: 0.5px;
-        height: 21px;
         color: #24B47E;
-        margin-top: 10px;
+        height: 21px;
+        margin-left: 97px;
     }
     
     .main3{
@@ -4740,7 +5648,7 @@
     
     .icon8{
         
-        margin-top: 59px;
+        margin-top: 103px;
         margin-left: 11px;
     }
     
@@ -4777,7 +5685,8 @@
     
     .icon9{
         margin-left: 46px;
-    margin-top: 61px;
+        margin-top: 103px;
+
     }
     
     .text27{
@@ -4811,7 +5720,7 @@
     }
     
     .main4{
-        margin-top: 106px;
+        
         background: #F6F9FC;
         display: flex;
         justify-content: space-between;
@@ -4820,8 +5729,8 @@
     }
     
     .text29{
-        margin-top: 65px;
-        margin-left: 13px;
+        margin-top: 92px;
+        margin-left: 110px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
@@ -4835,7 +5744,7 @@
     
     .text30{
         margin-top: 15px;
-        margin-left: 42px;
+        margin-left: 143px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: normal;
@@ -4846,7 +5755,9 @@
         
         color: #32325D;
     }
-    
+    .soncontent6{
+        margin-top: 22px;
+    }
     .createlogo{
         width: 217px;
         height: 40px;
@@ -4854,7 +5765,7 @@
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
         border-radius: 4px;
         margin-top: 184px;
-        margin-left: -480px;
+        margin-left: -466px;
         
     }
     
@@ -4869,7 +5780,7 @@
         color: #FFFFFF;
         
         margin-top: -35px;
-        margin-left: -451px;
+        margin-left: -438px;
     
     }
 
@@ -4878,6 +5789,9 @@
         border-left: groove;
         border-right: groove;
         border-bottom: groove;
+    }
+    #row9{
+        margin-left: 58px;
     }
     
     #parentcontent3{

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Đề số 15</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
     integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.css">
+  <link rel="stylesheet" href="./node_modules/nouislider/distribute/nouislider.min.css">
 
 </head>
 
@@ -21,7 +22,7 @@
 
     <div class="main1">
 
-      <div class="row justify-content-between">
+      <div class="row justify-content-between" id="row1">
         <div class="col-4" id="parentcontent1">
           Changelly
         </div>
@@ -32,8 +33,8 @@
 
 
 
-      <div class="row justify-content-center">
-        <div class="col-4">
+      <div class="row justify-content-center" id="row2">
+        <div class="col-4" id="colum1">
           <div class="parentcontent3"></div>
           <div class="new"></div>
           <div class="text1">NEW</div>
@@ -44,27 +45,76 @@
             <p>me there, elevator butt. Always ensure to lay down in </p>
             <p>such a manner that tail can lightly brush.</p>
           </div>
-          <button class="create"></button>
+          <div class="createaccount">
+            <button class="create"></button>
           <div class="text5">CREATE ACCOUNT</div>
+          </div>
 
         </div>
-        <div class="col-4">
+        <div class="col-4" id="colum2">
 
           <div class="square">
-            <div class="square1" style="width: 89px; height: 40px;"></div>
-            <div class="icon14"><img src="img/icon14.svg" alt=""></div>
+            <div id="tap" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr"></div>
             <div class="icon15"><img src="img/icon15.svg" alt=""></div>
-            <div class="text32">$200</div>
-            <div class="icon11"><img src="img/icon11.jpg" alt=""></div>
-            <div class="text34">USD</div>
-            <div class="angle5"><i class="fas fa-caret-down"></i></div>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" id="btn1" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                <div class="icon11"><img src="img/icon11.jpg" alt=""></div>
+                <div class="text34">USD</div>
+                
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="dropdown1">
+                <a class="dropdown-item" href="#">
+                  <div class="icon50"><img src="img/icon11.jpg" alt=""></div>
+                <div class="text50">USD</div>
+                
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="icon51"><img src="img/icon11.jpg" alt=""></div>
+                <div class="text51">USD</div>
+                
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="icon52"><img src="img/icon11.jpg" alt=""></div>
+                <div class="text52">USD</div>
+                
+                </a>
+              </div>
+            </div>
+            
+            
+            <div class="text32">$200</div>           
             <div class="icon12"><img src="img/icon12.svg" alt=""></div>
             <div class="icon13"><img src="img/icon13.svg" alt=""></div>
             <div class="text35">0.75454</div>
-            <div class="square2" style="width: 89px; height: 40px;"></div>
-            <div class="icon16"><img src="img/icon16.jpg" alt=""></div>
-            <div class="text36">BTC</div>
-            <div class="angle6"><i class="fas fa-caret-down"></i></div>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" id="btn2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                <div class="icon58"><img src="img/icon16.jpg" alt=""></div>
+                  <div class="text58">BTC</div>
+                
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="dropdown2">
+                <a class="dropdown-item" href="#">
+                  <div class="icon59"><img src="img/icon16.jpg" alt=""></div>
+                  <div class="text59">BTC</div>
+                
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="icon56"><img src="img/icon16.jpg" alt=""></div>
+                  <div class="text56">BTC</div>
+                
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="icon57"><img src="img/icon16.jpg" alt=""></div>
+                  <div class="text57">BTC</div>
+                
+                </a>
+              </div>
+            </div>
+            
+            
+            
             <div class="square3"></div>
             <div class="text37">Continue</div>
           </div>
@@ -78,8 +128,8 @@
 
     <div class="main2">
 
-      <div class="row">
-        <div class="col-sm-5 col-md-6">
+      <div class="row" id="row5">
+        <div class="col-sm-5 col-md-6" id="row6">
 
           <div class="icon1"><img src="img/icon1.jpg" alt=""></div>
           <div class="text6">REASONABLE FEES</div>
@@ -94,7 +144,7 @@
 
         </div>
 
-        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0" id="row7">
 
           <div class="icon2"><img src="img/icon2.jpg" alt=""></div>
           <div class="text9">EASY VERIFICATION</div>
@@ -111,7 +161,7 @@
         </div>
 
       </div>
-      <div class="row">
+      <div class="row" id="row8">
         <div class="col-sm-6 col-md-5 col-lg-6">
 
           <div class="icon3"><img src="img/icon3.jpg" alt=""></div>
@@ -147,7 +197,7 @@
 
     <div class="main3">
 
-      <div class="row">
+      <div class="row" id="row9">
         <div class="col-md-6 offset-md-3">
 
           <div class="icon5"><img src="img/Icon5.png" alt=""></div>
@@ -163,7 +213,7 @@
 
       </div>
 
-      <div class="row">
+      <div class="row" id="row10">
         <div class="col-sm-5 col-md-6">
 
           <div class="icon6"><img src="img/icon6.jpg" alt=""></div>
@@ -222,7 +272,7 @@
         <div class="text29">Buy Bitcoin with credit card</div>
         <div class="text30">In just a few easy steps</div>
       </div>
-      <div class="soncontent6">
+      <div class="soncontent6" >
         <button class="createlogo"></button>
         <div class="text31">CREATE LOGO ACCOUNT</div>
 
@@ -230,7 +280,7 @@
     </div>
     <div class="main5">
 
-      <div class="row">
+      <div class="row" id="row9">
         <div class="col" id="parentcontent3">
           © 2018 - All rights reserved
         </div>
@@ -254,7 +304,7 @@
 
 
 
-
+  <script src="./node_modules/nouislider/distribute/nouislider.js"></script>
   <script src="main.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
