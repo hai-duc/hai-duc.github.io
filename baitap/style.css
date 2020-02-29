@@ -184,4 +184,20 @@
         height: 364px;
         background: #333;
     }
+    .content4{
+        display: flex;
+        color: #fff;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+    .child1-content4{
+        font-size: 25px;
+    }
+    .child2-content4{
+        font-size: 18px;
+        margin-top: 36px;
+        line-height: 0.2;
+        color: #aba3a3;
+    }
 }
