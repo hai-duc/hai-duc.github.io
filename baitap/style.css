@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 1200px){
+
+
+    .container-fluild {
+        max-width: 100%;
+        
+        
+        
+    }
+    
+    
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin-right: 0 auto !important;
+        margin-left: 0 auto !important;
+        
+    }
+
+    #navbarNav{
+        margin-right: 102px;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        margin-right: 15px;
+        
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 100%;
+        height: 79px;
+        width: 50px;
+        margin-left: 15px;
+    }
+    .slogan{
+        padding-left: 13px;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    #carouselExampleControls{
+        position: relative;
+    }
+    .title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 9px;
+        background-color: black;
+        max-width: 100%;
+        width: 91px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-left: -22px;
+        margin-top: -16px;
+    }
+    .subtitle2{
+
+        color: #fff;
+        font-size: 34px;
+        background-color: #333;
+        max-width: 100%;
+        width: 447px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-left: -44%;
+        opacity: 0.8;
+        margin-top: -4px;
+    }
+    .parent-title1{
+        MARGIN-TOP: 97PX;
+        TEXT-ALIGN: center;
+        font-size: 24px;
+        margin-left: 55px;
+        margin-right: 15px;
+        position: relative;
+    }
+    
+    #son-content1{
+        background-color: #ebe3e39e;
+        height: 507px;
+        margin-top: 40px;
+        padding-left: 130px;
+        
+        
+    }
+    #parent-content1{
+        margin-top: 50px;
+    }
+
+    .content-information1{
+        display: flex;
+        line-height: 26px;
+    }
+
+    .son2-information2{
+        margin-left: 21px;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .size{
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+    .artist{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+    .all{
+        margin-left: 48%;
+        margin-top: 30px;
+        width: 107px;
+        height: 29px;
+        font-size: 15px;
+        background: #E5E5E5;
+        border: 1px solid #000000;
+    
+    }
+    #parent-content2{
+        margin-top: 60px;
+    }
+    
+    #son-content2{
+        background-color: #ebe3e39e;
+        height: 525px;
+        margin-top: 40px;
+        padding-left: 130px;
+        
+    }
+    .content3{
+        margin-top: 97px;
+    }
+    .parent-content3{
+        position: relative;
+        text-align: center;
+    }
+    .son1-content3{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 32px;
+        color: #fff;
+    }
+    #input{
+        width: 505px;
+    
+        position: relative;
+        top: -158px;
+        left: 540px;
+    }
+    footer{
+        height: 364px;
+        background: #333;
+    }
+}
