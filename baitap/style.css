@@ -39,8 +39,8 @@
         
     }
     .icon{
-        margin-right: 15px;
-        
+        margin-right: 25px;
+        color: #fff;
     }
     .logo{
         
@@ -199,5 +199,13 @@
         margin-top: 36px;
         line-height: 0.2;
         color: #aba3a3;
+    }
+    .icon1{
+        position: relative;
+        top: 29px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 34px;
+        left: -63px;
     }
 }
