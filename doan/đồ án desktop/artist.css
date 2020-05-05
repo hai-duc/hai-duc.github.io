@@ -1,0 +1,1333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+@media only screen and (min-width: 1200px){
+
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin: 0 auto;
+        
+    }
+
+    #navbarNav{
+        margin-right: 10rem;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 50px;
+        height: 79px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-introduce{
+        margin-top: 11rem;
+    }
+    .title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 9px;
+        background-color: black;
+        max-width: 8rem;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-left: -2rem;
+    }
+    .subtitle2{
+
+        color: #fff;
+        font-size: 34px;
+        background-color: #333;
+        max-width: 40rem;
+        
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-left: -57%;
+        opacity: 0.8;
+        margin-top: -4px;
+    }
+
+    #content{
+        height: auto;
+        background: rgba(196, 196, 196, 0.36);
+        padding-bottom: 14rem;
+        
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    
+    .parent-title1{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        padding-top: 60px;
+    }
+    #parent1-content{
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .overview-content{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        
+    }
+    .overview-content1{
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+    }
+    .overview-content2{
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+    }
+
+    .img-content img{
+        
+        width: 100%;
+        height: 260px;
+        
+        margin-top: 14rem;
+
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    
+    .faceartist img{
+        margin-top: -68rem;
+        border-radius: 39px;
+        margin-left: 1rem;
+        
+    }
+
+    .info{
+        font-family: 'Roboto', sans-serif;
+        margin-top: -38rem;
+        margin-left: 10rem;
+    }
+    .son1-info{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .son2-info{
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 13px;
+    }
+    .son3-info{
+        font-size: 8px;
+        width: 45px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: 11px;
+    }
+    .son4-info{
+        font-size: 8px;
+        width: 84px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: -17px;
+        margin-left: 53px;
+    }
+
+
+
+    .content3 {
+        background-image: url(img/p69.jpg);
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        
+        text-align: center;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px){
+
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin: 0 auto;
+        
+    }
+
+    #navbarNav{
+        margin-right: 10rem;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 50px;
+        height: 79px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-introduce{
+        margin-top: 11rem;
+    }
+    .title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 9px;
+        background-color: black;
+        max-width: 8rem;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-left: -2rem;
+    }
+    .subtitle2{
+
+        color: #fff;
+        font-size: 34px;
+        background-color: #333;
+        max-width: 40rem;
+        
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-left: -57%;
+        opacity: 0.8;
+        margin-top: -4px;
+    }
+
+    #content{
+        height: auto;
+        background: rgba(196, 196, 196, 0.36);
+        padding-bottom: 14rem;
+        
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    
+    .parent-title1{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        padding-top: 60px;
+    }
+    #parent1-content{
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .overview-content{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        
+    }
+    .overview-content1{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    .overview-content2{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    
+
+    .img-content img{
+        
+        width: 100%;
+        height: 260px;
+        
+        margin-top: 14rem;
+
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    .faceartist img{
+        margin-top: -68rem;
+        border-radius: 39px;
+        margin-left: 1rem;
+        
+    }
+
+    .info{
+        font-family: 'Roboto', sans-serif;
+        margin-top: -38rem;
+        margin-left: 10rem;
+    }
+    .son1-info{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .son2-info{
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 13px;
+    }
+    .son3-info{
+        font-size: 8px;
+        width: 45px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: 11px;
+    }
+    .son4-info{
+        font-size: 8px;
+        width: 65px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: -17px;
+        margin-left: 50px;
+    }
+
+
+
+    .content3 {
+        background-image: url(img/p69.jpg);
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        
+        text-align: center;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+    #navbarNav{
+        
+        background-color: #333
+
+    }
+
+    
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+        
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 50px;
+        height: 79px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-introduce{
+        margin-top: 11rem;
+    }
+    .title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 9px;
+        background-color: black;
+        max-width: 8rem;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-left: -2rem;
+    }
+    .subtitle2{
+
+        color: #fff;
+        font-size: 34px;
+        background-color: #333;
+        max-width: 40rem;
+        
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-left: -57%;
+        opacity: 0.8;
+        margin-top: -4px;
+    }
+
+    #content{
+        height: auto;
+        background: rgba(196, 196, 196, 0.36);
+        padding-bottom: 14rem;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    
+    .parent-title1{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        padding-top: 60px;
+    }
+    #parent1-content{
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .overview-content{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+    }
+    .overview-content1{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    .overview-content2{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    
+
+    .img-content img{
+        
+        width: 100%;
+        height: 260px;
+        
+        margin-top: 14rem;
+
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    .faceartist img{
+        margin-top: -68rem;
+        border-radius: 39px;
+        margin-left: 1rem;
+        
+    }
+
+    .info{
+        font-family: 'Roboto', sans-serif;
+        margin-top: -38rem;
+        margin-left: 10rem;
+    }
+    .son1-info{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .son2-info{
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 13px;
+    }
+    .son3-info{
+        font-size: 8px;
+        width: 45px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: 11px;
+    }
+    .son4-info{
+        font-size: 8px;
+        width: 65px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: -17px;
+        margin-left: 53px;
+    }
+
+
+
+    .content3 {
+        background-image: url(img/p69.jpg);
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        
+        text-align: center;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin: 0 auto;
+        padding: 0px !important;
+        
+    }
+
+    #navbarNav{
+        
+        background-color: #333
+
+    }
+
+    .container-fluild  #navbarNav{
+        background-color: #333 !important;
+        width: 100%;
+        
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+        
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 50px;
+        height: 79px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    /*carousel*/
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-introduce{
+        margin-top: 11rem;
+    }
+    .title{
+        position: absolute;
+        top: 20%;
+        left: 48%;
+    
+        
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 9px;
+        background-color: black;
+        max-width: 8rem;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-left: -2rem;
+    }
+    .subtitle2{
+
+        color: #fff;
+        font-size: 34px;
+        background-color: #333;
+        max-width: 40rem;
+        
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-left: -57%;
+        opacity: 0.8;
+        margin-top: -4px;
+    }
+
+    #content{
+        height: auto;
+        background: rgba(196, 196, 196, 0.36);
+        padding-bottom: 14rem;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    
+    .parent-title1{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        padding-top: 60px;
+    }
+    #parent1-content{
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .overview-content{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+    }
+    .overview-content1{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    .overview-content2{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    
+
+    .img-content img{
+        
+        width: 100%;
+        height: 260px;
+        
+        margin-top: 14rem;
+
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    .faceartist img{
+        margin-top: -68rem;
+        border-radius: 39px;
+        margin-left: 1rem;
+        
+    }
+
+    .info{
+        font-family: 'Roboto', sans-serif;
+        margin-top: -38rem;
+        margin-left: 11rem;
+    }
+    .son1-info{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .son2-info{
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 13px;
+    }
+    .son3-info{
+        font-size: 8px;
+        width: 45px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: 11px;
+    }
+    .son4-info{
+        font-size: 8px;
+        width: 65px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: -17px;
+        margin-left: 53px;
+    }
+
+
+
+    .content3 {
+        background-image: url(img/p69.jpg);
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        
+        text-align: center;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:575px){
+    /*Navbar*/
+    
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 110px;
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+
+    #navbarNav {
+        
+        background-color: #333
+
+    }
+    
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 35px;
+        height: 65px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 25px;
+    }
+    .slogan2{
+        font-size: 15px;
+    }
+    /*carousel*/
+    
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-introduce{
+        margin-top: 11rem;
+    }
+    .title{
+        position: absolute;
+        top: 15%;
+        left: 49%;
+        
+    }
+    .subtitle1{
+        color: #fff;
+        font-size: 7px;
+        background-color: black;
+        max-width: 7rem;
+        height: 16px;
+        text-align: center;
+        line-height: 16px;
+        letter-spacing: 2px;
+        margin-left: -2rem;
+    }
+    .subtitle2{
+        color: #fff;
+        font-size: 16px;
+        background-color: #333;
+        max-width: 18rem;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+        margin-left: -57%;
+        opacity: 0.8;
+        margin-top: -3px;
+    }
+
+    #content{
+        height: auto;
+        background: rgba(196, 196, 196, 0.36);
+        padding-bottom: 14rem;
+    }
+    .container{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    
+    
+    
+    
+    .parent-title1{
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        padding-top: 60px;
+    }
+    #parent1-content{
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .overview-content{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+    }
+    .overview-content1{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    .overview-content2{
+        
+        height: 400px;
+        border-radius: 27px;
+        background-color:#fff;
+        margin-top: 7rem;
+        
+    }
+    
+
+    .img-content img{
+        
+        width: 100%;
+        height: 260px;
+        
+        margin-top: 14rem;
+
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    .faceartist img{
+        margin-top: -68rem;
+        border-radius: 39px;
+        margin-left: 2rem;
+        
+    }
+
+    .info{
+        font-family: 'Roboto', sans-serif;
+        margin-top: -38rem;
+        margin-left: 12rem;
+        
+    }
+    
+    
+    .son1-info{
+        font-size: 20px;
+        line-height: 23px;
+        
+    }
+    .son2-info{
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 13px;
+    }
+    .son3-info{
+        font-size: 8px;
+        width: 45px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: 11px;
+    }
+    .son4-info{
+        font-size: 8px;
+        width: 65px;
+        height: 17px;
+        border-radius: 25px;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        line-height: 17px;
+        margin-top: -17px;
+        margin-left: 53px;
+    }
+
+
+
+    /*sign-in*/
+    
+    .content3 {
+        background-image: url(img/p69.jpg);
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        
+        text-align: center;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+}
