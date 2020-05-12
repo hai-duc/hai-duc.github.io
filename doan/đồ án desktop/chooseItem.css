@@ -7,6 +7,8 @@
 html {
     font-size: 62.5%;
 }
+
+
 @media only screen and (min-width: 1200px){
     
     /*Navbar*/
@@ -21,7 +23,12 @@ html {
     #navbarNav{
         margin-right: 10rem;
     }
-
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -293,6 +300,35 @@ html {
         text-align: center;
         line-height: 51px;
     }
+    .order a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    .order:hover {
+        -webkit-animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+    @keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
     .line1{
         max-width: 400px;
         height: 1px;
@@ -510,7 +546,12 @@ html {
     #navbarNav{
         margin-right: 10rem;
     }
-
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -779,6 +820,34 @@ html {
         text-align: center;
         line-height: 51px;
     }
+    .order a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .order:hover {
+        -webkit-animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+    @keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
     .line1{
         max-width: 400px;
         height: 1px;
@@ -982,7 +1051,11 @@ html {
 
 @media only screen and (min-width: 768px) and (max-width:991px){
     /*Navbar*/
-    
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
@@ -995,7 +1068,11 @@ html {
         background-color: #333
 
     }
-
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+    }
     .container-fluild  #navbarNav{
         background-color: #333 !important;
         width: 100%;
@@ -1281,6 +1358,34 @@ html {
         text-align: center;
         line-height: 51px;
     }
+    .order a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .order:hover {
+        -webkit-animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+    @keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
     .line1{
         
         height: 1px;
@@ -1486,7 +1591,11 @@ html {
 
 @media only screen and (min-width: 576px) and (max-width:767px){
     /*Navbar*/
-    
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
@@ -1500,6 +1609,11 @@ html {
         
         background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
     }
     
     .nav-link{
@@ -1525,7 +1639,6 @@ html {
         margin-top: 7px;
         max-width: 35px;
         height: 60px;
-
         margin-left: 1.5rem;
     }
     .slogan{
@@ -1781,6 +1894,34 @@ html {
         text-align: center;
         line-height: 51px;
     }
+    .order a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .order:hover {
+        -webkit-animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+    @keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
     .line1{
         
         height: 1px;
@@ -2006,6 +2147,12 @@ html {
         
         background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+        padding-bottom: 2rem;
     }
     
     .nav-link{
@@ -2287,6 +2434,34 @@ html {
         
         text-align: center;
         line-height: 51px;
+    }
+    .order a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .order:hover {
+        -webkit-animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: order 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
+    }
+    @keyframes order {
+        0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+        100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        }
     }
     .line1{
         

@@ -31,7 +31,12 @@ html {
     #navbarNav{
         margin-right: 10rem;
     }
-
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -230,7 +235,9 @@ html {
         position: relative;
         padding: 4px;
     }
-    
+    .content1-picture1 a{
+        color: #000;
+    }
     .content2-picture2 img {
         border: 5px solid;
         position: relative;
@@ -415,7 +422,12 @@ html {
     #navbarNav{
         margin-right: 10rem;
     }
-
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -614,6 +626,9 @@ html {
         position: relative;
         padding: 4px;
     }
+    .content1-picture1 a{
+        color: #000;
+    }
     .content2-picture2 img {
         border: 5px solid;
         position: relative;
@@ -798,7 +813,11 @@ html {
         background-color: #333
 
     }
-
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+    }
     .container-fluild  #navbarNav{
         background-color: #333 !important;
         width: 100%;
@@ -1008,6 +1027,9 @@ html {
         position: relative;
         padding: 4px;
     }
+    .content1-picture1 a{
+        color: #000;
+    }
     .content2-picture2 img {
         border: 5px solid;
         position: relative;
@@ -1194,6 +1216,11 @@ html {
         
         background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
     }
     
     .nav-link{
@@ -1402,6 +1429,9 @@ html {
         position: relative;
         padding: 4px;
     }
+    .content1-picture1 a{
+        color: #000;
+    }
     .content2-picture2 img {
         border: 5px solid;
         position: relative;
@@ -1591,6 +1621,12 @@ html {
         background-color: #333
 
     }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+        padding-bottom: 2rem;
+    }
     
     .nav-link{
         font-size: 19px;
@@ -1611,7 +1647,6 @@ html {
         display: none;
     }
     .logo{
-        
         margin-top: 7px;
         max-width: 35px;
         height: 65px;
@@ -1799,6 +1834,9 @@ html {
         position: relative;
         padding: 4px;
     }
+    .content1-picture1 a{
+        color: #000;
+    }
     .content2-picture2 img {
         border: 5px solid;
         position: relative;
@@ -1823,7 +1861,7 @@ html {
         font-weight: 700;
         opacity: 0;
     }
-    .content1-picture1:hover div.addToCart{
+    .content1-picture1:hover .addToCart{
         opacity: 1;
         transition:ease-in-out 0.5s;
     }

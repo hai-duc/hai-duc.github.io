@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tác Phẩm</title>
-    <link rel="stylesheet" href="https://www.sketchappsources.com/free-source/">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -27,6 +26,8 @@
     <!--nouiSlider-->
     <link rel="stylesheet" href="./node_modules/nouislider/distribute/nouislider.min.css">
     <script src="//cdn.bootcss.com/noUiSlider/8.5.1/nouislider.js"></script>
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 
 </head>
 
@@ -203,7 +204,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-1  col-sm-1 col-12 parent-artist">
+                    <div class="col-lg-1  col-sm-1 col-12 parent-artist wow animate__animated animate__fadeInRight">
 
                         <div class="artist">
                             <img src="img/p15.jpg" alt="">
@@ -211,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-10 offset-lg-1  col-sm-10 offset-sm-1 col-10 col-12 ">
+                    <div class="col-lg-10 offset-lg-1  col-sm-10 offset-sm-1 col-10 col-12 wow animate__animated animate__fadeInRight">
                         <div class="son1-content2">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -309,7 +310,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-1 col-sm-1 col-12 parent-artist">
+                    <div class="col-lg-1 col-sm-1 col-12 parent-artist wow animate__animated animate__fadeInLeft">
 
                         <div class="artist">
                             <img src="img/P16.jpeg" alt="">
@@ -317,7 +318,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12">
+                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12 wow animate__animated animate__fadeInLeft">
                         <div class="son1-content2">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -415,7 +416,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-1 col-sm-1 col-12 parent-artist">
+                    <div class="col-lg-1 col-sm-1 col-12 parent-artist wow animate__animated animate__fadeInRight">
 
                         <div class="artist">
                             <img src="img/P17.jpeg" alt="">
@@ -423,7 +424,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12">
+                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12 wow animate__animated animate__fadeInRight">
                         <div class="son1-content2">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -521,7 +522,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-1 col-sm-1 col-12 parent-artist">
+                    <div class="col-lg-1 col-sm-1 col-12 parent-artist wow animate__animated animate__fadeInLeft">
 
                         <div class="artist">
                             <img src="img/P18.jpeg" alt="">
@@ -529,7 +530,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12">
+                    <div class="col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-12 wow animate__animated animate__fadeInLeft">
                         <div class="son1-content2">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -705,6 +706,11 @@
     <script src="./owl-carosel.js"></script>
     <!--Slider-->
     <script src="all-item.js"></script>
+    <!--wow-->
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 
 </body>

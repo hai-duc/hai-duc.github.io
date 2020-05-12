@@ -10,16 +10,31 @@ html {
 
 @media only screen and (min-width: 1200px){
 
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+        
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
+        padding: 0px !important;
         
     }
+    
 
     #navbarNav{
         margin-right: 10rem;
+    }
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 
     .nav-link{
@@ -37,10 +52,9 @@ html {
         font-size: 14px;
     }
     .logo{
-        
         margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
+        max-width: 45px;
+        height: 65px;
         margin-left: 1.5rem;
     }
     .slogan{
@@ -52,11 +66,15 @@ html {
     .slogan2{
         font-size: 17px;
     }
+    /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
     .carousel-introduce{
-        margin-top: 11rem;
+        margin-top: 8rem;
+    }
+    .carousel-item img{
+        height: 500px;
     }
     .title{
         position: absolute;
@@ -84,11 +102,9 @@ html {
         height: 100px;
         text-align: center;
         line-height: 100px;
-        margin-left: -10.313rem;
+        margin-left: -57%;
         opacity: 0.8;
         margin-top: -4px;
-        padding-left: 70px;
-        padding-right: 70px;
     }
     footer{
         background-color: #464646;
@@ -110,8 +126,10 @@ html {
         font-size: 22px;
         color: #919294;
     }
+    /*main*/
     .container{
         max-width: 1200px;
+        width: 100%;
         margin: 0 auto;
         
     }
@@ -195,12 +213,24 @@ html {
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         
+    }
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
 
     #navbarNav{
@@ -224,8 +254,8 @@ html {
     .logo{
         
         margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
+        max-width: 40px;
+        height: 68px;
         margin-left: 1.5rem;
     }
     .slogan{
@@ -237,15 +267,19 @@ html {
     .slogan2{
         font-size: 17px;
     }
+    /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
     .carousel-introduce{
-        margin-top: 11rem;
+        margin-top: 8rem;
+    }
+    .carousel-item img{
+        height: 500px;
     }
     .title{
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
     }
     .subtitle1{
@@ -269,11 +303,9 @@ html {
         height: 100px;
         text-align: center;
         line-height: 100px;
-        margin-left: -10.313rem;
+        margin-left: -57%;
         opacity: 0.8;
         margin-top: -4px;
-        padding-left: 70px;
-        padding-right: 70px;
     }
     footer{
         background-color: #464646;
@@ -380,14 +412,29 @@ html {
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
         height: 110px;
         margin: 0 auto;
-        
+        padding: 0px !important;
     }
+    #navbarNav{
+        
+        background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+    }
     .container-fluild  #navbarNav{
         background-color: #333 !important;
         width: 100%;
@@ -429,15 +476,19 @@ html {
     .slogan2{
         font-size: 17px;
     }
+    /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
     .carousel-introduce{
         margin-top: 11rem;
     }
+    .carousel-item img{
+        height: 500px;
+    }
     .title{
         position: absolute;
-        top: 27%;
+        top: 40%;
         left: 50%;
     }
     .subtitle1{
@@ -452,20 +503,16 @@ html {
         margin-left: -2rem;
     }
     .subtitle2{
-
         color: #fff;
-        font-size: 34px;
+        font-size: 24px;
         background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        max-width: 28rem;
+        height: 70px;
         text-align: center;
-        line-height: 100px;
-        margin-left: -10.313rem;
+        line-height: 70px;
+        margin-left: -57%;
         opacity: 0.8;
         margin-top: -4px;
-        padding-left: 70px;
-        padding-right: 70px;
     }
     footer{
         background-color: #464646;
@@ -572,18 +619,30 @@ html {
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
         height: 110px;
         margin: 0 auto;
+        padding: 0px !important;
         
     }
 
     #navbarNav{
-        margin-right: 10rem;
+        
         background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
     }
     
     .nav-link{
@@ -607,30 +666,34 @@ html {
     .logo{
         
         margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
+        max-width: 35px;
+        height: 60px;
+
         margin-left: 1.5rem;
     }
     .slogan{
         padding-left: 1.3rem;
     }
     .slogan1{
-        font-size: 27px;
+        font-size: 22px;
     }
     .slogan2{
-        font-size: 17px;
+        font-size: 15px;
     }
-
+    /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
     .carousel-introduce{
         margin-top: 11rem;
     }
+    .carousel-item img{
+        height: 300px;
+    }
     .title{
         position: absolute;
-        top: 27%;
-        left: 50%;
+        top: 32%;
+        left: 48%; 
     }
     .subtitle1{
         color: #fff;
@@ -644,20 +707,16 @@ html {
         margin-left: -2rem;
     }
     .subtitle2{
-
         color: #fff;
-        font-size: 34px;
+        font-size: 24px;
         background-color: #333;
-        max-width: 40rem;
-        
-        height: 60px;
+        max-width: 30rem;
+        height: 70px;
         text-align: center;
-        line-height: 60px;
-        margin-left: -10.313rem;
+        line-height: 70px;
+        margin-left: -57%;
         opacity: 0.8;
         margin-top: -4px;
-        padding-left: 70px;
-        padding-right: 70px;
     }
 
     footer{
@@ -767,6 +826,8 @@ html {
 }
 
 @media only screen and (min-width: 320px) and (max-width:575px){
+    /*Navbar*/
+    
     .container-fluid{
         padding-right: 0px !important;
         padding-left: 0px !important;
@@ -784,6 +845,12 @@ html {
         
         background-color: #333
 
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+        padding-bottom: 2rem;
     }
     
     .nav-link{
@@ -820,42 +887,45 @@ html {
     .slogan2{
         font-size: 15px;
     }
+    /*carousel*/
+    
     #carouselExampleControls{
         position: relative;
     }
     .carousel-introduce{
         margin-top: 11rem;
     }
+    .carousel-item img{
+        height: 200px;
+    }
     .title{
         position: absolute;
-        top: 27%;
-        left: 50%;
+        top: 30%;
+        left: 49%;
+        
     }
     .subtitle1{
         color: #fff;
         font-size: 7px;
         background-color: black;
-        max-width: 5rem;
-        height: 18px;
+        max-width: 7rem;
+        height: 16px;
         text-align: center;
-        line-height: 18px;
+        line-height: 16px;
         letter-spacing: 2px;
-        margin-left: -2rem;
+        margin-left: -2.8rem;
     }
     .subtitle2{
-
         color: #fff;
-        font-size: 24px;
+        font-size: 16px;
         background-color: #333;
-        max-width: 22rem;
-        height: 40px;
+        max-width: 18rem;
+        height: 55px;
         text-align: center;
-        line-height: 40px;
-        margin-left: -7.313rem;
+        line-height: 55px;
+        margin-left: -57%;
         opacity: 0.8;
-        margin-top: -4px;
-        padding-left: 40px;
-        padding-right: 40px;
+        margin-top: -3px;
     }
     footer{
         background-color: #464646;

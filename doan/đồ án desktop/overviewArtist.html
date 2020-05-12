@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chi tiết họa sĩ</title>
-    <link rel="stylesheet" href="https://www.sketchappsources.com/free-source/">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,6 +24,8 @@
     <!--OwnCarousel-->
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 </head>
 
 <body>
@@ -88,7 +90,7 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-12">
+                    <div class="col-md-4 col-12 wow animate__animated animate__fadeInLeft">
                         <div class="certification">
 
                             <div class="son1-certification">CHỨNG NHẬN</div>
@@ -98,7 +100,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-8 col-12">
+                    <div class="col-md-8 col-12 wow animate__animated animate__fadeInRight">
                         <div class="describe">
                             <div class="son1-describe">... Nghệ thuật và tự do ...</div>
                             <div class="son2-describe">Hoa của Châu là tranh của Châu. Trở lại với hội hoạ với việc vẽ
@@ -130,7 +132,7 @@
                 <div class="row" id="son-content1">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
                         <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p0.jpg" alt="">
+                            <div class="content1-picture1"><a href="./chooseItem.html"><img src="img/p0.jpg" alt=""></a>
                                 <div class="addToCart">Thêm vào giỏ hàng</div>
                             </div>
                             <div class="content-information1">
@@ -572,7 +574,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--wow-->
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

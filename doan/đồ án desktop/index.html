@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="https://www.sketchappsources.com/free-source/">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,6 +24,8 @@
     <!--OwnCarousel-->
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 
 
 </head>
@@ -46,7 +48,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
-    
+
                         <li class="nav-item">
                             <a class="nav-link" href="artist.html">Họa sĩ</a>
                         </li>
@@ -74,14 +76,13 @@
 
         <div class="container-fluid">
             <div class="carousel-introduce">
-
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="img/carosel.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/p51.jpg" class="d-block w-100" alt="...">
+                            <img src="img/p71.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="img/p52.jpg" class="d-block w-100" alt="...">
@@ -100,7 +101,7 @@
                         <div class="subtitle2">Giao hàng toàn quốc</div>
                     </div>
                 </div>
-    
+
             </div>
         </div>
 
@@ -112,12 +113,13 @@
                     <div class="line2"></div>
                 </div>
 
-                <div class="row" id="son-content1">
+                <div class="row " id="son-content1">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p0.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><a href="./chooseItem.html"><img src="img/p0.jpg" alt=""></a>
                                 
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -132,9 +134,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p1.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><a href="./chooseItem.html"><img src="img/p1.jpg" alt=""></a>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -149,9 +152,11 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p26.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -166,9 +171,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p27.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -183,9 +189,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p1.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -200,9 +207,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p0.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -217,9 +225,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p3.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -234,9 +243,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p4.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -257,7 +267,7 @@
 
 
         <div class="content2 ">
-            
+
             <div class="container">
                 <div class="father-title2">
                     <div class="line1"></div>
@@ -266,60 +276,9 @@
                 </div>
                 <div class="row" id="son-content2">
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p5.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
-                            </div>
-                            <div class="content-information1">
-                                <div class="son1-information1">
-                                    <p class="name">Tranh1</p>
-                                    <p class="size">40x60x0.01cm</p>
-                                    <p class="artist">Peter Nottrott</p>
-                                </div>
-                                <div class="son2-information2">
-                                    <p class="price">1.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p6.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
-                            </div>
-                            <div class="content-information1">
-                                <div class="son1-information1">
-                                    <p class="name">Tranh1</p>
-                                    <p class="size">40x60x0.01cm</p>
-                                    <p class="artist">Peter Nottrott</p>
-                                </div>
-                                <div class="son2-information2">
-                                    <p class="price">1.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p7.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
-                            </div>
-                            <div class="content-information1">
-                                <div class="son1-information1">
-                                    <p class="name">Tranh1</p>
-                                    <p class="size">40x60x0.01cm</p>
-                                    <p class="artist">Peter Nottrott</p>
-                                </div>
-                                <div class="son2-information2">
-                                    <p class="price">1.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p8.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
 
                             </div>
                             <div class="content-information1">
@@ -335,26 +294,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
-                            <div class="content1-picture1"><img src="img/p5.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
-                            </div>
-                            <div class="content-information1">
-                                <div class="son1-information1">
-                                    <p class="name">Tranh1</p>
-                                    <p class="size">40x60x0.01cm</p>
-                                    <p class="artist">Peter Nottrott</p>
-                                </div>
-                                <div class="son2-information2">
-                                    <p class="price">1.000.000đ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p6.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -369,9 +312,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p7.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
                             </div>
                             <div class="content-information1">
                                 <div class="son1-information1">
@@ -386,9 +330,83 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
-                        <div class="child-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
                             <div class="content1-picture1"><img src="img/p8.jpg" alt="">
-                                <div class="addToCart">Thêm vào giỏ hàng</div>
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
+
+                            </div>
+                            <div class="content-information1">
+                                <div class="son1-information1">
+                                    <p class="name">Tranh1</p>
+                                    <p class="size">40x60x0.01cm</p>
+                                    <p class="artist">Peter Nottrott</p>
+                                </div>
+                                <div class="son2-information2">
+                                    <p class="price">1.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="img/p5.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
+                            </div>
+                            <div class="content-information1">
+                                <div class="son1-information1">
+                                    <p class="name">Tranh1</p>
+                                    <p class="size">40x60x0.01cm</p>
+                                    <p class="artist">Peter Nottrott</p>
+                                </div>
+                                <div class="son2-information2">
+                                    <p class="price">1.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="img/p6.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
+                            </div>
+                            <div class="content-information1">
+                                <div class="son1-information1">
+                                    <p class="name">Tranh1</p>
+                                    <p class="size">40x60x0.01cm</p>
+                                    <p class="artist">Peter Nottrott</p>
+                                </div>
+                                <div class="son2-information2">
+                                    <p class="price">1.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="img/p7.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
+                            </div>
+                            <div class="content-information1">
+                                <div class="son1-information1">
+                                    <p class="name">Tranh1</p>
+                                    <p class="size">40x60x0.01cm</p>
+                                    <p class="artist">Peter Nottrott</p>
+                                </div>
+                                <div class="son2-information2">
+                                    <p class="price">1.000.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="img/p8.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart">Thêm vào giỏ hàng</button>
+
 
                             </div>
                             <div class="content-information1">
@@ -414,7 +432,7 @@
                 <div class="parent-content6 container">
                     <div class="row" style="background-color: #e8ebf4;">
                         <div class="col-sm-8 col-sm-2 col-md-5 col-md-1">
-                            <div class="son-content6">
+                            <div class="son-content6 wow animate__animated animate__fadeInLeft">
                                 <div class="title3">
                                     Tư vấn miễn phí từ các chuyên gia 24/7
 
@@ -446,7 +464,7 @@
                     <div class="col-12">
                         <h2> Tạp chí PiStore <span>Nghệ thuật và sáng tạo</span></h2>
                     </div>
-                    
+
                 </div>
                 <div class="row row-eq-height">
                     <div class="col-12 col-md-6 col-sm-12">
@@ -527,10 +545,11 @@
             <div class="container-fluid">
                 <div class="father-content3">
                     <div class="row parent-content3">
-    
+
                         <div class="col-12 son1-content3">
-                            <div class="child1-content3">Đăng ký nhận thông tin để biết ngay các ưu đãi từ PiStore.</div>
-                            
+                            <div class="child1-content3">Đăng ký nhận thông tin để biết ngay các ưu đãi từ PiStore.
+                            </div>
+
                         </div>
                         <div class="col-12 son2-content3">
                             <div class="input-group mb-3" id="input">
@@ -602,9 +621,15 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script src="./addToCart.js"></script>
     <!--OwnCarosel-->
-    <script src="jquery.min.js"></script>
+    
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!--wow-->
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
