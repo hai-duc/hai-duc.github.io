@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--Animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <header class="sticky-top">
+
+        
+            <div class="container-nav">
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light " id="menu">
+                
+                    <a class="navbar-brand" href="index.html">
+                    
+                        <div class="slogan">
+                            <p style="color: #fff; font-family: Oleo Script;" class="slogan1">P i S t o r e</p>
+                            <p style="color: #fff; font-family: Oleo Script;" class="slogan2">Nghệ thuật và sáng tạo</p>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+                        <ul class="navbar-nav">
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="./artist.html">Họa sĩ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./all-item.html">Tác phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./magazine.html">Tạp chí</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="fas fa-search"></i></a>
+                        <a href=""><i class="fas fa-heart"></i></a>
+                        <a href="pay.html"><i class="fas fa-shopping-cart"></i></a>
+                        <a href=""><i class="fas fa-user"></i></a>
+    
+                    </div>
+                
+                </nav>
+            </div>
+        
+
+
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+            <div class="carousel-introduce">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/carosel.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/p71.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/p52.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <div class="title">
+                        <div class="subtitle1">WELCOME</div>
+                        <div class="subtitle2">Giao hàng toàn quốc</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content1">
+            <div class="container">
+                <div class="father-title1">
+                    <div class="line1"></div>
+                    <div class="parent-title1">TÁC PHẨM NỔI BẬT</div>
+                    <div class="line2"></div>
+                </div>
+
+                <div class="row " id="son-content1">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1 "><img src="./img/p0.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1 "><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Cây bàng</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Rie Kono</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p1.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Cô gái</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Dyesebel Pham</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">2.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p26.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Mr Pu</p>
+                                        <p class="size">50x60x0.01cm</p>
+                                        <p class="artist">Vincent Bardou</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">3.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p27.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Biển</p>
+                                        <p class="size">50x60x0.01cm</p>
+                                        <p class="artist">Polina Ogiy</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p66.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Ánh nắng mùa xuân</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Calvin Chih</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p68.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Những chú vẹt</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">6.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p3.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Màu hồng</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Ta Thimkaeo</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.500.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content1">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p4.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Đông hồ</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">3.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="content2 ">
+
+            <div class="container">
+                <div class="father-title2">
+                    <div class="line1"></div>
+                    <div class="parent-title1">TÁC PHẨM MỚI</div>
+                    <div class="line2"></div>
+                </div>
+                <div class="row" id="son-content2">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p5.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">2 cô gái</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Polina Ogiy</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.700.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p6.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Nhiều cô gái</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p7.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Hành quân</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Rie Kono</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.200.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p8.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Phong cảnh</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p70.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Giày xéo</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.020.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p65.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Lòng mẹ</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p67.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Bụi hoa giấy</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Dyesebel Pham</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">2.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3" id="parent-content2">
+                        <div class="child-content1 wow animate__animated animate__fadeInRight">
+                            <div class="content1-picture1"><img src="./img/p63.jpg" alt="">
+                                <button onclick="addToCart(this)" class="addToCart1"><i class="fas fa-shopping-cart"></i></button>
+                                <button onclick="addToCart(this)" class="addToCart2"><i class="fas fa-heart"></i></button>
+                            </div>
+                            <a href="./chooseItem.html">
+                                <div class="content-information1">
+                                    <div class="son1-information1">
+                                        <p class="name">Hoa</p>
+                                        <p class="size">40x60x0.01cm</p>
+                                        <p class="artist">Peter Nottrott</p>
+                                    </div>
+                                    <div class="son2-information2">
+                                        <p class="price">1.000.000đ</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content6">
+            <div class="container">
+                <div class="background"></div>
+                <div class="parent-content6 container">
+                    <div class="row" style="background-color: #e8ebf4;">
+                        <div class="col-sm-8 col-sm-2 col-md-5 col-md-1">
+                            <div class="son-content6 wow animate__animated animate__fadeInLeft">
+                                <div class="title3">
+                                    Tư vấn miễn phí từ các chuyên gia 24/7
+
+                                </div>
+                                <div class="title4">
+                                    Hotline: +842 899 959 928
+
+                                </div>
+                                <div class="title4">
+                                    Email:vuhaiduc@gmail.com
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content5">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2> Tạp chí PiStore <span>Nghệ thuật và sáng tạo</span></h2>
+                    </div>
+
+                </div>
+                <div class="row row-eq-height">
+                    <div class="col-12 col-md-6 col-sm-12">
+                        <div class="featured-news lzy">
+                            <img src="./img/p0.jpg" alt="">
+                            <div class="shadow"></div>
+                            <div class="cnt">
+                                <div class="category">Thực trạng mỹ thuật</div>
+                                <a href="magazine.html" target="_blank" rel="noopener">
+                                    <h3>Chuyện Chép Tranh Nhái Phong Cách</h3>
+                                </a>
+                                <a href="magazine.html" class="link white" target="_blank" rel="noopener">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="news">
+                            <figure>
+                                <img src="./img/p66.jpg" alt="">
+                                <figcaption>
+                                    <div class="category">Bàn luận về tranh</div>
+                                    <a href="magazine.html" target="_blank" rel="noopener">
+                                        <h3>Phong cách tranh mới</h3>
+                                    </a>
+                                    <a href="magazine.html" class="link black" target="_blank" rel="noopener">Xem
+                                        thêm</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="news">
+                            <figure>
+                                <img src="./img/p67.jpg" alt="">
+                                <figcaption>
+                                    <div class="category">Chủ đề về phong cảnh</div>
+                                    <a href="magazine.html" target="_blank" rel="noopener">
+                                        <h3>Hướng dẫn phong cảnh</h3>
+                                    </a>
+                                    <a href="magazine.html" class="link black" target="_blank" rel="noopener">Xem
+                                        thêm</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="news">
+                            <figure>
+                                <img src="./img/p62.jpg" alt="">
+                                <figcaption>
+                                    <div class="category">Hội họa đương đại</div>
+                                    <a href="magazine.html" target="_blank" rel="noopener">
+                                        <h3>Các phong cách đương đại</h3>
+                                    </a>
+                                    <a href="magazine.html" class="link black" target="_blank" rel="noopener">Xem
+                                        thêm</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="news">
+                            <figure>
+                                <img src="./img/p63.jpg" alt="">
+                                <figcaption>
+                                    <div class="category">Đánh giá các tác phẩm</div>
+                                    <a href="magazine.html" target="_blank" rel="noopener">
+                                        <h3>Số đánh giá 1</h3>
+                                    </a>
+                                    <a href="magazine.html" class="link black" target="_blank" rel="noopener">Xem
+                                        thêm</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="content3">
+
+            <div class="container-fluid">
+                <div class="father-content3">
+                    <div class="row parent-content3">
+
+                        <div class="col-12 son1-content3">
+                            <div class="child1-content3">Đăng ký nhận thông tin để biết ngay các ưu đãi từ PiStore.
+                            </div>
+
+                        </div>
+                        <div class="col-12 son2-content3">
+                            <div class="input-group mb-3" id="input">
+                                <input type="text" class="form-control" placeholder="Nhâp địa chỉ Email của bạn ..."
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2">ĐĂNG KÝ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="container-footer">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 son-content4">
+                    <div class="child1-content4">Chủ sở hữu website</div>
+                    <div class="child2-content4">Công ty TNHH PiStore</div>
+                    <div class="child2-content4">Số ĐKDN: 0105392153</div>
+                    <div class="child2-content4">Ngày cấp: 4-7-2011</div>
+                    <div class="child2-content4">Nơi cấp: Sở kế hoạch - đầu tư Hà nội</div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 son-content4">
+                    <div class="child1-content4">Tư vấn mua tranh</div>
+                    <div class="child2-content4"><a href="tel:+6494461709">Hotline: +842 899 959 928</a></div>
+                    <div class="child2-content4">Tư vấn viên: 096 798 3563</div>
+                    <div class="child2-content4"><a href="mailto:vuhaiduc@gmail.com">vuhaiduc@gmail.com</a></div>
+                    <div class="child2-content4"><a href="https://www.facebook.com/" target="_blank">facebook/vuhaiduc</a></div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 son-content4">
+                    <div class="child1-content4">Địa chỉ</div>
+                    <div class="child2-content4"><a href="https://www.google.com/maps/preview" target="_blank">Cơ sở Tố Hữu: Tầng 12A, tòa nhà Viwaseen</a></div>
+                    <div class="child2-content4"><a href="https://www.google.com/maps/preview" target="_blank">Tower, số 48, Tố Hữu, Lê Văn Lương kéo dài,</a></div>
+                    <div class="child2-content4"><a href="https://www.google.com/maps/preview" target="_blank">Hà Nội</a></div>
+                    <div class="icon1">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Jquery , Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    
+    <script src="./javascript/addToCart.js"></script>
+    <!--wow-->
+    <script src="./javascript/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

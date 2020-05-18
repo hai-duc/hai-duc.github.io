@@ -1,0 +1,868 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+@media only screen and (min-width: 1200px){
+    /*Navbar*/
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .container-nav{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
+
+    }
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 17px;
+        max-width: 123px;
+        width: 100%;
+    }
+    
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
+    }
+    .logo{
+        margin-top: 7px;
+        max-width: 45px;
+        height: 65px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+        margin-bottom: 0.6rem;
+    }
+    .slogan2{
+        font-size: 14px;
+        
+    }
+    /*main*/
+    .container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .content{
+        margin-top: 10rem;
+        text-align: center;
+        line-height: 3;
+        padding-bottom: 10rem;
+    }
+    .fa-check:before {
+        content: "\f00c";
+        font-size: 55px;
+        color: green;
+    }
+    .notification1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .notification2{
+        font-size: 18px;
+    }
+    /*sign-in*/
+    .content3 {
+        background-image: url(../img/p69.jpg);
+        background-size: cover;
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+        
+    }
+    .parent-content3{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .child2-content4 a{
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .container-nav{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
+    }
+    .navbar{
+        background-color: #333 !important;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        
+    }
+    .navbar-nav{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 7rem;
+    }
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+    }
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 40px;
+        height: 68px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    /*main*/
+    .container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .content{
+        margin-top: 10rem;
+        text-align: center;
+        line-height: 3;
+        padding-bottom: 10rem;
+    }
+    .fa-check:before {
+        content: "\f00c";
+        font-size: 55px;
+        color: green;
+    }
+    .notification1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .notification2{
+        font-size: 18px;
+    }
+    /*sign-in*/
+    .content3 {
+        background-image: url(../img/p69.jpg);
+        background-size: cover;
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .child2-content4 a{
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    /*Navbar*/
+    
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+    header{
+        background-color: #333;
+    }
+    #navbarNav{
+        background-color: #333;
+        margin-top: -2rem;
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+        
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 50px;
+        height: 79px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 27px;
+    }
+    .slogan2{
+        font-size: 17px;
+    }
+    /*main*/
+    .container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .content{
+        margin-top: 10rem;
+        text-align: center;
+        line-height: 3;
+        padding-bottom: 10rem;
+    }
+    .fa-check:before {
+        content: "\f00c";
+        font-size: 55px;
+        color: green;
+    }
+    .notification1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .notification2{
+        font-size: 18px;
+    }
+    /*sign-in*/
+    .content3 {
+        background-image: url(../img/p69.jpg);
+        background-size: cover;
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+        margin: 0 auto;
+        
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .child2-content4 a{
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    /*Navbar*/
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        
+    }
+
+    #navbarNav{
+        background-color: #333;
+        margin-top: -1rem;
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+    }
+    
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 35px;
+        height: 60px;
+
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 22px;
+    }
+    .slogan2{
+        font-size: 15px;
+    }
+    /*main*/
+    .container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .content{
+        margin-top: 10rem;
+        text-align: center;
+        line-height: 3;
+        padding-bottom: 10rem;
+    }
+    .fa-check:before {
+        content: "\f00c";
+        font-size: 55px;
+        color: green;
+    }
+    .notification1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .notification2{
+        font-size: 18px;
+    }
+    /*sign-in*/
+    .content3 {
+        background-image: url(../img/p69.jpg);
+        background-size: cover;
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 505px;
+    
+        
+        
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    .container-footer{
+        padding-left: 1rem;
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .child2-content4 a{
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width:575px){
+    /*Navbar*/
+    
+    .container-fluid{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        overflow: hidden;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+
+    #navbarNav {
+        background-color: #333;
+        margin-top: -1rem;
+    }
+    .navbar-nav{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        line-height: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 35px;
+        height: 65px;
+        margin-left: 1.5rem;
+    }
+    .slogan{
+        padding-left: 1.3rem;
+    }
+    .slogan1{
+        font-size: 25px;
+    }
+    .slogan2{
+        font-size: 15px;
+    }
+    /*main*/
+    .container{
+        max-width: 1170px;
+        width: 100%;
+    }
+    .content{
+        margin-top: 10rem;
+        text-align: center;
+        line-height: 3;
+        padding-bottom: 10rem;
+    }
+    .fa-check:before {
+        content: "\f00c";
+        font-size: 55px;
+        color: green;
+    }
+    .notification1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .notification2{
+        
+        font-size: 18px;
+    }
+    /*sign-in*/
+    
+    .content3 {
+        background-image: url(../img/p69.jpg);
+        background-size: cover;
+    }
+    .father-content3{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        line-height: 52px;
+    }
+    
+    .content3 img{
+        width: 100%;
+    }
+    .parent-content3{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .son1-content3{
+        
+        font-size: 32px;
+        color: #fff;
+    }
+    .son2-content3{
+        margin-top: 35px;
+    }
+    #input{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer{
+        background-color: #464646;
+        padding: 3rem 0 3rem 0;
+        line-height: 2.5em;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
+    .son-content4{
+        line-height: 4.5rem;
+    }
+    .child1-content4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .child2-content4{
+        font-size: 14px;
+        color: #919294;
+    }
+    .child2-content4 a{
+        color: #919294;
+    }
+    .icon1{
+        font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+}
