@@ -205,6 +205,9 @@ html {
         padding-bottom: 50px;
         margin-top: 50px;
     }
+    .item a{
+        color: #000;
+    }
     .content3{
         background: rgba(196, 196, 196, 0.3);
         padding-top: 50px;
@@ -617,6 +620,9 @@ html {
         padding-top: 50px;
         padding-bottom: 50px;
         margin-top: 50px;
+    }
+    .item a{
+        color: #000;
     }
     .content3{
         background: rgba(196, 196, 196, 0.3);
@@ -1221,6 +1227,9 @@ html {
         padding-bottom: 50px;
         margin-top: 50px;
     }
+    .item a{
+        color: #000;
+    }
     .content3{
         background: rgba(196, 196, 196, 0.3);
         padding-top: 50px;
@@ -1636,6 +1645,9 @@ html {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 50px;
+}
+.item a{
+    color: #000;
 }
 .content3{
     background: rgba(196, 196, 196, 0.3);
@@ -2060,6 +2072,9 @@ html {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 50px;
+}
+.item a{
+    color: #000;
 }
 .content3{
     background: rgba(196, 196, 196, 0.3);
