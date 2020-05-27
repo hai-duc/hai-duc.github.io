@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
             items:2.5
         },
         800:{
-            items:3
+            items:3.2
         },
         900:{
             items:3.25

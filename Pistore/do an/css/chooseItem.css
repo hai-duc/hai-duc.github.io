@@ -12,16 +12,26 @@ html {
 @media only screen and (min-width: 1200px){
     
     /*Navbar*/
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 110px;
-        margin: 0 auto;
+    .container-fluid{
+        padding-left: 0px;
+        
         
     }
+    .container-nav{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
 
-    #navbarNav{
-        margin-right: 10rem;
     }
     .navbar-nav{
         max-width: 300px;
@@ -29,11 +39,14 @@ html {
         display: flex;
         justify-content: space-around;
     }
+
     .nav-link{
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
@@ -41,13 +54,24 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 17px;
+        max-width: 123px;
+        width: 100%;
+    }
+    
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
     }
     .logo{
-        
         margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
+        max-width: 45px;
+        height: 65px;
         margin-left: 1.5rem;
     }
     .slogan{
@@ -55,17 +79,19 @@ html {
     }
     .slogan1{
         font-size: 27px;
+        margin-bottom: 0.6rem;
     }
     .slogan2{
-        font-size: 17px;
+        font-size: 14px;
+        
     }
     /*content1*/
     /*owl-carousel*/
     .father-content1{
-        padding-left: 10rem;
+        padding-left: 22rem;
     }
     .owl-carousel{
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
     .owl-nav{
         display: none;
@@ -75,8 +101,13 @@ html {
         
     }
     .item img{
-        
         height: 353px;
+        
+        width: 100%;
+    }
+    .son1-content1{
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     /*son1-content1*/
     .container-Soncontent1{
@@ -91,9 +122,6 @@ html {
     .children1-content1 img {
         max-width: 310px;
         height: 260px;
-    }
-    .children2-content1{
-        padding-left: 1rem;
     }
     .son2-content1{
         display: flex;
@@ -123,12 +151,13 @@ html {
         font-size: 16px;
         line-height: 21px;
         color: rgba(0, 0, 0, 0.7);
+        
     }
     .artist-content1{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -136,7 +165,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -154,7 +183,11 @@ html {
         display: flex;
         flex-direction: column;
     }
-
+    .son1-Baby3Content1{
+        max-width: 100px;
+        width: 100%;
+    
+    }
     .son1-Baby4Content1, .son2-Baby4Content1{
         display: flex;
         flex-direction: column;
@@ -163,59 +196,60 @@ html {
     .son1-material{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
-        max-width: 85px;
         color: #000000;
+        width: 107%;
     }
     .son2-material{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         color: #555555;
         margin-top: 1rem;
+        width: 104%;
     }
     .son1-policy{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
-
         color: #000000;
+        width: 107%;
 
     }
     .son2-policy{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        max-width: 130px;
+        font-size: 16px;
+        line-height: 20px;
         color: #555555;
         margin-top: 1rem;
+        width: 104%;
     }
     .policy{
-        margin-left: 11rem;
+        margin-left: 8rem;
     }
 
     .son1-sizePicture{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
-
         color: #000000;
+        width: 107%;
     }
     .son2-sizePicture{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         margin-top: 1rem;
         color: #555555;
@@ -223,23 +257,24 @@ html {
     .son1-logisticsPistore{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
         color: #000000;
+        width: 107%;
 
     }
     .son2-logisticsPistore{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         margin-top: 1rem;
         color: #555555;
     }
     .logisticsPistore{
-        margin-left: 11rem;
+        margin-left: 9rem;
     }
     
     /*order*/
@@ -252,17 +287,17 @@ html {
     /*son1-content2*/
     .parent-content2{
         background: rgba(196, 196, 196, 0.1);
-        height: 1060px;
+        height: 1000px;
     }
     .son1-content2{
-        margin-top: 20rem;
+        margin-top: 10rem;
         
     }
     .title-prize{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 23px;
         line-height: 15px;
 
         color: #000000;
@@ -280,7 +315,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 19px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 4rem;
@@ -364,7 +399,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -376,7 +411,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -403,16 +438,16 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 21px;
         line-height: 19px;
         text-align: center;
         color: #000000;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .children2-content3{
         display: flex;
         justify-content: space-around;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .fa-facebook:before{
         font-size: 30px;
@@ -458,15 +493,15 @@ html {
     }
     .name{
         color:  #D5A770;
-        font-size: 15px;
+        font-size: 18px;
     }
     .size{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     }
     .price{
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
     }
     .son2Line2Content3, .son3Line2Content3, .son4Line2Content3, .son5Line2Content3{
         padding-top: 6rem;
@@ -485,10 +520,13 @@ html {
     
     .content4 img{
         width: 100%;
+        
     }
     .parent-content4{
-        
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .son1-content4{
@@ -509,8 +547,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -527,37 +574,61 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content5 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
         color: #919294;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px){
     /*Navbar*/
-    
+    .container-fluid{
+        
+        padding-left: 0px;
+    }
+    .container-nav{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
+    }
     .navbar{
         background-color: #333 !important;
-        max-width: 100%;
-        height: 110px;
+        width: 100%;
+        height: 80px;
         margin: 0 auto;
+        padding: 0px !important;
         
-    }
-
-    #navbarNav{
-        margin-right: 10rem;
     }
     .navbar-nav{
         max-width: 300px;
         width: 100%;
         display: flex;
         justify-content: space-around;
+        margin-right: 3rem;
     }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
@@ -565,13 +636,19 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 17px;
+    }
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
     }
     .logo{
         
         margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
+        max-width: 40px;
+        height: 68px;
         margin-left: 1.5rem;
     }
     .slogan{
@@ -589,7 +666,7 @@ html {
         padding-left: 5rem;
     }
     .owl-carousel{
-        margin-top: 20rem;
+        margin-top: 10rem;
     }
     .owl-nav{
         display: none;
@@ -600,6 +677,10 @@ html {
     .item img{
         
         height: 353px;
+    }
+    .son1-content1{
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
     /*son1-content1*/
     .container-Soncontent1{
@@ -633,7 +714,7 @@ html {
         font-family: Roboto;
         font-style: italic;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 27px;
         color: #000000;
     }
@@ -649,7 +730,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -657,7 +738,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -675,7 +756,10 @@ html {
         display: flex;
         flex-direction: column;
     }
-
+    .son1-Baby3Content1{
+        max-width: 100px;
+        width: 100%;
+    }
     .son1-Baby4Content1, .son2-Baby4Content1{
         display: flex;
         flex-direction: column;
@@ -685,7 +769,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         max-width: 85px;
         color: #000000;
@@ -694,7 +778,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         color: #555555;
         margin-top: 1rem;
@@ -703,9 +787,9 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-
+        font-size: 15px;
+        line-height: 17px;
+        max-width: 85px;
         color: #000000;
 
     }
@@ -713,30 +797,30 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 16px;
+        line-height: 20px;
         max-width: 130px;
         color: #555555;
         margin-top: 1rem;
     }
     .policy{
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
 
     .son1-sizePicture{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
-
         color: #000000;
+        width: 107%;
     }
     .son2-sizePicture{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         margin-top: 1rem;
         color: #555555;
@@ -744,17 +828,18 @@ html {
     .son1-logisticsPistore{
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 16px;
         line-height: 16px;
         color: #000000;
+        width: 107%;
 
     }
     .son2-logisticsPistore{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         margin-top: 1rem;
         color: #555555;
@@ -768,15 +853,15 @@ html {
         max-width: 400px;
     }
     .father-content2{
-        padding-left: 5rem;
+        padding-left: 2rem;
     }
     /*son1-content2*/
     .parent-content2{
         background: rgba(196, 196, 196, 0.1);
-        height: 1060px;
+        height: 1000px;
     }
     .son1-content2{
-        margin-top: 20rem;
+        margin-top: 10rem;
         
     }
     .title-prize{
@@ -884,7 +969,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -896,7 +981,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -923,16 +1008,16 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 19px;
         line-height: 19px;
         text-align: center;
         color: #000000;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .children2-content3{
         display: flex;
         justify-content: space-around;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .fa-facebook:before{
         font-size: 30px;
@@ -978,15 +1063,15 @@ html {
     }
     .name{
         color:  #D5A770;
-        font-size: 15px;
+        font-size: 17px;
     }
     .size{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     }
     .price{
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
     }
     .son2Line2Content3,.son3Line2Content3,.son4Line2Content3,.son5Line2Content3{
         padding-top: 6rem;
@@ -1007,8 +1092,10 @@ html {
         width: 100%;
     }
     .parent-content4{
-        
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .son1-content4{
@@ -1027,8 +1114,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
+    .container-footer{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -1045,53 +1141,74 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content5 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
         color: #919294;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px){
     /*Navbar*/
+    
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
+        padding-right: 0px;
+        padding-left: 0px;
         overflow: hidden;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
     }
+    header{
+        background-color: #333;
+    }
     #navbarNav{
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -2rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 4rem;
         padding-top: 2rem;
         line-height: 4rem;
-    }
-    .container-fluild  #navbarNav{
-        background-color: #333 !important;
-        width: 100%;
-        
+        padding-bottom: 1.2rem;
     }
 
     .nav-link{
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right:3.3rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1108,7 +1225,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 3.3rem;
     }
     .slogan1{
         font-size: 27px;
@@ -1118,12 +1235,15 @@ html {
     }
     /*content1*/
     /*owl-carousel*/
+    .row{
+        margin-left: 0px!important ;
+        margin-right: 0px!important;
+    }
     .father-content1{
         padding-left: 1rem;
     }
     .owl-carousel{
-        margin-top: 20rem;
-        
+        margin-top: 5rem;
     }
     .item{
         display: flex;
@@ -1189,7 +1309,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -1197,7 +1317,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -1215,7 +1335,14 @@ html {
         display: flex;
         flex-direction: column;
     }
-
+    .son1-Baby3Content1{
+        max-width: 100px;
+        width: 100%;
+    }
+    .son2-Baby3Content1{
+        max-width: 200px;
+        width: 100%;
+    }
     .son1-Baby4Content1, .son2-Baby4Content1{
         display: flex;
         flex-direction: column;
@@ -1225,7 +1352,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         max-width: 85px;
         color: #000000;
@@ -1234,7 +1361,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         color: #555555;
         margin-top: 1rem;
@@ -1243,7 +1370,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
 
         color: #000000;
@@ -1253,21 +1380,21 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 15px;
+        line-height: 19px;
         max-width: 130px;
         color: #555555;
         margin-top: 1rem;
     }
     .policy{
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
 
     .son1-sizePicture{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
 
         color: #000000;
@@ -1285,7 +1412,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         color: #000000;
 
@@ -1294,7 +1421,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         margin-top: 1rem;
         color: #555555;
@@ -1306,9 +1433,12 @@ html {
     /*order*/
     
     /*son1-content2*/
+    .parent-content3{
+        margin-left: 0rem;
+    }
     .parent-content2{
         background: rgba(196, 196, 196, 0.1);
-        height: 730px;
+        height: 800px;
         text-align: center;
         margin-top: 5rem;
     }
@@ -1320,7 +1450,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 20px;
         line-height: 15px;
 
         color: #000000;
@@ -1338,7 +1468,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 19px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 4rem;
@@ -1423,7 +1553,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -1435,7 +1565,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -1455,18 +1585,18 @@ html {
         
         height: 1px;
         background: #C4C4C4;
-        margin-top: 7rem;
+        margin-top: 12rem;
     }
     
     .children1-content3{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 19px;
         text-align: center;
         color: #000000;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .children2-content3{
         display: flex;
@@ -1517,15 +1647,15 @@ html {
     }
     .name{
         color:  #D5A770;
-        font-size: 15px;
+        font-size: 18px;
     }
     .size{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     }
     .price{
         color: #fff;
-        font-size: 13px;
+        font-size: 17px;
     }
     .son1Line2Content3, .son2Line2Content3, .son3Line2Content3, .son4Line2Content3, .son5Line2Content3{
         padding-top: 6rem;
@@ -1549,8 +1679,10 @@ html {
         width: 100%;
     }
     .parent-content4{
-        
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .son1-content4{
@@ -1568,8 +1700,22 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 2.3rem;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -1586,10 +1732,24 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content5 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
         color: #919294;
     }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -1602,21 +1762,21 @@ html {
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
         
     }
 
     #navbarNav{
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         line-height: 4rem;
+        padding-bottom: 2rem;
     }
     
     .nav-link{
@@ -1630,6 +1790,9 @@ html {
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right:3.3rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1645,7 +1808,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 3.3rem;
     }
     .slogan1{
         font-size: 22px;
@@ -1659,7 +1822,7 @@ html {
         padding-left: 1rem;
     }
     .owl-carousel{
-        margin-top: 20rem;
+        margin-top: 5rem;
         
     }
     .item{
@@ -1710,7 +1873,7 @@ html {
         font-family: Roboto;
         font-style: italic;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 27px;
         color: #000000;
     }
@@ -1718,7 +1881,7 @@ html {
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 21px;
         color: rgba(0, 0, 0, 0.7);
     }
@@ -1726,7 +1889,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -1734,7 +1897,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -1752,7 +1915,14 @@ html {
         display: flex;
         flex-direction: column;
     }
-
+    .son1-Baby3Content1{
+        max-width: 120px;
+        width: 100%;
+    }
+    .son2-Baby3Content1{
+        max-width: 200px;
+        width: 100%;
+    }
     .son1-Baby4Content1, .son2-Baby4Content1{
         display: flex;
         flex-direction: column;
@@ -1762,7 +1932,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
         max-width: 85px;
         color: #000000;
@@ -1771,16 +1941,16 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         color: #555555;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
     .son1-policy{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
 
         color: #000000;
@@ -1790,21 +1960,21 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 16px;
+        line-height: 19px;
         max-width: 130px;
         color: #555555;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
     .policy{
-        margin-left: 8rem;
+        margin-left: 2rem;
     }
 
     .son1-sizePicture{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
 
         color: #000000;
@@ -1813,16 +1983,16 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         color: #555555;
     }
     .son1-logisticsPistore{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 17px;
         line-height: 16px;
         color: #000000;
 
@@ -1831,21 +2001,24 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         color: #555555;
     }
     .logisticsPistore{
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
     
     /*order*/
     
     /*son1-content2*/
+    .parent-content3{
+        margin-left: 1rem;
+    }
     .parent-content2{
         background: rgba(196, 196, 196, 0.1);
-        height: 730px;
+        height: 780px;
         text-align: center;
         margin-top: 5rem;
     }
@@ -1857,7 +2030,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 20px;
         line-height: 15px;
 
         color: #000000;
@@ -1875,7 +2048,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 19px;
         line-height: 19px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 4rem;
@@ -1960,7 +2133,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -1972,7 +2145,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -1992,18 +2165,18 @@ html {
         
         height: 1px;
         background: #C4C4C4;
-        margin-top: 7rem;
+        margin-top: 10.5rem;
     }
     
     .children1-content3{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 19px;
         text-align: center;
         color: #000000;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .children2-content3{
         display: flex;
@@ -2054,15 +2227,15 @@ html {
     }
     .name{
         color:  #D5A770;
-        font-size: 15px;
+        font-size: 17px;
     }
     .size{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     }
     .price{
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
     }
     .son6Line2Content3,.son1Line2Content3, .son2Line2Content3, .son3Line2Content3, .son4Line2Content3, .son5Line2Content3{
         padding-top: 6rem;
@@ -2086,8 +2259,10 @@ html {
         width: 100%;
     }
     .parent-content4{
-        
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .son1-content4{
@@ -2107,8 +2282,22 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
+    .container-footer{
+        padding-left: 2rem;
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -2125,8 +2314,21 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content5 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
         color: #919294;
     }
 }
@@ -2142,18 +2344,17 @@ html {
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
     }
 
     #navbarNav {
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -2163,13 +2364,18 @@ html {
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 3rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -2185,7 +2391,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 3.3rem;
     }
     .slogan1{
         font-size: 25px;
@@ -2199,7 +2405,7 @@ html {
         padding-left: 1rem;
     }
     .owl-carousel{
-        margin-top: 20rem;
+        margin-top: 5rem;
         
     }
     .item{
@@ -2252,7 +2458,7 @@ html {
         font-family: Roboto;
         font-style: italic;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 19px;
         line-height: 27px;
         color: #000000;
     }
@@ -2268,7 +2474,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -2276,7 +2482,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 20px;
         color: rgba(213, 167, 112, 0.94);
     }
@@ -2285,7 +2491,7 @@ html {
         display: flex;
     }
     .baby3-content1{
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .baby4-content1{
         margin-top: 4rem;
@@ -2294,7 +2500,10 @@ html {
         display: flex;
         flex-direction: column;
     }
-
+    .son1-Baby3Content1{
+        max-width: 100px;
+        width: 100%;
+    }
     .son1-Baby4Content1, .son2-Baby4Content1{
         display: flex;
         flex-direction: column;
@@ -2304,7 +2513,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         max-width: 85px;
         color: #000000;
@@ -2322,7 +2531,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
 
         color: #000000;
@@ -2333,20 +2542,20 @@ html {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 20px;
         max-width: 130px;
         color: #555555;
         margin-top: 1rem;
     }
     .policy{
-        margin-left: 8rem;
+        margin-left: 6rem;
     }
 
     .son1-sizePicture{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
 
         color: #000000;
@@ -2387,7 +2596,7 @@ html {
     /*son1-content2*/
     .parent-content2{
         background: rgba(196, 196, 196, 0.1);
-        height: 730px;
+        height: 780px;
         text-align: center;
         margin-top: 5rem;
     }
@@ -2399,7 +2608,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 20px;
         line-height: 15px;
 
         color: #000000;
@@ -2417,7 +2626,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 19px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 4rem;
@@ -2502,7 +2711,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -2514,7 +2723,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 16px;
         text-align: center;
         color: #000000;
@@ -2534,23 +2743,23 @@ html {
         
         height: 1px;
         background: #C4C4C4;
-        margin-top: 7rem;
+        margin-top: 11rem;
     }
     
     .children1-content3{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 19px;
         line-height: 19px;
         text-align: center;
         color: #000000;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .children2-content3{
         display: flex;
         justify-content: space-evenly;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .fa-facebook:before{
         font-size: 30px;
@@ -2578,8 +2787,8 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 35px;
+        line-height: 47px;
         color: #FFFFFF;
         text-align: center;
         padding-top: 5rem;
@@ -2600,15 +2809,15 @@ html {
     }
     .name{
         color:  #D5A770;
-        font-size: 15px;
+        font-size: 17px;
     }
     .size{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     }
     .price{
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
     }
     .son7Line2Content3,.son6Line2Content3,.son1Line2Content3, .son2Line2Content3, .son3Line2Content3, .son4Line2Content3, .son5Line2Content3{
         padding-top: 6rem;
@@ -2633,8 +2842,10 @@ html {
         width: 100%;
     }
     .parent-content4{
-        
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .son1-content4{
@@ -2651,13 +2862,26 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
-    
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 2rem;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
         line-height: 2.5em;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
     }
     .son-content5{
         line-height: 4.5rem;
@@ -2670,8 +2894,20 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content5 a{
+        color: #919294;
+    }
     .icon1{
         font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
         color: #919294;
     }
 }

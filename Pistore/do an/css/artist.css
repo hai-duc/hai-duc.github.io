@@ -112,10 +112,9 @@ html {
         font-size: 34px;
         background-color: #333;
         max-width: 40rem;
-        
         height: 100px;
         text-align: center;
-        line-height: 100px;
+        line-height: 95px;
         margin-left: -57%;
         opacity: 0.8;
         margin-top: -4px;
@@ -296,9 +295,10 @@ html {
         font-family: 'Roboto', sans-serif;
         margin-top: -38rem;
         margin-left: 10rem;
+        line-height: 1.5;
     }
     .son1-info{
-        font-size: 20px;
+        font-size: 23px;
         line-height: 23px;
     }
     .info .son1-info:hover{
@@ -314,32 +314,22 @@ html {
         cursor: pointer;
     }
     .son3-info{
-        font-size: 8px;
-        width: 45px;
-        height: 17px;
+        font-size: 13px;
+        width: 67px;
+        height: 21px;
         border-radius: 25px;
         background-color: #000000;
         color: #fff;
         text-align: center;
-        line-height: 17px;
+        line-height: 21px;
         margin-top: 11px;
     }
     .son3-info:hover{
         background-color: #D5A770;
         cursor: pointer;
     }
-    .son4-info{
-        font-size: 8px;
-        width: 84px;
-        height: 17px;
-        border-radius: 25px;
-        background-color: #000000;
-        color: #fff;
-        text-align: center;
-        line-height: 17px;
-        margin-top: -17px;
-        margin-left: 53px;
-    }
+    
+    
 
 
 
@@ -383,12 +373,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    .input-group-text{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -408,6 +403,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -452,7 +448,7 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-right: 7rem;
+        margin-right: 3rem;
     }
     .nav-link{
         font-size: 19px;
@@ -468,7 +464,7 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
     }
     .icon i {
         margin-left: 1rem;
@@ -720,21 +716,21 @@ html {
     }
     .son2-info{
         color: rgba(0, 0, 0, 0.75);
-        font-size: 13px;
+        font-size: 14px;
     }
     .info .son2-info:hover{
         color: #D5A770;
         cursor: pointer;
     }
     .son3-info{
-        font-size: 8px;
-        width: 45px;
-        height: 17px;
+        font-size: 14px;
+        width: 75px;
+        height: 20px;
         border-radius: 25px;
         background-color: #000000;
         color: #fff;
         text-align: center;
-        line-height: 17px;
+        line-height: 20px;
         margin-top: 11px;
     }
     .son3-info:hover{
@@ -793,12 +789,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.4rem;
     }
     footer{
         background-color: #464646;
@@ -877,6 +878,9 @@ html {
         display: flex;
         
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 2rem;
+    }
     .navbar-toggler{
         background-color: #fff;
     }
@@ -895,7 +899,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 1.6rem;
     }
     .slogan1{
         font-size: 27px;
@@ -1118,7 +1122,7 @@ html {
         margin-left: 10rem;
     }
     .son1-info{
-        font-size: 20px;
+        font-size: 23px;
         line-height: 23px;
     }
     .info .son1-info:hover{
@@ -1134,14 +1138,14 @@ html {
         cursor: pointer;
     }
     .son3-info{
-        font-size: 8px;
-        width: 45px;
-        height: 17px;
+        font-size: 14px;
+        width: 70px;
+        height: 21px;
         border-radius: 25px;
         background-color: #000000;
         color: #fff;
         text-align: center;
-        line-height: 17px;
+        line-height: 21px;
         margin-top: 11px;
     }
     .son3-info:hover{
@@ -1198,6 +1202,10 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
@@ -1268,7 +1276,9 @@ html {
         padding-top: 2rem;
         line-height: 4rem;
     }
-    
+    .navbar-light .navbar-toggler{
+        margin-right: 1.8rem;
+    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -1298,7 +1308,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 1.4rem;
     }
     .slogan1{
         font-size: 22px;
@@ -1356,7 +1366,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 42px;
         color: #000000;
         padding-top: 60px;
@@ -1516,7 +1526,7 @@ html {
         margin-left: 11rem;
     }
     .son1-info{
-        font-size: 20px;
+        font-size: 22px;
         line-height: 23px;
     }
     .info .son1-info:hover{
@@ -1536,14 +1546,14 @@ html {
         font-size: 13px;
     }
     .son3-info{
-        font-size: 8px;
-        width: 45px;
-        height: 17px;
+        font-size: 12px;
+        width: 60px;
+        height: 19px;
         border-radius: 25px;
         background-color: #000000;
         color: #fff;
         text-align: center;
-        line-height: 17px;
+        line-height: 19px;
         margin-top: 11px;
     }
     .son3-info:hover{
@@ -1602,10 +1612,13 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
-        padding-left: 1rem;
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
@@ -1688,6 +1701,9 @@ html {
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1924,7 +1940,7 @@ html {
         
     }
     .son1-info{
-        font-size: 20px;
+        font-size: 24px;
         line-height: 23px;
         
     }
@@ -1939,14 +1955,14 @@ html {
         font-size: 13px;
     }
     .son3-info{
-        font-size: 8px;
-        width: 45px;
-        height: 17px;
+        font-size: 13px;
+        width: 60px;
+        height: 20px;
         border-radius: 25px;
         background-color: #000000;
         color: #fff;
         text-align: center;
-        line-height: 17px;
+        line-height: 20px;
         margin-top: 11px;
     }
     .son3-info:hover{
@@ -2003,6 +2019,10 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{

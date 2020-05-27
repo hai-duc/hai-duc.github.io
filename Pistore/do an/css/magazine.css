@@ -12,23 +12,25 @@ html {
 
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
         
     }
+    .container-nav{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
+    }
     .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
+        width: 100%;
         height: 80px;
         margin: 0 auto;
         padding: 0px !important;
-        
-    }
-    
+        background-color: #333 !important;
 
-    #navbarNav{
-        margin-right: 10rem;
     }
     .navbar-nav{
         max-width: 300px;
@@ -41,7 +43,9 @@ html {
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
@@ -49,7 +53,19 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 17px;
+        max-width: 123px;
+        width: 100%;
+    }
+    
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
     }
     .logo{
         margin-top: 7px;
@@ -62,16 +78,15 @@ html {
     }
     .slogan1{
         font-size: 27px;
+        margin-bottom: 0.6rem;
     }
     .slogan2{
-        font-size: 17px;
+        font-size: 14px;
+        
     }
     /*carousel*/
     #carouselExampleControls{
         position: relative;
-    }
-    .carousel-introduce{
-        margin-top: 8rem;
     }
     .carousel-item img{
         height: 500px;
@@ -106,6 +121,54 @@ html {
         opacity: 0.8;
         margin-top: -4px;
     }
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 70px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 1.3rem;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -122,13 +185,26 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content4 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
         color: #919294;
     }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
     /*main*/
     .container{
-        max-width: 1200px;
+        max-width: 1170px;
         width: 100%;
         margin: 0 auto;
         
@@ -138,6 +214,12 @@ html {
     }
     .son2-content{
         margin-top: 30px;
+    }
+    .parent1-magazine a{
+        text-decoration: none;
+    }
+    .parent2-magazine a{
+        text-decoration: none;
     }
     .parent1-magazine{
         display: flex;
@@ -164,7 +246,7 @@ html {
     .date{
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 15px;
         line-height: 13px;
         
 
@@ -174,8 +256,8 @@ html {
     }
     .title-magazine{
         font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 20px;
 
 
@@ -186,9 +268,8 @@ html {
     .content1-magazine{
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-
+        font-size: 17px;
+        line-height: 30px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 1.063rem;
     }
@@ -215,15 +296,23 @@ html {
 @media only screen and (min-width: 992px) and (max-width:1199px){
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .container-nav{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #333;
     }
     .navbar{
         background-color: #333 !important;
-        max-width: 100%;
+        width: 100%;
         height: 80px;
         margin: 0 auto;
+        padding: 0px !important;
         
     }
     .navbar-nav{
@@ -231,17 +320,15 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
+        margin-right: 4rem;
     }
-
-    #navbarNav{
-        margin-right: 10rem;
-    }
-
     .nav-link{
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
@@ -249,7 +336,13 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
     }
     .logo{
         
@@ -270,9 +363,6 @@ html {
     /*carousel*/
     #carouselExampleControls{
         position: relative;
-    }
-    .carousel-introduce{
-        margin-top: 8rem;
     }
     .carousel-item img{
         height: 500px;
@@ -307,6 +397,54 @@ html {
         opacity: 0.8;
         margin-top: -4px;
     }
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 70px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 1.3rem;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -323,12 +461,25 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content4 a{
+        color: #919294;
+    }
     .icon1{
         font-size: 22px;
         color: #919294;
     }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    /*main*/
     .container{
-        max-width: 1200px;
+        max-width: 1170px;
         margin: 0 auto;
         
     }
@@ -344,7 +495,7 @@ html {
     .parent1-magazine img{
         max-width: 220px;
         width: 100%;
-        height: 261px;
+        height: 280px;
     }
     .parent2-magazine{
         display: flex;
@@ -352,33 +503,27 @@ html {
     .parent2-magazine img{
         max-width: 220px;
         width: 100%;
-        height: 261px;
+        height: 280px;
     }
     .son1-magazine{
         
-        height: 261px;
+        height: 280px;
         background: rgba(196, 196, 196, 0.5);
         padding: 27px;
     }
     .date{
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 13px;
-        /* identical to box height */
-
-
         color: rgba(0, 0, 0, 0.6);
 
     }
     .title-magazine{
         font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 20px;
-        /* identical to box height */
-
-
         color: #000000;
         margin-top: 0.5625rem;
 
@@ -386,11 +531,11 @@ html {
     .content1-magazine{
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-
+        font-size: 15px;
+        line-height: 18px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 1.063rem;
+        letter-spacing: 1px;
     }
 
     .parentTitle-magazine{
@@ -413,45 +558,52 @@ html {
 
 @media only screen and (min-width: 768px) and (max-width:991px){
     /*Navbar*/
+    
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
+        padding-right: 0px;
+        padding-left: 0px;
         overflow: hidden;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
     }
+    header{
+        background-color: #333;
+    }
     #navbarNav{
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -2rem;
     }
     .navbar-nav{
         padding-left: 2rem;
         padding-top: 2rem;
         line-height: 4rem;
     }
-    .container-fluild  #navbarNav{
-        background-color: #333 !important;
-        width: 100%;
-        
-    }
 
     .nav-link{
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 2.3rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -468,7 +620,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 27px;
@@ -479,9 +631,6 @@ html {
     /*carousel*/
     #carouselExampleControls{
         position: relative;
-    }
-    .carousel-introduce{
-        margin-top: 11rem;
     }
     .carousel-item img{
         height: 500px;
@@ -514,6 +663,58 @@ html {
         opacity: 0.8;
         margin-top: -4px;
     }
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 70px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 1.1rem;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -530,8 +731,20 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content4 a{
+        color: #919294;
+    }
     .icon1{
         font-size: 22px;
+        color: #919294;
+    }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
         color: #919294;
     }
     .container{
@@ -565,12 +778,12 @@ html {
         
         height: 261px;
         background: rgba(196, 196, 196, 0.5);
-        padding: 27px;
+        padding: 14px;
     }
     .date{
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 15px;
         line-height: 13px;
         /* identical to box height */
 
@@ -580,22 +793,17 @@ html {
     }
     .title-magazine{
         font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 20px;
-        /* identical to box height */
-
-
         color: #000000;
         margin-top: 0.5625rem;
-
     }
     .content1-magazine{
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 14px;
-
+        line-height: 20px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 1.063rem;
     }
@@ -628,16 +836,15 @@ html {
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
         
     }
 
     #navbarNav{
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -1rem;
     }
     .navbar-nav{
         padding-left: 2rem;
@@ -649,13 +856,18 @@ html {
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
         
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1.6rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -672,7 +884,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.4rem;
     }
     .slogan1{
         font-size: 22px;
@@ -683,9 +895,6 @@ html {
     /*carousel*/
     #carouselExampleControls{
         position: relative;
-    }
-    .carousel-introduce{
-        margin-top: 11rem;
     }
     .carousel-item img{
         height: 300px;
@@ -718,7 +927,58 @@ html {
         opacity: 0.8;
         margin-top: -4px;
     }
-
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 70px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    /*footer*/
+    .container-footer{
+        padding-left: 1rem;
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -735,11 +995,24 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content4 a{
+        color: #919294;
+        text-decoration: none;
+    }
     .icon1{
         font-size: 22px;
         color: #919294;
     }
-    
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    /*main*/
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -777,7 +1050,7 @@ html {
     .date{
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 18px;
         line-height: 13px;
         /* identical to box height */
 
@@ -787,8 +1060,8 @@ html {
     }
     .title-magazine{
         font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 20px;
         /* identical to box height */
 
@@ -800,9 +1073,8 @@ html {
     .content1-magazine{
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-
+        font-size: 16px;
+        line-height: 20px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 1.063rem;
     }
@@ -836,18 +1108,17 @@ html {
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 110px;
+        height: 80px;
         margin: 0 auto;
         padding: 0px !important;
     }
 
     #navbarNav {
-        
-        background-color: #333
-
+        background-color: #333;
+        margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3.3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -857,13 +1128,17 @@ html {
         font-size: 19px;
         color: #fff !important;
     }
-
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
     .navbar-brand{
         display: flex;
-        
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -879,7 +1154,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 25px;
@@ -891,9 +1166,6 @@ html {
     
     #carouselExampleControls{
         position: relative;
-    }
-    .carousel-introduce{
-        margin-top: 11rem;
     }
     .carousel-item img{
         height: 200px;
@@ -927,10 +1199,63 @@ html {
         opacity: 0.8;
         margin-top: -3px;
     }
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 70px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    /*footer*/
+    .container-footer{
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 1.3rem;
+    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
         line-height: 2.5em;
+    }
+    .container-footer .row{
+        margin-right: 0px ;
+        margin-left: 0px;
     }
     .son-content4{
         line-height: 4.5rem;
@@ -943,10 +1268,23 @@ html {
         font-size: 14px;
         color: #919294;
     }
+    .child2-content4 a{
+        color: #919294;
+    }
     .icon1{
         font-size: 22px;
         color: #919294;
     }
+    .fa-facebook:before{
+        color: #919294;
+    }
+    .fa-instagram:before{
+        color: #919294;
+    }
+    .fa-twitter-square:before{
+        color: #919294;
+    }
+    /*main*/
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -964,7 +1302,7 @@ html {
     .parent1-magazine img{
         max-width: 180px;
         width: 100%;
-        height: 290px;
+        height: 275px;
     }
     .parent2-magazine{
         display: flex;
@@ -973,18 +1311,18 @@ html {
     .parent2-magazine img{
         max-width: 180px;
         width: 100%;
-        height: 290px;
+        height: 275px;
     }
     .son1-magazine{
         
-        height: 290px;
+        height: 275px;
         background: rgba(196, 196, 196, 0.5);
-        padding: 27px;
+        padding: 10px;
     }
     .date{
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 17px;
         line-height: 13px;
         /* identical to box height */
 
@@ -994,22 +1332,17 @@ html {
     }
     .title-magazine{
         font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
+        font-weight: 500;
+        font-size: 20px;
         line-height: 20px;
-        /* identical to box height */
-
-
         color: #000000;
         margin-top: 0.5625rem;
-
     }
     .content1-magazine{
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-
+        font-size: 15px;
+        line-height: 16px;
         color: rgba(0, 0, 0, 0.8);
         margin-top: 1.063rem;
     }

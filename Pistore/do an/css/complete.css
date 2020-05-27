@@ -145,12 +145,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 50px;
+    }
+    .input-group-text{
+        font-size: 16px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -170,6 +175,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -214,7 +220,7 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-right: 7rem;
+        margin-right: 4rem;
     }
     .nav-link{
         font-size: 19px;
@@ -230,7 +236,7 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
     }
     .icon i {
         margin-left: 1rem;
@@ -314,12 +320,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    .input-group-text{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -339,6 +350,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -401,6 +413,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 2.3rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -416,7 +431,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 27px;
@@ -483,12 +498,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.1rem;
     }
     .container-footer .row{
         margin-right: 0px ;
@@ -512,6 +532,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -568,6 +589,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 1.6rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -583,7 +607,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.4rem;
     }
     .slogan1{
         font-size: 22px;
@@ -652,6 +676,10 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
@@ -720,7 +748,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3.3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -735,10 +763,12 @@ html {
     }
     .navbar-brand{
         display: flex;
-        
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -754,7 +784,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 25px;
@@ -779,7 +809,7 @@ html {
         color: green;
     }
     .notification1{
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 500;
     }
     .notification2{
@@ -822,12 +852,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
-        max-width: 1170px;
+        max-width: 575px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;

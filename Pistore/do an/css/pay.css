@@ -147,28 +147,29 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 10rem;
+        padding-left: 4rem;
     }
     .inputLastname{
-        padding-left: 11.8rem;
+        padding-left: 4rem;
     }
     .inputFirstname{
-        padding-left: 11.3rem;
+        padding-left: 4rem;
     }
     .inputPhonenumber{
-        padding-left: 5.36rem;
+        padding-left: 4rem;
     }
     .inputAddress{
-        padding-left: 9.3rem;
+        padding-left: 4rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
-
         color: #000000;
+        max-width: 100px;
+        width: 100%;
     }
     .line1{
         width: 100%;
@@ -191,7 +192,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -276,7 +277,7 @@ html {
     .image img{
         max-width: 130px;
         width: 100%;
-        height: 160px;
+        height: 170px;
     }
     .fatheritem1{
         display: flex;
@@ -301,7 +302,9 @@ html {
         color: #000000;
         padding-bottom: 1rem;
     }
-
+    .nameArtist, .sizePicture, .yearPicture, .pricePicture{
+        font-size: 14px;
+    }
     .ClearPicture {
         
         cursor: pointer;
@@ -397,12 +400,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 50px;
+    }
+    .input-group-text{
+        font-size: 16px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -422,6 +430,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -465,7 +474,7 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-right: 7rem;
+        margin-right: 4rem;
     }
     .nav-link{
         font-size: 19px;
@@ -481,7 +490,7 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
     }
     .icon i {
         margin-left: 1rem;
@@ -569,28 +578,29 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 10rem;
+        padding-left: 4rem;
     }
     .inputLastname{
-        padding-left: 11.8rem;
+        padding-left: 4rem;
     }
     .inputFirstname{
-        padding-left: 11.3rem;
+        padding-left: 4rem;
     }
     .inputPhonenumber{
-        padding-left: 5.36rem;
+        padding-left: 4rem;
     }
     .inputAddress{
-        padding-left: 9.3rem;
+        padding-left: 4rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
-
         color: #000000;
+        max-width: 100px;
+        width: 100%;
     }
     .line1{
         width: 100%;
@@ -613,7 +623,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -698,7 +708,7 @@ html {
     .image img{
         max-width: 130px;
         width: 100%;
-        height: 160px;
+        height: 170px;
     }
     .fatheritem1{
         display: flex;
@@ -709,7 +719,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
         color: #000000;
         line-height: 2;
@@ -817,12 +827,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    .input-group-text{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -842,6 +857,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -903,6 +919,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 2.3rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -918,7 +937,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 27px;
@@ -990,28 +1009,29 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 10rem;
+        padding-left: 4rem;
     }
     .inputLastname{
-        padding-left: 11.8rem;
+        padding-left: 4rem;
     }
     .inputFirstname{
-        padding-left: 11.3rem;
+        padding-left: 4rem;
     }
     .inputPhonenumber{
-        padding-left: 5.36rem;
+        padding-left: 4rem;
     }
     .inputAddress{
-        padding-left: 9.3rem;
+        padding-left: 4rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
-
         color: #000000;
+        max-width: 100px;
+        width: 100%;
     }
     .line1{
         width: 100%;
@@ -1034,7 +1054,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -1118,7 +1138,7 @@ html {
     .image img{
         max-width: 130px;
         width: 100%;
-        height: 160px;
+        height: 170px;
     }
     .fatheritem1{
         display: flex;
@@ -1129,7 +1149,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
         color: #000000;
         line-height: 2;
@@ -1187,7 +1207,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         
         color: #000000;
     }
@@ -1195,7 +1215,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 15px;
         color: #000000;
         padding-left: 5rem;
     }
@@ -1235,12 +1255,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.1rem;
     }
     .container-footer .row{
         margin-right: 0px ;
@@ -1319,6 +1344,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 1.6rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1334,7 +1362,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.4rem;
     }
     .slogan1{
         font-size: 22px;
@@ -1407,28 +1435,29 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 10rem;
+        padding-left: 4rem;
     }
     .inputLastname{
-        padding-left: 11.8rem;
+        padding-left: 4rem;
     }
     .inputFirstname{
-        padding-left: 11.3rem;
+        padding-left: 4rem;
     }
     .inputPhonenumber{
-        padding-left: 5.36rem;
+        padding-left: 4rem;
     }
     .inputAddress{
-        padding-left: 9.3rem;
+        padding-left: 4rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
-
         color: #000000;
+        max-width: 100px;
+        width: 100%;
     }
     .line1{
         width: 100%;
@@ -1451,7 +1480,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -1535,7 +1564,7 @@ html {
     .image img{
         max-width: 130px;
         width: 100%;
-        height: 160px;
+        height: 170px;
     }
     .fatheritem1{
         display: flex;
@@ -1546,7 +1575,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
         color: #000000;
         line-height: 2;
@@ -1612,7 +1641,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 16px;
         color: #000000;
         padding-left: 5rem;
     }
@@ -1654,6 +1683,10 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
@@ -1684,6 +1717,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -1720,7 +1754,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3.3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -1735,10 +1769,12 @@ html {
     }
     .navbar-brand{
         display: flex;
-        
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1754,7 +1790,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 25px;
@@ -1826,28 +1862,28 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
     .inputLastname{
-        padding-left: 1.9rem;
+        padding-left: 1rem;
     }
     .inputFirstname{
-        padding-left: 2.1rem;
+        padding-left: 1rem;
     }
     .inputPhonenumber{
-        padding-left: 2.2rem;
+        padding-left: 1rem;
     }
     .inputAddress{
-        padding-left: 2.3rem;
+        padding-left: 1rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 16px;
         color: #000000;
-        max-width: 82px;
+        max-width: 100px;
         width: 100%;
     }
     .line1{
@@ -1871,7 +1907,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 15px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -1958,7 +1994,7 @@ html {
     .image img{
         max-width: 130px;
         width: 100%;
-        height: 160px;
+        height: 170px;
     }
     .fatheritem1{
         display: flex;
@@ -1969,7 +2005,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
         color: #000000;
         line-height: 2;
@@ -2027,7 +2063,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 15px;
         color: #000000;
         max-width: 200px;
         width: 100%;
@@ -2076,12 +2112,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
-        max-width: 1170px;
+        max-width: 575px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -2105,6 +2146,7 @@ html {
     }
     .child2-content4 a{
         color: #919294;
+        text-decoration: none;
     }
     .icon1{
         font-size: 22px;

@@ -114,12 +114,12 @@ html {
         background-color: #333;
         max-width: 40rem;
         
-        height: 100px;
+        height: 102px;
         text-align: center;
         line-height: 100px;
         margin-left: -57%;
         opacity: 0.8;
-        margin-top: -4px;
+        margin-top: -2px;
     }
     /*main*/
     .father-title1{
@@ -189,26 +189,27 @@ html {
     .addToCart1{
         position: absolute;
         top: 62%;
-        left: 37%;
-        color: #fff;
-        background-color: #333;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
         font-weight: 700;
-        
+        font-size: 14px;
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     
     .addToCart2{
         position: absolute;
-        top: 62%;
-        left: 52%;
-        color: #fff;
-        background-color: #333;
-        
+        top: 42%;
+        left: 85%;
+        color: #333;
+        background-color:#fff;
+        font-size: 14px;
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -216,6 +217,21 @@ html {
         font-weight: 700;
         opacity: 0;
         border: none;
+        z-index: 10;
+    }
+    .content1-picture1::before{
+        width: 100%;
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height:100%;
+        opacity: 0;
+    }
+    .content1-picture1:hover::before{
+        opacity: .3;
+        transition: 0.5s;
     }
     .content1-picture1:hover .addToCart1{
         opacity: 1;
@@ -223,29 +239,29 @@ html {
     }
     .content1-picture1:hover .addToCart2{
         opacity: 1;
-        transition:ease-in-out 0.5s;
+        transition:ease-in-out 0.8s;
     }
     .content-information1{
         display: flex;
-        line-height: 14px;
+        line-height: 1.5;
         margin-top: 1rem;
         justify-content: space-between;
     }
     .name{
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 500;
         color: #000;
     }
     .size{
-        font-size: 13px;
+        font-size: 14px;
         color: #8c8c8c;
     }
     .artist{
-        font-size: 15px;
+        font-size: 16px;
         color: #d5a770;
     }
     .price{
-        font-size: 15px;
+        font-size: 16px;
         color: #8c8c8c;
         
     }
@@ -304,12 +320,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 50px;
+    }
+    .input-group-text{
+        font-size: 16px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -405,7 +426,7 @@ html {
         margin-left: 15px;
     }
     .category{
-        font-size: 15px;
+        font-size: 17px;
         color: #D5A770;
     }
     .featured-news img{
@@ -413,8 +434,19 @@ html {
         width: 89%;
     }
     .cnt{
-        line-height: 3rem;
-        
+        line-height: 4rem;
+        max-width: 500px;
+        width: 100%;
+    }
+    .cnt a{
+        color: #333333db;
+        font-weight: 200;
+    }
+    figcaption a{
+        color: #333333db;
+    }
+    figcaption a:hover{
+        color: #333;
     }
     figcaption{
         line-height: 3rem;
@@ -422,9 +454,12 @@ html {
     
     }
     figure img{
-        height: 90px;
+        height: 140px;
         width: 30%;
         
+    }
+    .link{
+        font-size: 13px;
     }
     figure{
         display: flex;
@@ -433,6 +468,12 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    
+    a .thumnail1, a .thumnail2{
+        letter-spacing: 0.7px;
+        font-size: 15px;
+        font-weight: 700;
     }
 
 }
@@ -464,7 +505,7 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-right: 7rem;
+        margin-right: 4rem;
     }
     .nav-link{
         font-size: 19px;
@@ -480,7 +521,7 @@ html {
     .icon{
         margin-right: 2.5rem;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
     }
     .icon i {
         margin-left: 1rem;
@@ -615,27 +656,28 @@ html {
     }
     .addToCart1{
         position: absolute;
-        top: 62%;
-        left: 37%;
-        color: #fff;
-        background-color: #333;
+        top: 42%;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
         font-weight: 700;
-        
+        font-size: 14px;
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     
     .addToCart2{
         position: absolute;
         top: 62%;
-        left: 52%;
-        color: #fff;
-        background-color: #333;
-        
+        left: 85%;
+        color: #333;
+        background-color: #fff;
+        font-size: 14px;
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -643,6 +685,22 @@ html {
         font-weight: 700;
         opacity: 0;
         border: none;
+        z-index: 10;
+    }
+    .content1-picture1::before{
+        width: 100%;
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height:100%;
+        opacity: 0;
+        z-index: 9;
+    }
+    .content1-picture1:hover::before{
+        opacity: .3;
+        transition: 0.5s;
     }
     .content1-picture1:hover .addToCart1{
         opacity: 1;
@@ -733,12 +791,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    .input-group-text{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -839,19 +902,19 @@ html {
     }
     .featured-news img{
         height: 390px;
-        width: 89%;
+        width: 95%;
     }
     .cnt{
         line-height: 3rem;
         
     }
     figcaption{
-        line-height: 3rem;
+        line-height: 2rem;
         padding-left: 2rem;
     
     }
     figure img{
-        height: 90px;
+        height: 166px;
         width: 30%;
         
     }
@@ -862,6 +925,24 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    .link{
+        color: #333;
+        font-size: 13.5px;
+    }
+    a .thumnail1, a .thumnail2{
+        letter-spacing: 0.7px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #333;
+    }
+    .thumnail1{
+        max-width: 400px;
+        width: 100%;
+    }
+    .thumnail2{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -912,6 +993,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 2.3rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -927,7 +1011,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 27px;
@@ -1040,27 +1124,28 @@ html {
     }
     .addToCart1{
         position: absolute;
-        top: 62%;
-        left: 37%;
-        color: #fff;
-        background-color: #333;
+        top: 42%;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
         font-weight: 700;
-        
+        font-size: 14px;
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     
     .addToCart2{
         position: absolute;
         top: 62%;
-        left: 52%;
-        color: #fff;
-        background-color: #333;
-        
+        left: 85%;
+        color: #333;
+        background-color: #fff;
+        font-size: 14px;
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -1068,6 +1153,22 @@ html {
         font-weight: 700;
         opacity: 0;
         border: none;
+        z-index: 10;
+    }
+    .content1-picture1::before{
+        width: 100%;
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height:100%;
+        opacity: 0;
+        z-index: 9;
+    }
+    .content1-picture1:hover::before{
+        opacity: .3;
+        transition: 0.5s;
     }
     .content1-picture1:hover .addToCart1{
         opacity: 1;
@@ -1157,12 +1258,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
         max-width: 1170px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.1rem;
     }
     .container-footer .row{
         margin-right: 0px ;
@@ -1263,12 +1369,12 @@ html {
     }
     
     .category{
-        font-size: 15px;
+        font-size: 17px;
         color: #D5A770;
     }
     .featured-news img{
         height: 450px;
-        width: 89%;
+        width: 100%;
     }
     .cnt{
         line-height: 3rem;
@@ -1280,9 +1386,8 @@ html {
     
     }
     figure img{
-        height: 90px;
-        width: 30%;
-        
+        height: 179px;
+        width: 35%;
     }
     figure{
         display: flex;
@@ -1291,6 +1396,20 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    .link{
+        color: #333;
+        font-size: 14px;
+    }
+    .thumnail1{
+        font-size: 17px;
+        font-weight: 600;
+        color:#000;
+    }
+    .thumnail2{
+        font-size: 15px;
+        font-weight: 600;
+        color:#000;
     }
 }
 
@@ -1334,6 +1453,9 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
+    .navbar-light .navbar-toggler{
+        margin-right: 1.6rem;
+    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1349,7 +1471,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.4rem;
     }
     .slogan1{
         font-size: 22px;
@@ -1468,16 +1590,16 @@ html {
     }
     .addToCart1{
         position: absolute;
-        top: 62%;
-        left: 37%;
-        color: #fff;
-        background-color: #333;
+        top: 42%;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
         font-weight: 700;
-        
+        font-size: 14px;
         opacity: 0;
         border: none;
     }
@@ -1485,10 +1607,10 @@ html {
     .addToCart2{
         position: absolute;
         top: 62%;
-        left: 52%;
-        color: #fff;
-        background-color: #333;
-        
+        left: 85%;
+        color: #333;
+        background-color: #fff;
+        font-size: 14px;
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -1496,6 +1618,21 @@ html {
         font-weight: 700;
         opacity: 0;
         border: none;
+    }
+    .content1-picture1::before{
+        width: 100%;
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height:100%;
+        opacity: 0;
+        z-index: 9;
+    }
+    .content1-picture1:hover::before{
+        opacity: .3;
+        transition: 0.5s;
     }
     .content1-picture1:hover .addToCart1{
         opacity: 1;
@@ -1511,7 +1648,9 @@ html {
         margin-top: 1rem;
         justify-content: space-between;
     }
-
+    .son1-information1{
+        line-height: 1.5;
+    }
     
     .name{
         font-size: 16px;
@@ -1519,7 +1658,7 @@ html {
         color: #000;
     }
     .size{
-        font-size: 13x;
+        font-size: 14px;
         color: #8c8c8c;
     }
     .artist{
@@ -1584,6 +1723,10 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
@@ -1690,19 +1833,18 @@ html {
         margin-left: 15px;
     }
     .category{
-        font-size: 15px;
+        font-size: 17px;
         color: #D5A770;
     }
     .featured-news img{
         height: 400px;
         max-width: 400px;
         width: 100%;
-      
     }
     figure img{
         max-width: 170px;
         width: 100%;
-        height: 100px;
+        height: 115px;
 
     }
     .cnt{
@@ -1723,6 +1865,24 @@ html {
     a:focus, a:hover, a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    .thumnail1{
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        max-width: 414px;
+        width: 100%;
+    }
+    .thumnail2{
+        font-size: 16px;
+        color: #333;
+        font-weight: 600;
+        max-width: 414px;
+        width: 100%;
+    }
+    .link{
+        color: #333;
+        font-size: 14px;
     }
 }
 
@@ -1747,7 +1907,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3.3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -1762,10 +1922,12 @@ html {
     }
     .navbar-brand{
         display: flex;
-        
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1781,7 +1943,7 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 25px;
@@ -1816,13 +1978,13 @@ html {
     }
     .subtitle2{
         color: #fff;
-        font-size: 16px;
+        font-size: 18px;
         background-color: #333;
-        max-width: 18rem;
+        max-width: 19rem;
         height: 55px;
         text-align: center;
         line-height: 55px;
-        margin-left: -57%;
+        margin-left: -54%;
         opacity: 0.8;
         margin-top: -3px;
     }
@@ -1904,33 +2066,50 @@ html {
     .addToCart1{
         position: absolute;
         top: 62%;
-        left: 37%;
-        color: #fff;
-        background-color: #333;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
+        font-size: 14px;
         font-weight: 700;
-        
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     
     .addToCart2{
         position: absolute;
-        top: 62%;
-        left: 52%;
-        color: #fff;
-        background-color: #333;
-        
+        top: 42%;
+        left: 85%;
+        color: #333;
+        background-color: #fff;
         width: 30px;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
+        font-size: 14px;
         font-weight: 700;
         opacity: 0;
         border: none;
+        z-index: 10;
+    }
+    .content1-picture1::before{
+        width: 100%;
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        height:100%;
+        opacity: 0;
+        z-index: 9;
+    }
+    .content1-picture1:hover::before{
+        opacity: .5;
+        transition: 0.5s;
     }
     .content1-picture1:hover .addToCart1{
         opacity: 1;
@@ -1942,27 +2121,27 @@ html {
     }
     .content-information1{
         display: flex;
-        line-height: 14px;
+        line-height: 1.5;
         margin-top: 1rem;
         justify-content: space-between;
     }
 
     
     .name{
-        font-size: 14px;
+        font-size: 17px;
         font-weight: 500;
         color: #000;
     }
     .size{
-        font-size: 16px;
+        font-size: 14px;
         color: #8c8c8c;
     }
     .artist{
-        font-size: 13px;
+        font-size: 16px;
         color: #d5a770;
     }
     .price{
-        font-size: 15px;
+        font-size: 16px;
         color: #8c8c8c;
         
     }
@@ -2017,12 +2196,17 @@ html {
     }
     .form-control{
         font-size: 14px;
+        height: 45px;
+    }
+    #basic-addon2{
+        font-size: 15px;
     }
     /*footer*/
     .container-footer{
-        max-width: 1170px;
+        max-width: 575px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 1.3rem;
     }
     footer{
         background-color: #464646;
@@ -2122,7 +2306,7 @@ html {
         margin-left: 15px;
     }
     .category{
-        font-size: 15px;
+        font-size: 17.5px;
         color: #D5A770;
     }
     .featured-news img{
@@ -2135,17 +2319,31 @@ html {
 
     }
     .cnt{
-        line-height: 3rem;
+        line-height: 3.5rem;
         padding-bottom: 25px;
     }
     figcaption{
-        line-height: 3rem;
+        line-height: 3.5rem;
         padding-bottom: 10px;
     
     }
     
-    a:focus, a:hover, a:link, a:visited {
+    a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    .thumnail1{
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
+    }
+    .thumnail2{
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
+    }
+    .link{
+        font-size: 14px;
+        color: #333;
     }
 }
