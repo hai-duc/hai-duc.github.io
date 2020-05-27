@@ -139,7 +139,7 @@ html {
         color: #D5A770;
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
-       
+
     }
     #dropdownMenuButton1{
         display: flex;
@@ -148,7 +148,7 @@ html {
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
         font-size: 17px;
-        
+        align-items: center
     }
     
     .dropdown-item{
@@ -566,6 +566,7 @@ html {
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
         font-size: 16px;
+        align-items: center;
     }
     .dropdown-item{
         font-size: 15px;
@@ -1165,6 +1166,7 @@ html {
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
         font-size: 15px;
+        align-items: center;
     }
     .dropdown-toggle::after{
         font-size: 18px;
@@ -1571,6 +1573,7 @@ html {
     height: 60px;
     box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
     font-size: 15px;
+    align-items: center;
 }
 .dropdown-toggle::after{
     font-size: 22px;
@@ -1990,6 +1993,7 @@ html {
     height: 60px;
     box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
     font-size: 15px;
+    align-items: center;
 }
 .dropdown-toggle::after{
     font-size: 20px;
