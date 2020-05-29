@@ -4,22 +4,22 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     responsive:{
         300:{
-            items:1.5
+            items:1.25
         },
         400:{
-            items:1.85
+            items:1.65
         },
         500:{
             items:2.15
         },
         600:{
-            items:2.25
+            items:2.15
         },
         700:{
-            items:2.5
+            items:2.35
         },
         800:{
-            items:3.2
+            items:2.8 
         },
         900:{
             items:3.25
