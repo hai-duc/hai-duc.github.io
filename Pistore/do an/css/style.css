@@ -6,7 +6,9 @@
 
 html {
     font-size: 62.5%;
+    
 }
+
 @media only screen and (min-width: 1200px){
     
     /*Navbar*/
@@ -15,11 +17,7 @@ html {
         padding-right: 0px;
         
     }
-    .container-nav{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    
     header{
         background-color: #333;
     }
@@ -50,7 +48,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 17px;
         max-width: 123px;
@@ -66,22 +64,25 @@ html {
     .fa-search:focus{
         width: 100%;
     }
-    .logo{
-        margin-top: 7px;
-        max-width: 45px;
-        height: 65px;
-        margin-left: 1.5rem;
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
     }
-    .slogan{
-        padding-left: 1.3rem;
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     .slogan1{
         font-size: 27px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.2rem;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -95,31 +96,56 @@ html {
         position: absolute;
         top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 102px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -57%;
         opacity: 0.8;
-        margin-top: -2px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
     /*main*/
     .father-title1{
@@ -143,6 +169,7 @@ html {
     .content1{
         margin-top: 3rem;
         padding-bottom: 14rem;
+        overflow: hidden;
     }
     
     .parent-title1{
@@ -154,16 +181,14 @@ html {
         
     }
     
-
     .child-content1 img{
         width: 100%;
-        height: 296px;
+        height: 100%;
     }
 
     .container{
         margin: 0 auto;
-        max-width: 1170px;
-        width: 100%;
+        
     }
     #son-content1{
         margin-top: 57px;
@@ -184,12 +209,14 @@ html {
     
     .content1-picture1{
         position: relative;
+        width: 100%;
+        height: 300px;
     }
     
     .addToCart1{
         position: absolute;
-        top: 62%;
-        left: 85%;
+        top: 55%;
+        left: 83%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -206,7 +233,7 @@ html {
     .addToCart2{
         position: absolute;
         top: 42%;
-        left: 85%;
+        left: 83%;
         color: #333;
         background-color:#fff;
         font-size: 14px;
@@ -357,12 +384,15 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     
     /*banner*/
@@ -406,6 +436,9 @@ html {
         margin: 15px 0;
         color: #5d5d5d;
         font-weight: 300;
+    }
+    .title4 a{
+        color: #333;
     }
     /*magazine*/
     .content5{
@@ -519,7 +552,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 16px;
     }
@@ -536,51 +569,89 @@ html {
         height: 68px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
+    
     .slogan1{
         font-size: 27px;
+        font-family: Oleo Script;
+        color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 17px;
+        font-family: Oleo Script;
+        color: #fff;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
+    
     .carousel-item img{
         height: 500px;
     }
     .title{
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -57%;
         opacity: 0.8;
-        margin-top: -4px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
     /*main*/
     .father-title1{
@@ -604,6 +675,7 @@ html {
     .content1{
         margin-top: 3rem;
         padding-bottom: 14rem;
+        overflow: hidden;
     }
     
     .parent-title1{
@@ -620,12 +692,6 @@ html {
         height: 296px;
     }
 
-    .container{
-        
-    
-        margin: 0 auto;
-        max-width: 1170px;
-    }
     #son-content1{
         
         
@@ -639,13 +705,15 @@ html {
 
     .content1-picture1{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+        height: 260px;
     }
 
     
     .content1-picture1 img{
         color: #000;
+        width: 100%;
+        height: 100%;
     }
     .content1-picture1 img {
         border: 5px solid;
@@ -657,7 +725,7 @@ html {
     .addToCart1{
         position: absolute;
         top: 42%;
-        left: 85%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -673,8 +741,8 @@ html {
     
     .addToCart2{
         position: absolute;
-        top: 62%;
-        left: 85%;
+        top: 55%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         font-size: 14px;
@@ -797,12 +865,7 @@ html {
         font-size: 15px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -828,12 +891,15 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     
     /*banner*/
@@ -877,6 +943,9 @@ html {
         margin: 15px 0;
         color: #5d5d5d;
         font-weight: 300;
+    }
+    .title4 a{
+        color: #333;
     }
     /*magazine*/
     .content5{
@@ -949,36 +1018,30 @@ html {
 @media only screen and (min-width: 768px) and (max-width:991px){
 
     /*Navbar*/
-    
     .container-fluid{
-        padding-right: 0px;
         padding-left: 0px;
-        overflow: hidden;
+        padding-right: 0px;
+        
     }
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        padding: 0px !important;
-    }
+    
     header{
         background-color: #333;
     }
-    #navbarNav{
-        background-color: #333;
-        margin-top: -2rem;
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
+
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
-        line-height: 4rem;
+        max-width: 300px !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -990,34 +1053,41 @@ html {
         display: flex;
         
     }
-    .navbar-toggler{
-        background-color: #fff;
-    }
-    .navbar-light .navbar-toggler{
-        margin-right: 2.3rem;
-    }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 14px;
-        display: none;
         
     }
-    .logo{
-        
-        margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
-        margin-left: 1.5rem;
+    
+    .icon i {
+        margin-left: 1rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     .slogan1{
-        font-size: 27px;
+        font-size: 25px;
+        margin-bottom: 0.1rem;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
-        font-size: 17px;
+        font-size: 14px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -1028,31 +1098,56 @@ html {
     }
     .title{
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
         color: #fff;
-        font-size: 24px;
-        background-color: #333;
-        max-width: 28rem;
-        height: 70px;
+        font-size: 26px;
+        background-color: #000;
         text-align: center;
-        line-height: 70px;
-        margin-left: -57%;
+        line-height: 90px;
         opacity: 0.8;
-        margin-top: -4px;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 1rem;
     }
     /*main*/
     .father-title1{
@@ -1076,6 +1171,7 @@ html {
     .content1{
         margin-top: 3rem;
         padding-bottom: 14rem;
+        overflow: hidden;
     }
     .parent-title1{
         
@@ -1090,12 +1186,7 @@ html {
         height: 296px;
     }
 
-    .container{
-        
     
-        margin: 0 auto;
-        max-width: 1170px;
-    }
     #son-content1{
         
         
@@ -1109,11 +1200,13 @@ html {
 
     .content1-picture1{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+        height: 25rem;
     }
     .content1-picture1 img{
         color: #000;
+        width: 100%;
+        height: 100%;
     }
     .content1-picture1 img {
         border: 5px solid;
@@ -1125,7 +1218,7 @@ html {
     .addToCart1{
         position: absolute;
         top: 42%;
-        left: 85%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -1141,8 +1234,8 @@ html {
     
     .addToCart2{
         position: absolute;
-        top: 62%;
-        left: 85%;
+        top: 55%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         font-size: 14px;
@@ -1187,7 +1280,7 @@ html {
 
     
     .name{
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         color: #000;
     }
@@ -1196,7 +1289,7 @@ html {
         color: #8c8c8c;
     }
     .artist{
-        font-size: 15px;
+        font-size: 14px;
         color: #d5a770;
     }
     .price{
@@ -1299,12 +1392,17 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
+
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+
     }
     
     /*banner*/
@@ -1349,6 +1447,9 @@ html {
         color: #5d5d5d;
         font-weight: 300;
     }
+    .title4 a{
+        color: #333;
+    }
     /*magazine*/
     .content5{
         padding: 80px 0;
@@ -1357,7 +1458,7 @@ html {
 
     .content5 h2{
         font-weight: 500;
-        font-size: 42px;
+        font-size: 34px;
         vertical-align: middle;
         line-height: 42px;
         margin-bottom: 75px;
@@ -1369,7 +1470,7 @@ html {
     }
     
     .category{
-        font-size: 17px;
+        font-size: 15px;
         color: #D5A770;
     }
     .featured-news img{
@@ -1386,7 +1487,7 @@ html {
     
     }
     figure img{
-        height: 179px;
+        height: 160px;
         width: 35%;
     }
     figure{
@@ -1410,20 +1511,27 @@ html {
         font-size: 15px;
         font-weight: 600;
         color:#000;
+        overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background-color: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
         
@@ -1434,9 +1542,9 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
+        padding-bottom: 1rem;
     }
     
     .nav-link{
@@ -1453,9 +1561,6 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1.6rem;
-    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1470,14 +1575,17 @@ html {
 
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.4rem;
-    }
+    
     .slogan1{
         font-size: 22px;
+        font-family: Oleo Script;
+        color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 15px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -1488,31 +1596,61 @@ html {
     }
     .title{
         position: absolute;
-        top: 32%;
-        left: 48%; 
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
         color: #fff;
-        font-size: 24px;
-        background-color: #333;
-        max-width: 30rem;
-        height: 70px;
+        font-size: 23px;
+        background-color: #000;
         text-align: center;
-        line-height: 70px;
-        margin-left: -57%;
+        line-height: 90px;
         opacity: 0.8;
-        margin-top: -4px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .subtitle3{
+        margin: 0 auto;
+    width: 60%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+    position: relative;
+    top: -36px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*main*/
     .father-title1{
@@ -1536,6 +1674,8 @@ html {
     .content1{
         margin-top: 3rem;
         padding-bottom: 14rem;
+        overflow: hidden;
+
     }
     .parent-title1{
         
@@ -1550,12 +1690,7 @@ html {
         height: 296px;
     }
 
-    .container{
-        
     
-        margin: 0 auto;
-        max-width: 1170px;
-    }
     #son-content1{
         
         
@@ -1591,7 +1726,7 @@ html {
     .addToCart1{
         position: absolute;
         top: 42%;
-        left: 85%;
+        left: 83%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -1602,12 +1737,13 @@ html {
         font-size: 14px;
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     
     .addToCart2{
         position: absolute;
-        top: 62%;
-        left: 85%;
+        top: 55%;
+        left: 83%;
         color: #333;
         background-color: #fff;
         font-size: 14px;
@@ -1618,6 +1754,7 @@ html {
         font-weight: 700;
         opacity: 0;
         border: none;
+        z-index: 10;
     }
     .content1-picture1::before{
         width: 100%;
@@ -1764,12 +1901,15 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     
     /*banner*/
@@ -1814,6 +1954,9 @@ html {
         color: #5d5d5d;
         font-weight: 300;
     }
+    .title4 a{
+        color: #333;
+    }
     /*magazine*/
     .content5{
         padding: 80px 0;
@@ -1822,7 +1965,7 @@ html {
 
     .content5 h2{
         font-weight: 500;
-        font-size: 42px;
+        font-size: 34px;
         vertical-align: middle;
         line-height: 42px;
         margin-bottom: 75px;
@@ -1890,14 +2033,16 @@ html {
     /*Navbar*/
     
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
     }
@@ -1907,8 +2052,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 3.3rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
         padding-bottom: 2rem;
     }
@@ -1942,14 +2086,17 @@ html {
         height: 65px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
-    }
+    
     .slogan1{
-        font-size: 25px;
+        font-size: 22px;
+        font-family: Oleo Script;
+        color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
-        font-size: 15px;
+        font-size: 14px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     
@@ -1961,34 +2108,63 @@ html {
     }
     .title{
         position: absolute;
-        top: 30%;
-        left: 49%;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
         
     }
     .subtitle1{
         color: #fff;
-        font-size: 7px;
-        background-color: black;
-        max-width: 7rem;
-        height: 16px;
-        text-align: center;
-        line-height: 16px;
-        letter-spacing: 2px;
-        margin-left: -2.8rem;
+    font-size: 0.9rem;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
         color: #fff;
-        font-size: 18px;
-        background-color: #333;
-        max-width: 19rem;
-        height: 55px;
-        text-align: center;
-        line-height: 55px;
-        margin-left: -54%;
-        opacity: 0.8;
-        margin-top: -3px;
+    font-size: 1.25rem;
+    background-color: #000;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -0.4rem;
+    opacity: 0.75;
+    
+    }
+    .subtitle3{
+        margin: 0 auto;
+    width: 60%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    position: relative;
+    top: -10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*main*/
+    .container-main{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
     .father-title1{
         position: relative;
         top: 3rem;
@@ -2010,6 +2186,8 @@ html {
     .content1{
         margin-top: 3rem;
         padding-bottom: 14rem;
+        overflow: hidden;
+
     }
     .parent-title1{
         
@@ -2024,14 +2202,7 @@ html {
         height: 296px;
     }
 
-    .container{
-        
     
-        margin: 0 auto;
-        max-width: 350px;
-        overflow: hidden;
-        
-    }
     #son-content1{
         
         
@@ -2065,7 +2236,7 @@ html {
     }
     .addToCart1{
         position: absolute;
-        top: 62%;
+        top: 55%;
         left: 85%;
         color: #333;
         background-color: #fff;
@@ -2237,12 +2408,15 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     
     /*banner*/
@@ -2286,6 +2460,9 @@ html {
         margin: 15px 0;
         color: #5d5d5d;
         font-weight: 300;
+    }
+    .title4 a{
+        color: #333;
     }
     /*magazine*/
     .content5{

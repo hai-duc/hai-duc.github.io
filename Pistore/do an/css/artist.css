@@ -65,11 +65,17 @@ html {
     .icon a i {
         color: #fff;
     }
-    .logo{
-        margin-top: 7px;
-        max-width: 45px;
-        height: 65px;
-        margin-left: 1.5rem;
+    .fa-search:focus{
+        width: 100%;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     .slogan{
         padding-left: 1.3rem;
@@ -77,10 +83,13 @@ html {
     .slogan1{
         font-size: 27px;
         margin-bottom: 0.6rem;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -448,7 +457,7 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        margin-right: 3rem;
+        margin-right: 4rem;
     }
     .nav-link{
         font-size: 19px;
@@ -484,9 +493,13 @@ html {
     }
     .slogan1{
         font-size: 27px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 17px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -878,11 +891,11 @@ html {
         display: flex;
         
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 2rem;
-    }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 2.3rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -899,13 +912,17 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.6rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 27px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 17px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -1276,9 +1293,7 @@ html {
         padding-top: 2rem;
         line-height: 4rem;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1.8rem;
-    }
+    
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -1292,6 +1307,9 @@ html {
     }
     .navbar-toggler{
         background-color: #fff;
+    }
+    .navbar-light .navbar-toggler{
+        margin-right: 1.6rem;
     }
     .icon{
         margin-right: 2.5rem;
@@ -1308,13 +1326,17 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.4rem;
+        padding-left: 2.4rem;
     }
     .slogan1{
         font-size: 22px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 15px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
@@ -1682,7 +1704,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
+        padding-left: 3.3rem;
         padding-top: 2rem;
         line-height: 4rem;
         padding-bottom: 2rem;
@@ -1697,7 +1719,6 @@ html {
     }
     .navbar-brand{
         display: flex;
-        
     }
     .navbar-toggler{
         background-color: #fff;
@@ -1719,13 +1740,17 @@ html {
         margin-left: 1.5rem;
     }
     .slogan{
-        padding-left: 1.3rem;
+        padding-left: 2.3rem;
     }
     .slogan1{
         font-size: 25px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     .slogan2{
         font-size: 15px;
+        font-family: Oleo Script;
+        color: #fff;
     }
     /*carousel*/
     
