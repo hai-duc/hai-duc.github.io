@@ -186,10 +186,7 @@ html {
         height: 100%;
     }
 
-    .container{
-        margin: 0 auto;
-        
-    }
+    
     #son-content1{
         margin-top: 57px;
         
@@ -339,7 +336,8 @@ html {
         margin-top: 35px;
     }
     #input{
-        width: 505px;
+        max-width: 505px;
+        width: 100%;
     
         
         
@@ -353,12 +351,7 @@ html {
         font-size: 16px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -852,8 +845,8 @@ html {
         margin-top: 35px;
     }
     #input{
-        width: 505px;
-    
+        max-width: 505px;
+        width: 100%;
         
         margin: 0 auto;
     }
@@ -1345,7 +1338,8 @@ html {
         margin-top: 35px;
     }
     #input{
-        width: 505px;
+        max-width: 505px;
+        width: 100%;
         margin: 0 auto;
         
     }
