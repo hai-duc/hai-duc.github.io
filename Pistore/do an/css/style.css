@@ -2070,9 +2070,7 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1rem;
-    }
+    
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -2129,7 +2127,7 @@ html {
     }
     .subtitle2{
         color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     background-color: #000;
     text-align: center;
     line-height: 60px;
@@ -2238,7 +2236,7 @@ html {
     .addToCart1{
         position: absolute;
         top: 55%;
-        left: 85%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -2255,7 +2253,7 @@ html {
     .addToCart2{
         position: absolute;
         top: 42%;
-        left: 85%;
+        left: 80%;
         color: #333;
         background-color: #fff;
         width: 30px;
@@ -2473,7 +2471,7 @@ html {
 
     .content5 h2{
         font-weight: 500;
-        font-size: 42px;
+        font-size: 38px;
         vertical-align: middle;
         line-height: 42px;
         margin-bottom: 75px;
@@ -2484,7 +2482,7 @@ html {
         margin-left: 15px;
     }
     .category{
-        font-size: 17.5px;
+        font-size: 16px;
         color: #D5A770;
     }
     .featured-news img{
@@ -2512,17 +2510,17 @@ html {
         outline: 0;
     }
     .thumnail1{
-        font-size: 16px;
+        font-size: 15px;
         color: #333;
         font-weight: 700;
     }
     .thumnail2{
-        font-size: 16px;
+        font-size: 15px;
         color: #333;
         font-weight: 700;
     }
     .link{
-        font-size: 14px;
+        font-size: 13.5px;
         color: #333;
     }
 }
