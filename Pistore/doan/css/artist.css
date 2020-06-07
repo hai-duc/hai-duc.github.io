@@ -140,9 +140,11 @@ html {
         text-transform: uppercase;
         border-radius: 5px;
     }
-    a .subtitle3{
-        text-decoration: none;
+    a .subtitle3 {
         color: #fff;
+    }
+    a:hover{
+        text-decoration: none;
     }
     .fa-arrow-right:before{
         margin-left: 2rem;
@@ -439,7 +441,9 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
-
+    }
+    #basic-addon2{
+        cursor: pointer;
     }
 }
 
