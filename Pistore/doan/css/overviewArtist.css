@@ -76,12 +76,12 @@ header{
 .slogan1{
     font-size: 27px;
     margin-bottom: 0.2rem;
-    font-family: Oleo Script;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
 }
 .slogan2{
     font-size: 14px;
-    font-family: Oleo Script;
+    font-family: 'Lobster', cursive;
     color: #fff;
 }
     /*carousel*/
@@ -489,13 +489,13 @@ header{
     
     .slogan1{
         font-size: 27px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
         margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 17px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     .fa-search:hover:before, .fa-heart:hover:before{
@@ -929,12 +929,12 @@ header{
     .slogan1{
         font-size: 25px;
         margin-bottom: 0.1rem;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -1348,13 +1348,13 @@ header{
     
     .slogan1{
         font-size: 22px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
         margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 15px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -1773,13 +1773,13 @@ header{
     
     .slogan1{
         font-size: 22px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
         margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 14px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -2079,7 +2079,7 @@ header{
         margin-top: 35px;
     }
     #input{
-        width: 300px;
+        width: 100%;
         margin: 0 auto;
     }
     .form-control{
