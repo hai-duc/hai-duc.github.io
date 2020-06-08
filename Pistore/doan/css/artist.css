@@ -1869,6 +1869,7 @@ html {
         
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
     font-size: 1.55rem;
     background-color: #000;

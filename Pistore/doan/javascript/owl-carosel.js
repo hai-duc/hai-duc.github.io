@@ -12,20 +12,29 @@ $('.owl-carousel').owlCarousel({
         500:{
             items:2.15
         },
+        575:{
+            items:1.6
+        },
         600:{
-            items:2.15
+            items:1.6
         },
         700:{
-            items:2.35
+            items:1.65
         },
         800:{
-            items:2.8 
+            items:2.2
         },
         900:{
-            items:3.25
+            items:2.3
         },
         1000:{
-            items:3.65
+            items:3.1
+        },
+        1100:{
+            items:3.15
+        },
+        1200:{
+            items:3.55
         }
     }
 })

@@ -14,11 +14,7 @@ html {
         padding-right: 0px;
         
     }
-    .container-nav{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    
     header{
         background-color: #333;
     }
@@ -49,7 +45,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 17px;
         max-width: 123px;
@@ -74,25 +70,22 @@ html {
     .slogan1:hover, .slogan2:hover{
         color: #d5a770;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
     .slogan1{
         font-size: 27px;
-        margin-bottom: 0.6rem;
-        font-family: Oleo Script;
+        margin-bottom: 0.2rem;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
-
     /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
+    
     .carousel-item img{
         height: 500px;
     }
@@ -100,37 +93,60 @@ html {
         position: absolute;
         top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
+        width: 100%;
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -50%;
         opacity: 0.8;
-        margin-top: -4px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        margin: 0 auto;
-    }
+    
     .content1{
         margin-top: 50px;
     }
@@ -149,7 +165,7 @@ html {
     }
     #dropdownMenuButton1{
         display: flex;
-        color: #D5A770;
+        color: #000;
         justify-content: center;
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
@@ -313,6 +329,7 @@ html {
     }
     #basic-addon2{
         font-size: 15px;
+        cursor: pointer;
     }
     /*footer*/
     .container-footer{
@@ -346,12 +363,19 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
 
     /*uiSlider*/
@@ -477,7 +501,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 16px;
     }
@@ -494,62 +518,94 @@ html {
         height: 68px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
+    
     .slogan1{
         font-size: 27px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 17px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
+    
     .carousel-item img{
         height: 500px;
     }
     .title{
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
+        width: 100%;
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -50%;
         opacity: 0.8;
-        margin-top: -4px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
 
     /*main*/
-    .container{
-        margin: 0 auto;
-        max-width: 1170px;
-    }
+    
     .container .parent-uislider{
         padding-left: 10rem;
     }
@@ -573,7 +629,7 @@ html {
     }
     #dropdownMenuButton1{
         display: flex;
-        color: #D5A770;
+        color: #000;
         justify-content: center;
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
@@ -731,12 +787,7 @@ html {
         font-size: 15px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.5rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -763,12 +814,19 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
 
     /*uiSlider*/
@@ -849,36 +907,30 @@ html {
 
 @media only screen and (min-width: 768px) and (max-width:991px){
     /*Navbar*/
-    
     .container-fluid{
-        padding-right: 0px;
         padding-left: 0px;
-        overflow: hidden;
+        padding-right: 0px;
+        
     }
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        padding: 0px !important;
-    }
+    
     header{
         background-color: #333;
     }
-    #navbarNav{
-        background-color: #333;
-        margin-top: -2rem;
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
+
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
-        line-height: 4rem;
+        max-width: 300px !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -890,37 +942,40 @@ html {
         display: flex;
         
     }
-    .navbar-toggler{
-        background-color: #fff;
-    }
-    .navbar-light .navbar-toggler{
-        margin-right: 2.3rem;
-    }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 14px;
-        display: none;
         
     }
-    .logo{
-        
-        margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
-        margin-left: 1.5rem;
+    
+    .icon i {
+        margin-left: 1rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     .slogan1{
-        font-size: 27px;
-        font-family: Oleo Script;
+        font-size: 25px;
+        margin-bottom: 0.1rem;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
-        font-size: 17px;
-        font-family: Oleo Script;
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -932,31 +987,57 @@ html {
     }
     .title{
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
-        font-size: 24px;
-        background-color: #333;
-        max-width: 28rem;
-        height: 70px;
+        font-size: 26px;
+        background-color: #000;
         text-align: center;
-        line-height: 70px;
-        margin-left: -48%;
+        line-height: 90px;
         opacity: 0.8;
-        margin-top: -4px;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 1rem;
     }
     /*Pagination*/
     .pagination{
@@ -1040,12 +1121,7 @@ html {
         font-size: 15px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.1rem;
-    }
+    
     .container-footer .row{
         margin-right: 0px ;
         margin-left: 0px;
@@ -1075,12 +1151,19 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
     /*uiSlider*/
     .content8{
@@ -1097,20 +1180,20 @@ html {
     #slider-non-linear-step1{
         background-color:#D5A770;
         height: 5px;
-        max-width: 190px;
+        max-width: 160px;
         border: none;
     }
     #slider-non-linear-step2{
         background-color:#D5A770;
         height: 5px;
         border: none;
-        max-width: 190px;
+        max-width: 160px;
     }
     #slider-non-linear-step3{
         background-color:#D5A770;
         height: 5px;
         border: none;
-        max-width: 190px;
+        max-width: 160px;
     }
     
     .noUi-horizontal .noUi-handle{
@@ -1137,9 +1220,10 @@ html {
     }
     .information-filterSlider{
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: baseline;
-        max-width: 207px;
+        
         padding-bottom: 20px;
     }
     .title-filterSlider{
@@ -1158,13 +1242,9 @@ html {
         font-size: 14px;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        margin: 0 auto;
-    }
+    
     .content1{
         margin-top: 50px;
-        padding-right: 3.125rem;
     }
     #dropdownMenuButton{
         display: flex;
@@ -1180,7 +1260,7 @@ html {
     }
     #dropdownMenuButton1{
         display: flex;
-        color: #D5A770;
+        color: #000;
         justify-content: center;
         height: 60px;
         box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
@@ -1263,14 +1343,16 @@ html {
 @media only screen and (min-width: 576px) and (max-width:767px){
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background-color: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
         
@@ -1281,9 +1363,9 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
+        padding-bottom: 1rem;
     }
     
     .nav-link{
@@ -1300,9 +1382,6 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1.6rem;
-    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1317,17 +1396,16 @@ html {
 
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.4rem;
-    }
+    
     .slogan1{
         font-size: 22px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 15px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -1339,31 +1417,62 @@ html {
     }
     .title{
         position: absolute;
-        top: 32%;
-        left: 48%; 
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -1.4rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
-        font-size: 24px;
-        background-color: #333;
-        max-width: 30rem;
-        height: 70px;
+        font-size: 23px;
+        background-color: #000;
         text-align: center;
-        line-height: 70px;
-        margin-left: -50%;
+        line-height: 90px;
         opacity: 0.8;
-        margin-top: -4px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .subtitle3{
+        margin: 0 auto;
+    width: 60%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+    position: relative;
+    top: -36px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*Pagination*/
     .pagination{
@@ -1484,14 +1593,20 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
-
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
     /*uiSlider*/
     .content8{
         margin-top: 50px;
@@ -1571,10 +1686,7 @@ html {
         font-size: 14px;
     }
 /*main*/
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
+
 .content1{
     margin-top: 50px;
     padding-right: 3.125rem;
@@ -1593,7 +1705,7 @@ html {
 }
 #dropdownMenuButton1{
     display: flex;
-    color: #D5A770;
+    color: #000;
     justify-content: center;
     height: 60px;
     box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
@@ -1626,6 +1738,9 @@ html {
     text-align: center;
     font-size: 17px;
     font-weight: 500;
+}
+.son1-content2{
+    padding-left: 2rem;
 }
 .son1-content2 .item img{
     max-width: 209px;
@@ -1686,14 +1801,16 @@ html {
     /*Navbar*/
     
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
     }
@@ -1703,8 +1820,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 3.3rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
         padding-bottom: 2rem;
     }
@@ -1722,9 +1838,7 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1rem;
-    }
+    
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1738,17 +1852,16 @@ html {
         height: 65px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
-    }
+    
     .slogan1{
-        font-size: 25px;
-        font-family: Oleo Script;
+        font-size: 22px;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
-        font-size: 15px;
-        font-family: Oleo Script;
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -1758,36 +1871,61 @@ html {
     }
     .carousel-item img{
         height: 200px;
-        width: 100%;
     }
     .title{
         position: absolute;
-        top: 30%;
-        left: 49%;
-        
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 190px;
+        width: 100%;
     }
     .subtitle1{
         color: #fff;
-        font-size: 7px;
-        background-color: black;
-        max-width: 7rem;
-        height: 16px;
-        text-align: center;
-        line-height: 16px;
-        letter-spacing: 2px;
-        margin-left: -2.8rem;
+    font-size: 0.9rem;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
-        font-size: 16px;
-        background-color: #333;
-        max-width: 18rem;
-        height: 55px;
-        text-align: center;
-        line-height: 55px;
-        margin-left: -50%;
-        opacity: 0.8;
-        margin-top: -3px;
+    font-size: 1.55rem;
+    background-color: #000;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -0.4rem;
+    opacity: 0.75;
+    
+    }
+    .subtitle3{
+        margin: 0 auto;
+    width: 50%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    position: relative;
+    top: -10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*Pagination*/
     .pagination{
@@ -1861,7 +1999,7 @@ html {
         margin-top: 35px;
     }
     #input{
-        width: 300px;
+        width: 100%;
         margin: 0 auto;
     }
     .form-control{
@@ -1872,12 +2010,7 @@ html {
         font-size: 15px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 575px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -1908,12 +2041,19 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    a:focus, a:hover, a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
     /*uiSlider*/
     .content8{
@@ -1976,7 +2116,7 @@ html {
         padding-bottom: 20px;
     }
     .title-filterSlider{
-        font-size: 15px;
+        font-size: 13px;
     }
     .uisliderPrize1{
         padding-bottom: 5rem;
@@ -1997,10 +2137,6 @@ html {
         font-size: 14px;
     }
 /*main*/
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
 .content1{
     margin-top: 50px;
     margin-left: -2rem;
@@ -2020,7 +2156,7 @@ html {
 }
 #dropdownMenuButton1{
     display: flex;
-    color: #D5A770;
+    color: #000;
     justify-content: center;
     height: 60px;
     box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
