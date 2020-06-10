@@ -588,6 +588,10 @@ html {
     #basic-addon2{
         cursor: pointer;
     }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px){
@@ -1149,6 +1153,10 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
 }
 
@@ -1721,7 +1729,10 @@ html {
         color: #919294;
         padding-right: 1rem;
     }
-    
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -2291,6 +2302,10 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
 }
 
@@ -2864,5 +2879,9 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
 }

@@ -15,11 +15,7 @@ html {
         padding-right: 0px;
         
     }
-    .container-nav{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    
     header{
         background-color: #333;
     }
@@ -50,7 +46,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 17px;
         max-width: 123px;
@@ -75,25 +71,19 @@ html {
     .slogan1:hover, .slogan2:hover{
         color: #d5a770;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
     .slogan1{
         font-size: 27px;
-        margin-bottom: 0.6rem;
-        font-family: Oleo Script;
+        margin-bottom: 0.2rem;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
-    }
+    
     .content{
         padding-top: 11rem;
         background: rgba(196, 196, 196, 0.2);
@@ -137,6 +127,7 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 2rem;
     }
     .sontitle2Content{
         font-family: Roboto;
@@ -153,19 +144,19 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
     .inputLastname{
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
     .inputFirstname{
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
     .inputPhonenumber{
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
     .inputAddress{
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
@@ -412,12 +403,6 @@ html {
         font-size: 16px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -444,26 +429,34 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 
 }
 @media only screen and (min-width: 992px) and (max-width:1199px){
-    /*Navbar*/
     .container-fluid{
         padding-right: 0px;
         padding-left: 0px;
     }
-    .container-nav{
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    
     header{
         background-color: #333;
     }
@@ -494,7 +487,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 16px;
     }
@@ -511,24 +504,29 @@ html {
         height: 68px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
+    
     .slogan1{
         font-size: 27px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 17px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
-    /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
     }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
+    }
+    /*main*/
+    
     .content{
         padding-top: 11rem;
         background: rgba(196, 196, 196, 0.2);
@@ -547,7 +545,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 33px;
         line-height: 42px;
 
         color: #000000;
@@ -556,6 +554,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .numberStep{
         font-family: Roboto;
@@ -588,19 +587,19 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputLastname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputFirstname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputPhonenumber{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputAddress{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
@@ -624,6 +623,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .children2Content{
         padding-left: 4rem;
@@ -843,12 +843,7 @@ html {
         font-size: 15px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -875,46 +870,53 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
 @media only screen and (min-width: 768px) and (max-width:991px){
     /*Navbar*/
-    
     .container-fluid{
-        padding-right: 0px;
         padding-left: 0px;
-        overflow: hidden;
+        padding-right: 0px;
+        
     }
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        padding: 0px !important;
-    }
+    
     header{
         background-color: #333;
     }
-    #navbarNav{
-        background-color: #333;
-        margin-top: -2rem;
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
+
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
-        line-height: 4rem;
+        max-width: 300px !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
     .nav-link{
         font-size: 19px;
         color: #fff !important;
@@ -926,44 +928,44 @@ html {
         display: flex;
         
     }
-    .navbar-toggler{
-        background-color: #fff;
-    }
-    .navbar-light .navbar-toggler{
-        margin-right: 2.3rem;
-    }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 14px;
-        display: none;
         
     }
-    .logo{
-        
-        margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
-        margin-left: 1.5rem;
+    
+    .icon i {
+        margin-left: 1rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     .slogan1{
-        font-size: 27px;
-        font-family: Oleo Script;
+        font-size: 25px;
+        margin-bottom: 0.1rem;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
-        font-size: 17px;
-        font-family: Oleo Script;
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
-    }
+    
     .content{
         padding-top: 5rem;
         background: rgba(196, 196, 196, 0.2);
@@ -982,7 +984,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 31px;
         line-height: 42px;
 
         color: #000000;
@@ -991,6 +993,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .numberStep{
         font-family: Roboto;
@@ -1023,19 +1026,19 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputLastname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputFirstname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputPhonenumber{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputAddress{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
@@ -1059,6 +1062,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .children2Content{
         padding-left: 4rem;
@@ -1310,25 +1314,40 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
 @media only screen and (min-width: 576px) and (max-width:767px){
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background-color: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
         
@@ -1339,9 +1358,9 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
+        padding-bottom: 1rem;
     }
     
     .nav-link{
@@ -1358,9 +1377,6 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1.6rem;
-    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1375,25 +1391,20 @@ html {
 
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.4rem;
-    }
+    
     .slogan1{
         font-size: 22px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 15px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
 
     /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
-    }
     .content{
         padding-top: 5rem;
         background: rgba(196, 196, 196, 0.2);
@@ -1412,15 +1423,15 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 42px;
-
         color: #000000;
     }
     .title2son1Content{
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .numberStep{
         font-family: Roboto;
@@ -1428,9 +1439,9 @@ html {
         font-weight: normal;
         font-size: 25px;
         line-height: 29px;
-        max-width: 55px;
+        max-width: 45px;
         width: 100%;
-        height: 55px;
+        height: 45px;
         color: #FFFFFF;
         background: #D5A770;
         border-radius: 32px;
@@ -1442,7 +1453,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 24px;
         line-height: 30px;
         color: #000000;
         padding-left: 5rem;
@@ -1453,25 +1464,25 @@ html {
         align-items: center;
     }
     .inputEmail{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputLastname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputFirstname{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputPhonenumber{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .inputAddress{
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 16px;
         color: #000000;
         max-width: 100px;
@@ -1489,6 +1500,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 2rem;
     }
     .children2Content{
         padding-left: 4rem;
@@ -1498,7 +1510,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         height: 16px;
         color: #000000;
         padding-left: 4rem;
@@ -1743,26 +1755,41 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
 @media only screen and (min-width: 320px) and (max-width:575px){
     /*Navbar*/
     
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
     }
@@ -1772,8 +1799,7 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 3.3rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
         padding-bottom: 2rem;
     }
@@ -1791,9 +1817,7 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1rem;
-    }
+    
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -1807,24 +1831,20 @@ html {
         height: 65px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
-    }
+    
     .slogan1{
-        font-size: 25px;
-        font-family: Oleo Script;
+        font-size: 22px;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
-        font-size: 15px;
-        font-family: Oleo Script;
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
-    }
+    
     .content{
         padding-top: 5rem;
         background: rgba(196, 196, 196, 0.2);
@@ -1843,7 +1863,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
+        font-size: 29px;
         line-height: 42px;
 
         color: #000000;
@@ -1852,6 +1872,7 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 1rem;
     }
     .numberStep{
         font-family: Roboto;
@@ -1859,9 +1880,9 @@ html {
         font-weight: normal;
         font-size: 25px;
         line-height: 29px;
-        max-width: 55px;
+        max-width: 40px;
         width: 100%;
-        height: 55px;
+        height: 40px;
         color: #FFFFFF;
         background: #D5A770;
         border-radius: 32px;
@@ -1880,7 +1901,7 @@ html {
     }
     #Email1{
         display: flex;
-        margin-top: 3rem;
+        margin-top: 4rem;
         align-items: center;
     }
     .inputEmail{
@@ -1902,7 +1923,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 16px;
         color: #000000;
         max-width: 100px;
@@ -1920,9 +1941,10 @@ html {
         display: flex;
         align-items: center;
         padding-top: 5rem;
+        margin-left: 1rem;
     }
     .children2Content{
-        padding-left: 4rem;
+        padding-left: 2rem;
         
     }
     .form-check-label{
@@ -2036,7 +2058,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 21px;
         color: #000000;
         padding-bottom: 1rem;
@@ -2085,7 +2107,7 @@ html {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 14px;
         color: #000000;
         max-width: 200px;
         width: 100%;
@@ -2129,7 +2151,7 @@ html {
         margin-top: 35px;
     }
     #input{
-        width: 300px;
+        width: 100%;
         margin: 0 auto;
     }
     .form-control{
@@ -2176,11 +2198,24 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
