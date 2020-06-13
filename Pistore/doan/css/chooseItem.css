@@ -592,6 +592,9 @@ html {
         text-decoration: none;
         outline: 0;
     }
+    button:not(:disabled){
+        outline: none;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px){
@@ -1157,6 +1160,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
 
@@ -1733,6 +1739,9 @@ html {
         text-decoration: none;
         outline: 0;
     }
+    button:not(:disabled){
+        outline: none;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -2306,6 +2315,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }
 
@@ -2883,5 +2895,8 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 }

@@ -16,11 +16,7 @@ html {
         padding-right: 0px;
         
     }
-    .container-nav{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    
     header{
         background-color: #333;
     }
@@ -51,7 +47,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 17px;
         max-width: 123px;
@@ -76,24 +72,22 @@ html {
     .slogan1:hover, .slogan2:hover{
         color: #d5a770;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
     .slogan1{
         font-size: 27px;
-        margin-bottom: 0.6rem;
-        font-family: Oleo Script;
+        margin-bottom: 0.2rem;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
     }
     .slogan2{
         font-size: 14px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
+    
     .carousel-item img{
         height: 500px;
     }
@@ -101,31 +95,57 @@ html {
         position: absolute;
         top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
+        width: 100%;
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -57%;
         opacity: 0.8;
-        margin-top: -4px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
     /*Pagination*/
     .pagination{
@@ -155,7 +175,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -169,12 +189,7 @@ html {
         border-radius: 30px;
     }
     /*footer*/
-    .container-footer{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -193,7 +208,6 @@ html {
     }
     .child2-content4 a{
         color: #919294;
-        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -201,100 +215,73 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
+    }
+    #basic-addon2{
+        cursor: pointer;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        width: 100%;
-        margin: 0 auto;
-        
+    .detail-content-small{
+        display: none;
     }
     .son1-content{
         margin-top: 50px;
     }
-    .son2-content{
-        margin-top: 30px;
-    }
-    .parent1-magazine a{
-        text-decoration: none;
-    }
-    .parent2-magazine a{
-        text-decoration: none;
-    }
-    .parent1-magazine{
-        display: flex;
-    }
-    .parent1-magazine img{
-        max-width: 220px;
-        width: 100%;
-        height: 261px;
-    }
-    .parent2-magazine{
-        display: flex;
-    }
-    .parent2-magazine img{
-        max-width: 220px;
-        width: 100%;
-        height: 261px;
-    }
-    .son1-magazine{
-        
-        height: 261px;
-        background: rgba(196, 196, 196, 0.5);
-        padding: 27px;
-    }
-    .date{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 13px;
-        
-
-
-        color: rgba(0, 0, 0, 0.6);
-
-    }
-    .title-magazine{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-
-
-        color: #000000;
-        margin-top: 0.5625rem;
-
-    }
-    .content1-magazine{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
-        line-height: 30px;
-        color: rgba(0, 0, 0, 0.8);
-        margin-top: 1.063rem;
-    }
-
     .parentTitle-magazine{
+        padding-top: 5rem;
         text-align: center;
-        font-size: 40px;
-        margin-top: 5rem;
+        font-size: 4rem;
     }
     
-    .mode-pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 7rem;
-        padding-bottom: 13rem;
+    .picture-thumbnail img{
+        width: 100%;
     }
-    .page-item .link1{
-        background: #D5A770;
-
+    .time, .description{
+        color: #333;
+        font-size: 16px;
+    }
+    .title-content{
+        font-size: 26px;
+        color: #333;
+        font-weight: 600;
+        padding-top: 0.8rem;
+        padding-bottom: 2rem;
+    }
+    .detail-content{
+        padding: 5rem;
+        width: 100%;
+    }
+    
+    .description{
+        color: #333;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        font-weight: 470;
+    }
+    .line{
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 2px;
+        margin-top: 3rem;
     }
     
 }
@@ -340,7 +327,7 @@ html {
         
     }
     .icon{
-        margin-right: 2.5rem;
+        
         color: #fff;
         font-size: 16px;
     }
@@ -357,104 +344,93 @@ html {
         height: 68px;
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 1.3rem;
-    }
+    
     .slogan1{
         font-size: 27px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 17px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
     }
     /*carousel*/
     #carouselExampleControls{
         position: relative;
     }
+    
     .carousel-item img{
         height: 500px;
     }
     .title{
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 80px;
+    margin: 0 auto;
+        
     }
     .subtitle2{
-
+        width: 100%;
         color: #fff;
         font-size: 34px;
-        background-color: #333;
-        max-width: 40rem;
-        
-        height: 100px;
+        background-color: #000;
         text-align: center;
         line-height: 100px;
-        margin-left: -57%;
         opacity: 0.8;
-        margin-top: -4px;
+        /* max-width: 485px; */
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
     }
-    /*Pagination*/
-    .pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
     }
-    #link1{
-        background-color: #D5A770;
+    a .subtitle3{
+        text-decoration: none;
         color: #fff;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
     }
-    #link2{
-        background-color: #C4C4C4;
-        color: #fff;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-    }
-    .page-link{
-        max-width: 30px;
-        width: 100%;
-        height: 30px;
-        
-    }
-    .page-item{
-        max-width: 70px;
-        width: 100%;
-    }
-    .page-item:last-child .page-link{
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 30px;
-    }
-    .page-item:first-child .page-link{
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 30px;
+    .fa-arrow-right:before{
+        margin-left: 2rem;
     }
     /*footer*/
-    .container-footer{
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-        padding-left: 1.3rem;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
@@ -480,202 +456,63 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     /*main*/
-    .container{
-        max-width: 1170px;
-        margin: 0 auto;
-        
+    .detail-content-small{
+        display: none;
     }
     .son1-content{
         margin-top: 50px;
     }
-    .son2-content{
-        margin-top: 30px;
-    }
-    .parent1-magazine{
-        display: flex;
-    }
-    .parent1-magazine img{
-        max-width: 220px;
-        width: 100%;
-        height: 280px;
-    }
-    .parent2-magazine{
-        display: flex;
-    }
-    .parent2-magazine img{
-        max-width: 220px;
-        width: 100%;
-        height: 280px;
-    }
-    .son1-magazine{
-        
-        height: 280px;
-        background: rgba(196, 196, 196, 0.5);
-        padding: 27px;
-    }
-    .date{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 13px;
-        color: rgba(0, 0, 0, 0.6);
-
-    }
-    .title-magazine{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-        color: #000000;
-        margin-top: 0.5625rem;
-
-    }
-    .content1-magazine{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 18px;
-        color: rgba(0, 0, 0, 0.8);
-        margin-top: 1.063rem;
-        letter-spacing: 1px;
-    }
-
     .parentTitle-magazine{
+        padding-top: 5rem;
         text-align: center;
-        font-size: 40px;
-        margin-top: 5rem;
-    }
-    .mode-pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 7rem;
-        padding-bottom: 13rem;
-    }
-    .page-item .link1{
-        background: #D5A770;
-
+        font-size: 4rem;
     }
     
-}
-
-@media only screen and (min-width: 768px) and (max-width:991px){
-    /*Navbar*/
-    
-    .container-fluid{
-        padding-right: 0px;
-        padding-left: 0px;
-        overflow: hidden;
+    .picture-thumbnail img{
+        width: 100%;
     }
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        padding: 0px !important;
+    .time, .description{
+        color: #333;
+        font-size: 16px;
     }
-    header{
-        background-color: #333;
-    }
-    #navbarNav{
-        background-color: #333;
-        margin-top: -2rem;
-    }
-    .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
-        line-height: 4rem;
-    }
-
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
-    .nav-item .nav-link:hover{
-        color: #D5A770 !important;
-    }
-    .navbar-brand{
-        display: flex;
-        
-    }
-    .navbar-toggler{
-        background-color: #fff;
-    }
-    .navbar-light .navbar-toggler{
-        margin-right: 2.3rem;
-    }
-    .icon{
-        margin-right: 2.5rem;
-        color: #fff;
-        font-size: 14px;
-        display: none;
-        
-    }
-    .logo{
-        
-        margin-top: 7px;
-        max-width: 50px;
-        height: 79px;
-        margin-left: 1.5rem;
-    }
-    .slogan{
-        padding-left: 2.3rem;
-    }
-    .slogan1{
-        font-size: 27px;
-        font-family: Oleo Script;
-        color: #fff;
-    }
-    .slogan2{
-        font-size: 17px;
-        font-family: Oleo Script;
-        color: #fff;
-    }
-    /*carousel*/
-    #carouselExampleControls{
-        position: relative;
-    }
-    .carousel-item img{
-        height: 500px;
-    }
-    .title{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-    }
-    .subtitle1{
-        color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
-    }
-    .subtitle2{
-        color: #fff;
+    .title-content{
         font-size: 24px;
-        background-color: #333;
-        max-width: 28rem;
-        height: 70px;
-        text-align: center;
-        line-height: 70px;
-        margin-left: -57%;
-        opacity: 0.8;
-        margin-top: -4px;
+        color: #333;
+        font-weight: 600;
+        padding-top: 0.8rem;
+        padding-bottom: 2rem;
+    }
+    .detail-content{
+        padding: 2rem;
+        width: 100%;
+    }
+    
+    .description{
+        color: #333;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-weight: 470;
+    }
+    .line{
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 2px;
+        margin-top: 3rem;
     }
     /*Pagination*/
     .pagination{
@@ -705,7 +542,237 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    /*Navbar*/
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    
+    header{
+        background-color: #333;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        padding: 0px !important;
+        background-color: #333 !important;
+
+    }
+    .navbar-nav{
+        max-width: 300px !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+        
+    }
+    .icon{
+        
+        color: #fff;
+        font-size: 14px;
+        
+    }
+    
+    .icon i {
+        margin-left: 1rem;
+    }
+    .icon a i {
+        color: #fff;
+    }
+    .fa-search:focus{
+        width: 100%;
+    }
+    .fa-search:hover:before, .fa-heart:hover:before{
+        color: #d5a770;
+    }
+    .fa-shopping-cart:hover:before, .fa-user:hover:before{
+        color: #d5a770;
+    }
+    .slogan1:hover, .slogan2:hover{
+        color: #d5a770;
+    }
+    .slogan1{
+        font-size: 25px;
+        margin-bottom: 0.1rem;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #fff;
+    }
+    .slogan2{
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+    }
+    /*carousel*/
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-item img{
+        height: 350px;
+    }
+    .title{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+    .subtitle1{
+        color: #fff;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
+    }
+    .subtitle2{
+        width: 100%;
+        color: #fff;
+        font-size: 26px;
+        background-color: #000;
+        text-align: center;
+        line-height: 90px;
+        opacity: 0.8;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+    }
+    .subtitle3{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #d5a770;
+        text-align: center;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        position: relative;
+        top: -36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 1rem;
+    }
+    /*main*/
+    
+    .son1-content{
+        margin-top: 50px;
+    }
+    .parentTitle-magazine{
+        padding-top: 5rem;
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .picture-thumbnail img{
+        width: 100%;
+    }
+    .time, .description{
+        color: #333;
+        font-size: 16px;
+    }
+    .title-content{
+        font-size: 24px;
+        color: #333;
+        font-weight: 600;
+        padding-top: 0.8rem;
+        padding-bottom: 2rem;
+    }
+    .detail-content{
+        padding: 2rem;
+        width: 100%;
+        background-color: #f1f1f159;
+        display: none;
+    }
+    .detail-content-small{
+        padding: 2rem;
+        width: 100%;
+        
+    }
+    
+    .description{
+        color: #333;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-weight: 470;
+    }
+    .line{
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 2px;
+        margin-top: 3rem;
+    }
+    /*Pagination*/
+    .pagination{
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -754,103 +821,33 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
+
     }
     .fa-twitter-square:before{
         color: #919294;
-    }
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
-        
-    }
-    .son1-content{
-        margin-top: 50px;
-    }
-    .son2-content{
-        margin-top: 30px;
-    }
-    .parent1-magazine{
-        display: flex;
-    }
-    .parent1-magazine img{
-        max-width: 200px;
-        width: 100%;
-        height: 261px;
-    }
-    .parent2-magazine{
-        display: flex;
-    }
-    .parent2-magazine img{
-        max-width: 220px;
-        width: 100%;
-        height: 261px;
-    }
-    .son1-magazine{
-        
-        height: 261px;
-        background: rgba(196, 196, 196, 0.5);
-        padding: 14px;
-    }
-    .date{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 13px;
-        /* identical to box height */
-
-
-        color: rgba(0, 0, 0, 0.6);
+        padding-right: 1rem;
 
     }
-    .title-magazine{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-        color: #000000;
-        margin-top: 0.5625rem;
-    }
-    .content1-magazine{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-        color: rgba(0, 0, 0, 0.8);
-        margin-top: 1.063rem;
-    }
-
-    .parentTitle-magazine{
-        text-align: center;
-        font-size: 40px;
-        margin-top: 5rem;
-    }
-    .mode-pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 7rem;
-        padding-bottom: 13rem;
-    }
-    .page-item .link1{
-        background: #D5A770;
-
-    }
-    
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
     /*Navbar*/
     .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background-color: #333;
     }
     .navbar{
         background-color: #333 !important;
         max-width: 100%;
-        height: 80px;
+        
         margin: 0 auto;
         padding: 0px !important;
         
@@ -861,9 +858,9 @@ html {
         margin-top: -1rem;
     }
     .navbar-nav{
-        padding-left: 2rem;
-        padding-top: 2rem;
+        
         line-height: 4rem;
+        padding-bottom: 1rem;
     }
     
     .nav-link{
@@ -880,9 +877,6 @@ html {
     .navbar-toggler{
         background-color: #fff;
     }
-    .navbar-light .navbar-toggler{
-        margin-right: 1.6rem;
-    }
     .icon{
         margin-right: 2.5rem;
         color: #fff;
@@ -897,17 +891,16 @@ html {
 
         margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.4rem;
-    }
+    
     .slogan1{
         font-size: 22px;
-        font-family: Oleo Script;
+        font-family: 'Noto Sans KR', sans-serif;
         color: #fff;
+        margin-bottom: 0.2rem;
     }
     .slogan2{
         font-size: 15px;
-        font-family: Oleo Script;
+        font-family: 'Lobster', cursive;
         color: #fff;
     }
     /*carousel*/
@@ -919,72 +912,62 @@ html {
     }
     .title{
         position: absolute;
-        top: 32%;
-        left: 48%; 
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%);
+
     }
     .subtitle1{
         color: #fff;
-        font-size: 9px;
-        background-color: black;
-        max-width: 8rem;
-        height: 20px;
-        text-align: center;
-        line-height: 20px;
-        letter-spacing: 2px;
-        margin-left: -2rem;
-    }
-    .subtitle2{
-        color: #fff;
-        font-size: 24px;
-        background-color: #333;
-        max-width: 30rem;
-        height: 70px;
-        text-align: center;
-        line-height: 70px;
-        margin-left: -57%;
-        opacity: 0.8;
-        margin-top: -4px;
-    }
-    /*Pagination*/
-    .pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-    #link1{
-        background-color: #D5A770;
-        color: #fff;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-    }
-    #link2{
-        background-color: #C4C4C4;
-        color: #fff;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-    }
-    .page-link{
-        max-width: 30px;
-        width: 100%;
-        height: 30px;
+    font-size: 9px;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
         
     }
-    .page-item{
-        max-width: 70px;
+    .subtitle2{
         width: 100%;
+        color: #fff;
+        font-size: 23px;
+        background-color: #000;
+        text-align: center;
+        line-height: 90px;
+        opacity: 0.8;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -0.4rem;
+        opacity: 0.75;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
     }
-    .page-item:last-child .page-link{
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 30px;
+    .subtitle3{
+        margin: 0 auto;
+    width: 60%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+    position: relative;
+    top: -36px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
     }
-    .page-item:first-child .page-link{
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-radius: 30px;
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*footer*/
     .container-footer{
@@ -1015,7 +998,6 @@ html {
     }
     .child2-content4 a{
         color: #919294;
-        text-decoration: none;
     }
     .icon1{
         font-size: 22px;
@@ -1023,210 +1005,74 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     /*main*/
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
-        
-    }
+    
     .son1-content{
         margin-top: 50px;
     }
-    .son2-content{
-        margin-top: 30px;
-    }
-    .parent1-magazine{
-        display: flex;
-    }
-    .parent1-magazine img{
-        max-width: 200px;
-        width: 100%;
-        height: 261px;
-    }
-    .parent2-magazine{
-        display: flex;
-        margin-top: 3rem;
-    }
-    .parent2-magazine img{
-        max-width: 200px;
-        width: 100%;
-        height: 261px;
-    }
-    .son1-magazine{
-        
-        height: 261px;
-        background: rgba(196, 196, 196, 0.5);
-        padding: 27px;
-    }
-    .date{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 13px;
-        /* identical to box height */
-
-
-        color: rgba(0, 0, 0, 0.6);
-
-    }
-    .title-magazine{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-        /* identical to box height */
-
-
-        color: #000000;
-        margin-top: 0.5625rem;
-
-    }
-    .content1-magazine{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 20px;
-        color: rgba(0, 0, 0, 0.8);
-        margin-top: 1.063rem;
-    }
-
     .parentTitle-magazine{
+        padding-top: 5rem;
         text-align: center;
-        font-size: 40px;
-        margin-top: 5rem;
-    }
-    .mode-pagination{
-        display: flex;
-        justify-content: center;
-        padding-top: 7rem;
-        padding-bottom: 13rem;
-    }
-    .page-item .link1{
-        background: #D5A770;
-
+        font-size: 3.2rem;
     }
     
-}
-
-@media only screen and (min-width: 320px) and (max-width:575px){
-    /*Navbar*/
-    
-    .container-fluid{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        overflow: hidden;
+    .picture-thumbnail img{
+        width: 100%;
     }
-    .navbar{
-        background-color: #333 !important;
-        max-width: 100%;
-        height: 80px;
-        margin: 0 auto;
-        padding: 0px !important;
+    .time, .description{
+        color: #333;
+        font-size: 14px;
     }
-
-    #navbarNav {
-        background-color: #333;
-        margin-top: -1rem;
-    }
-    .navbar-nav{
-        padding-left: 3.3rem;
-        padding-top: 2rem;
-        line-height: 4rem;
+    .title-content{
+        font-size: 22px;
+        color: #333;
+        font-weight: 600;
+        padding-top: 0.8rem;
         padding-bottom: 2rem;
     }
-    
-    .nav-link{
-        font-size: 19px;
-        color: #fff !important;
-    }
-    .nav-item .nav-link:hover{
-        color: #D5A770 !important;
-    }
-    .navbar-brand{
-        display: flex;
-    }
-    .navbar-toggler{
-        background-color: #fff;
-    }
-    .navbar-light .navbar-toggler{
-        margin-right: 1rem;
-    }
-    .icon{
-        margin-right: 2.5rem;
-        color: #fff;
-        font-size: 14px;
+    .detail-content{
+        padding: 2rem;
+        width: 100%;
+        background-color: #f1f1f159;
         display: none;
     }
-    .logo{
+    .detail-content-small{
+        padding: 2rem;
+        width: 100%;
         
-        margin-top: 7px;
-        max-width: 35px;
-        height: 65px;
-        margin-left: 1.5rem;
     }
-    .slogan{
-        padding-left: 2.3rem;
-    }
-    .slogan1{
-        font-size: 25px;
-        font-family: Oleo Script;
-        color: #fff;
-    }
-    .slogan2{
-        font-size: 15px;
-        font-family: Oleo Script;
-        color: #fff;
-    }
-    /*carousel*/
     
-    #carouselExampleControls{
-        position: relative;
+    .description{
+        color: #333;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-weight: 470;
     }
-    .carousel-item img{
-        height: 200px;
-    }
-    .title{
-        position: absolute;
-        top: 30%;
-        left: 49%;
-        
-    }
-    .subtitle1{
-        color: #fff;
-        font-size: 7px;
-        background-color: black;
-        max-width: 7rem;
-        height: 16px;
-        text-align: center;
-        line-height: 16px;
-        letter-spacing: 2px;
-        margin-left: -2.8rem;
-    }
-    .subtitle2{
-        color: #fff;
-        font-size: 16px;
-        background-color: #333;
-        max-width: 18rem;
-        height: 55px;
-        text-align: center;
-        line-height: 55px;
-        margin-left: -57%;
-        opacity: 0.8;
-        margin-top: -3px;
+    .line{
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 2px;
+        margin-top: 3rem;
     }
     /*Pagination*/
     .pagination{
         display: flex;
         justify-content: center;
         padding-top: 5rem;
-        padding-left: 5rem;
         padding-bottom: 5rem;
     }
     #link1{
@@ -1250,7 +1096,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -1262,6 +1108,138 @@ html {
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
         border-radius: 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:575px){
+    /*Navbar*/
+    
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header{
+        background: #333;
+    }
+    .navbar{
+        background-color: #333 !important;
+        max-width: 100%;
+        
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+
+    #navbarNav {
+        background-color: #333;
+        margin-top: -1rem;
+    }
+    .navbar-nav{
+        
+        line-height: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .nav-link{
+        font-size: 19px;
+        color: #fff !important;
+    }
+    .nav-item .nav-link:hover{
+        color: #D5A770 !important;
+    }
+    .navbar-brand{
+        display: flex;
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    
+    .icon{
+        margin-right: 2.5rem;
+        color: #fff;
+        font-size: 14px;
+        display: none;
+    }
+    .logo{
+        
+        margin-top: 7px;
+        max-width: 35px;
+        height: 65px;
+        margin-left: 1.5rem;
+    }
+    
+    .slogan1{
+        font-size: 22px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #fff;
+        margin-bottom: 0.2rem;
+    }
+    .slogan2{
+        font-size: 14px;
+        font-family: 'Lobster', cursive;
+        color: #fff;
+    }
+    /*carousel*/
+    
+    #carouselExampleControls{
+        position: relative;
+    }
+    .carousel-item img{
+        height: 200px;
+    }
+    .title{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 190px;
+        width: 100%;
+    }
+    .subtitle1{
+        color: #fff;
+    font-size: 0.9rem;
+    background-color: black;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    max-width: -9px;
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+        
+    }
+    .subtitle2{
+        width: 100%;
+        color: #fff;
+    font-size: 1.55rem;
+    background-color: #000;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -0.4rem;
+    opacity: 0.75;
+    
+    }
+    .subtitle3{
+        margin: 0 auto;
+    width: 50%;
+    background-color: #d5a770;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    position: relative;
+    top: -10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    a .subtitle3{
+        text-decoration: none;
+        color: #fff;
+    }
+    .fa-arrow-right:before{
+        margin-left: 0.5rem;
     }
     /*footer*/
     .container-footer{
@@ -1299,89 +1277,108 @@ html {
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-twitter-square:before{
         color: #919294;
+        padding-right: 1rem;
     }
     /*main*/
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
-        
-    }
+    
     .son1-content{
         margin-top: 50px;
     }
-    .son2-content{
-        margin-top: 30px;
+    .parentTitle-magazine{
+        padding-top: 5rem;
+        text-align: center;
+        font-size: 3rem;
     }
-    .parent1-magazine{
-        display: flex;
-    }
-    .parent1-magazine img{
-        max-width: 180px;
+    
+    .picture-thumbnail img{
         width: 100%;
-        height: 275px;
     }
-    .parent2-magazine{
-        display: flex;
+    .time, .description{
+        color: #333;
+        font-size: 14px;
+    }
+    .title-content{
+        font-size: 20px;
+        color: #333;
+        font-weight: 600;
+        padding-top: 0.8rem;
+        padding-bottom: 2rem;
+    }
+    .detail-content{
+        padding: 2rem;
+        width: 100%;
+        background-color: #f1f1f159;
+        display: none;
+    }
+    .detail-content-small{
+        padding: 2rem;
+        width: 100%;
+        
+    }
+    
+    .description{
+        color: #333;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-weight: 470;
+    }
+    .line{
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 2px;
         margin-top: 3rem;
     }
-    .parent2-magazine img{
-        max-width: 180px;
-        width: 100%;
-        height: 275px;
-    }
-    .son1-magazine{
-        
-        height: 275px;
-        background: rgba(196, 196, 196, 0.5);
-        padding: 10px;
-    }
-    .date{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
-        line-height: 13px;
-        /* identical to box height */
-
-
-        color: rgba(0, 0, 0, 0.6);
-
-    }
-    .title-magazine{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-        color: #000000;
-        margin-top: 0.5625rem;
-    }
-    .content1-magazine{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 16px;
-        color: rgba(0, 0, 0, 0.8);
-        margin-top: 1.063rem;
-    }
-
-    .parentTitle-magazine{
-        text-align: center;
-        font-size: 40px;
-        margin-top: 5rem;
-    }
-    .mode-pagination{
+    /*Pagination*/
+    .pagination{
         display: flex;
         justify-content: center;
-        padding-top: 7rem;
-        padding-bottom: 13rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
-    .page-item .link1{
-        background: #D5A770;
-
+    #link1{
+        background-color: #D5A770;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    #link2{
+        background-color: #C4C4C4;
+        color: #fff;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .page-link{
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+        
+    }
+    .page-item{
+        max-width: 40px;
+        width: 100%;
+    }
+    .page-item:last-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
+    }
+    .page-item:first-child .page-link{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-radius: 30px;
     }
 }

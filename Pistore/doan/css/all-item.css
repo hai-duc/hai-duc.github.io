@@ -272,7 +272,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -376,6 +376,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 
     /*uiSlider*/
@@ -731,7 +734,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -827,6 +830,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
 
     /*uiSlider*/
@@ -1066,7 +1072,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -1164,6 +1170,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*uiSlider*/
     .content8{
@@ -1501,7 +1510,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -1606,6 +1615,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*uiSlider*/
     .content8{
@@ -1955,7 +1967,7 @@ html {
         
     }
     .page-item{
-        max-width: 70px;
+        max-width: 40px;
         width: 100%;
     }
     .page-item:last-child .page-link{
@@ -2054,6 +2066,9 @@ html {
     a:focus, a:hover, a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*uiSlider*/
     .content8{
