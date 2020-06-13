@@ -1375,10 +1375,7 @@ html {
         margin: 0 auto;
         padding-left: 1.1rem;
     }
-    .container-footer .row{
-        margin-right: 0px ;
-        margin-left: 0px;
-    }
+    
     footer{
         background-color: #464646;
         padding: 3rem 0 3rem 0;
