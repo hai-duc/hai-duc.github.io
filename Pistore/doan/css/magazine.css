@@ -466,6 +466,10 @@ html {
         color: #919294;
         padding-right: 1rem;
     }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
     /*main*/
     .detail-content-small{
         display: none;
@@ -836,6 +840,10 @@ html {
     button:not(:disabled){
         outline: none;
     }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -1020,6 +1028,10 @@ html {
     }
     button:not(:disabled){
         outline: none;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
     /*main*/
     
@@ -1295,6 +1307,10 @@ html {
     }
     button:not(:disabled){
         outline: none;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        outline: 0;
     }
     /*main*/
     
