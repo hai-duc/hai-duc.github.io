@@ -833,6 +833,9 @@ html {
         padding-right: 1rem;
 
     }
+    button:not(:disabled){
+        outline: none;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px){
@@ -1014,6 +1017,9 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*main*/
     
@@ -1286,6 +1292,9 @@ html {
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*main*/
     

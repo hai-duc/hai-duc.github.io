@@ -173,6 +173,9 @@ html {
         text-decoration: none;
         outline: 0;
     }
+    button:not(:disabled){
+        outline: none;
+    }
     /*main*/
     .content{
         margin-top: 3rem;
@@ -378,6 +381,9 @@ html {
     }
     #basic-addon2{
         cursor: pointer;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*main*/
     .content{
@@ -587,6 +593,9 @@ html {
     #basic-addon2{
         cursor: pointer;
     }
+    button:not(:disabled){
+        outline: none;
+    }
     /*main*/
     .content{
         margin-top: 3rem;
@@ -790,6 +799,9 @@ html {
         text-decoration: none;
         outline: 0;
     }
+    button:not(:disabled){
+        outline: none;
+    }
     /*main*/
     .content{
         margin-top: 3rem;
@@ -989,6 +1001,9 @@ html {
     a:link, a:visited {
         text-decoration: none;
         outline: 0;
+    }
+    button:not(:disabled){
+        outline: none;
     }
     /*main*/
     .content{
