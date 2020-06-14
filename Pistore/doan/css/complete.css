@@ -38,7 +38,7 @@ html {
     }
 
     .nav-link{
-        font-size: 15px;
+        font-size: 19px;
         color: #fff !important;
     }
     .nav-item .nav-link:hover{
@@ -773,7 +773,7 @@ html {
     }
     
     .nav-link{
-        font-size: 19px;
+        font-size: 15px;
         color: #fff !important;
     }
     .nav-item .nav-link:hover{

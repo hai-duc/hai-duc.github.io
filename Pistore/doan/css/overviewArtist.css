@@ -429,6 +429,10 @@ header{
     #basic-addon2{
         cursor: pointer;
     }
+    a:link, a:visited{
+        text-decoration: none;
+        
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px){
@@ -1274,6 +1278,7 @@ header{
     }
     .fa-facebook:before{
         color: #919294;
+        padding-right: 1rem;
     }
     .fa-instagram:before{
         color: #919294;
@@ -1285,7 +1290,7 @@ header{
     }
     a:link, a:visited{
         text-decoration: none;
-        padding-right: 1rem;
+        
     }
 }
 
@@ -2134,5 +2139,9 @@ header{
     .fa-twitter-square:before{
         color: #919294;
         padding-right: 1rem;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+        
     }
 }
