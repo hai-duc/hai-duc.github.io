@@ -2060,7 +2060,6 @@ html {
         margin: 0 auto;
         padding: 0px !important;
     }
-
     #navbarNav {
         background-color: #333;
         margin-top: -1rem;
@@ -2072,7 +2071,7 @@ html {
     }
     
     .nav-link{
-        font-size: 19px;
+        font-size: 15px;
         color: #fff !important;
     }
     .nav-item .nav-link:hover{
