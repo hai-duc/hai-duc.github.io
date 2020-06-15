@@ -91,13 +91,14 @@ html {
     
     .carousel-item img{
         height: 500px;
+        object-fit: cover;
     }
     .title{
         position: absolute;
         top: 40%;
         left: 50%;
         transform: translate(-50%);
-
+        width: 25%;
     }
     .subtitle1{
         color: #fff;
@@ -114,15 +115,13 @@ html {
         
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
         font-size: 34px;
         background-color: #000;
         text-align: center;
         line-height: 100px;
         opacity: 0.8;
-        /* max-width: 485px; */
-        padding-left: 5rem;
-        padding-right: 5rem;
         margin-top: -0.4rem;
         opacity: 0.75;
     }
@@ -140,14 +139,15 @@ html {
         text-transform: uppercase;
         border-radius: 5px;
     }
-    a .subtitle3 {
-        color: #fff;
-    }
-    a:hover{
+    a .subtitle3{
         text-decoration: none;
+        color: #fff;
     }
     .fa-arrow-right:before{
         margin-left: 2rem;
+    }
+    a:hover{
+        text-decoration: none;
     }
     /*main*/
     #content{
@@ -533,13 +533,14 @@ html {
     
     .carousel-item img{
         height: 500px;
+        object-fit: cover;
     }
     .title{
         position: absolute;
         top: 40%;
         left: 50%;
         transform: translate(-50%);
-
+        width: 30%;
     }
     .subtitle1{
         color: #fff;
@@ -556,26 +557,24 @@ html {
         
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
-        font-size: 34px;
+        font-size: 32px;
         background-color: #000;
         text-align: center;
-        line-height: 100px;
+        line-height: 90px;
         opacity: 0.8;
-        /* max-width: 485px; */
-        padding-left: 5rem;
-        padding-right: 5rem;
         margin-top: -0.4rem;
         opacity: 0.75;
     }
     .subtitle3{
         margin: 0 auto;
-        width: 50%;
+        width: 55%;
+        height: auto;
         background-color: #d5a770;
         text-align: center;
-        height: 5rem;
         line-height: 5rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
         position: relative;
         top: -36px;
         font-size: 14px;
@@ -588,6 +587,9 @@ html {
     }
     .fa-arrow-right:before{
         margin-left: 2rem;
+    }
+    a:hover{
+        text-decoration: none;
     }
     /*main*/
     #content{
@@ -983,13 +985,14 @@ html {
     }
     .carousel-item img{
         height: 350px;
+        object-fit: cover;
     }
     .title{
         position: absolute;
         top: 30%;
         left: 50%;
         transform: translate(-50%);
-
+        width: 30%;
     }
     .subtitle1{
         color: #fff;
@@ -1005,28 +1008,27 @@ html {
         
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
         font-size: 26px;
         background-color: #000;
         text-align: center;
-        line-height: 90px;
+        line-height: 80px;
         opacity: 0.8;
-        padding-left: 5rem;
-        padding-right: 5rem;
         margin-top: -0.4rem;
         opacity: 0.75;
     }
     .subtitle3{
         margin: 0 auto;
-        width: 50%;
+        width: 62%;
         background-color: #d5a770;
         text-align: center;
-        height: 5rem;
-        line-height: 5rem;
-        margin-top: 2rem;
+        height: 4rem;
+        line-height: 4rem;
+        margin-top: 2.6rem;
         position: relative;
         top: -36px;
-        font-size: 14px;
+        font-size: 13px;
         text-transform: uppercase;
         border-radius: 5px;
     }
@@ -1036,6 +1038,9 @@ html {
     }
     .fa-arrow-right:before{
         margin-left: 1rem;
+    }
+    a:hover{
+        text-decoration: none;
     }
     /*main*/
     #content{
@@ -1417,13 +1422,14 @@ html {
     }
     .carousel-item img{
         height: 300px;
+        object-fit: cover;
     }
     .title{
         position: absolute;
         top: 30%;
         left: 50%;
         transform: translate(-50%);
-
+        width: 35%;
     }
     .subtitle1{
         color: #fff;
@@ -1439,14 +1445,14 @@ html {
         
     }
     .subtitle2{
+        width: 100%;
         color: #fff;
         font-size: 23px;
         background-color: #000;
         text-align: center;
-        line-height: 90px;
+        line-height: 70px;
         opacity: 0.8;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        
         margin-top: -0.4rem;
         opacity: 0.75;
         overflow: hidden;
@@ -1457,15 +1463,15 @@ html {
     }
     .subtitle3{
         margin: 0 auto;
-    width: 60%;
+    width: 61%;
     background-color: #d5a770;
     text-align: center;
     height: 4rem;
     line-height: 4rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     position: relative;
     top: -36px;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     border-radius: 5px;
     }
@@ -1474,7 +1480,10 @@ html {
         color: #fff;
     }
     .fa-arrow-right:before{
-        margin-left: 0.5rem;
+        margin-left: 0.3rem;
+    }
+    a:hover{
+        text-decoration: none;
     }
     /*main*/
     #content{
@@ -1858,6 +1867,7 @@ html {
     }
     .carousel-item img{
         height: 200px;
+        object-fit: cover;
     }
     .title{
         position: absolute;
@@ -1883,7 +1893,7 @@ html {
     .subtitle2{
         width: 100%;
         color: #fff;
-    font-size: 1.55rem;
+    font-size: 1.9rem;
     background-color: #000;
     text-align: center;
     line-height: 60px;
@@ -1901,7 +1911,7 @@ html {
     line-height: 3rem;
     position: relative;
     top: -10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     border-radius: 5px;
     }
@@ -1911,6 +1921,9 @@ html {
     }
     .fa-arrow-right:before{
         margin-left: 0.5rem;
+    }
+    a:hover{
+        text-decoration: none;
     }
     /*main*/
     .container-content{
