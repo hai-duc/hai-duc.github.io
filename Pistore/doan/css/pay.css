@@ -1904,7 +1904,7 @@ html {
         margin-top: 4rem;
         align-items: center;
     }
-    .inputEmail{
+    /* .inputEmail{
         padding-left: 1rem;
     }
     .inputLastname{
@@ -1913,12 +1913,12 @@ html {
     .inputFirstname{
         padding-left: 1rem;
     }
-    .inputPhonenumber{
+    /* .inputPhonenumber{
         padding-left: 1rem;
-    }
-    .inputAddress{
+    } */
+    /* .inputAddress{
         padding-left: 1rem;
-    }
+    } */
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;

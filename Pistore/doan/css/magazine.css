@@ -248,6 +248,7 @@ html {
     
     .picture-thumbnail img{
         width: 100%;
+        border-radius: 5px;
     }
     .time, .description{
         color: #333;
@@ -484,6 +485,7 @@ html {
     
     .picture-thumbnail img{
         width: 100%;
+        border-radius: 5px;
     }
     .time, .description{
         color: #333;
@@ -709,6 +711,7 @@ html {
     
     .picture-thumbnail img{
         width: 100%;
+        border-radius: 5px;
     }
     .time, .description{
         color: #333;
@@ -1050,6 +1053,7 @@ html {
     
     .picture-thumbnail img{
         width: 100%;
+        border-radius: 5px;
     }
     .time, .description{
         color: #333;
@@ -1328,6 +1332,7 @@ html {
     
     .picture-thumbnail img{
         width: 100%;
+        border-radius: 5px;
     }
     .time, .description{
         color: #333;
