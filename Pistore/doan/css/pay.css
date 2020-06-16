@@ -1904,21 +1904,25 @@ html {
         margin-top: 4rem;
         align-items: center;
     }
-    /* .inputEmail{
-        padding-left: 1rem;
+    .inputEmail{
+        padding-right: 1rem;
     }
     .inputLastname{
-        padding-left: 1rem;
+        padding-right: 1rem;
+
     }
     .inputFirstname{
-        padding-left: 1rem;
+        padding-right: 1rem;
+
     }
-    /* .inputPhonenumber{
-        padding-left: 1rem;
-    } */
-    /* .inputAddress{
-        padding-left: 1rem;
-    } */
+    .inputPhonenumber{
+        padding-right: 1rem;
+
+    }
+    .inputAddress{
+        padding-right: 1rem;
+
+    }
     .son1Email, .son1Lastname, .son1Firstname, .son1Phonenumber, .son1Address{
         font-family: Roboto;
         font-style: normal;
