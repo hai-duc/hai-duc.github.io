@@ -176,7 +176,7 @@ header .navbar-header .navbar-header-contact {
 .navbar {
   height: 152px;
   background-color: #fff;
-  padding: 0px !important;
+  
 }
 
 .navbar-parent {
@@ -270,7 +270,7 @@ header .navbar-header .navbar-header-contact {
   -webkit-font-smoothing: antialiased;
   border: 0;
   text-transform: uppercase;
-  -webkit-transition: all 200ms ease-out;
+  
   border-radius: 3px;
 }
 .view-project:hover {
