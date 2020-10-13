@@ -1,0 +1,3102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+@media only screen and (min-width: 1200px) {
+  /* menu */
+  header {
+    background: #313a5a;
+    max-height: 83.9rem;
+    height: 100%;
+  }
+
+  .logo a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6rem;
+    max-width: 7.1875rem;
+    line-height: 5.8rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo a:hover {
+    color: red;
+  }
+  .menu-item-center a {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-center a:hover {
+    color: red;
+  }
+  .menu-item-center {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5.8rem;
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  .menu-item-right a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-right a:hover {
+    color: red;
+  }
+  .menu-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .menu-item-register {
+    max-width: 12rem;
+    width: 1005;
+    max-height: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+  }
+
+  /* banner */
+  .banner {
+    padding-top: 6.4rem;
+    height: 92rem;
+  }
+  .description-banner {
+    padding-top: 10rem;
+  }
+  .title-banner {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.7rem;
+
+    color: #ffffff;
+  }
+  .content-banner {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    color: #ffffff;
+    padding-top: 5rem;
+  }
+  .get-started p {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    text-decoration: none;
+    margin-top: 10rem;
+    background: #1fdb84;
+    box-shadow: 0px -8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 0px 10px;
+    color: #ffffff;
+    max-width: 20rem;
+    width: 100%;
+    max-height: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started p:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .get-started:hover {
+    text-decoration: none;
+  }
+  .image-banner img {
+    margin-left: -3rem;
+  }
+
+  /* main */
+
+  .banner-main-parent {
+    background: #ffffff;
+    box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.4rem;
+  }
+  .banner-main-icon .fas,
+  .banner-main-icon .fab {
+    font-size: 4rem;
+  }
+  .banner-main-icon {
+    max-width: 7.2rem;
+    max-height: 7.2rem;
+    width: 100%;
+    height: 100%;
+    background: #cdeedf;
+    color: #1fdb84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .banner-main-child {
+    padding-top: 8.7rem;
+    padding-bottom: 8.7rem;
+  }
+  .banner-main-title {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-top: 2.8rem;
+    color: #031d5b;
+  }
+  .banner-main-line {
+    max-width: 60px;
+    width: 100%;
+    height: 4px;
+    max-height: 100%;
+    background: #1fdb84;
+    margin-top: 3rem;
+  }
+  .banner-main-content {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    margin-top: 3rem;
+
+    color: #5b6c94;
+  }
+  .paid-plant {
+    background: #f2f2f2;
+    padding-bottom: 26rem;
+  }
+  .title-paid-plant {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6.4rem;
+    /* or 160% */
+
+    margin: 0 auto;
+
+    color: #32325c;
+  }
+  .give {
+    padding-top: 7.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .give .month {
+    max-width: 16.2rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #aefdd9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month {
+    max-width: 30.8rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1fff8;
+    border-left: 1px solid #aefdd9;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month:hover,
+  .give .month:hover {
+    text-decoration: none;
+  }
+  .option {
+    padding-top: 7.8rem;
+  }
+  .option-name {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.266667px;
+
+    color: #32325c;
+  }
+  .price {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.2rem;
+    line-height: 6.4rem;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    padding-top: 3.9rem;
+    color: #1fdb84;
+  }
+  .per-month {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.2rem;
+    color: #5b6c94;
+  }
+  .pixel {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 7.7rem;
+    color: #5b6c94;
+  }
+  .url {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+  }
+  .option-content {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+    padding-bottom: 11.5rem;
+  }
+  .free-trial {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    max-width: 25.5rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.7rem;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .option-two {
+    background-color: #fff;
+    padding-top: 6.3rem;
+  }
+  .option {
+    padding-top: 6.3rem;
+  }
+  /* what-say */
+
+  .what-say {
+    background-image: url("img/Rectangle\ 5\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 81rem 97rem;
+    background-position: right;
+    height: 97rem;
+
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .what-say-child {
+    max-width: 1600px;
+    width: 100%;
+  }
+  .what-say-title {
+    background-image: url("img/Rectangle\ 7\ Copy\ 6.png");
+    background-size: 37.8rem 41.3rem;
+    max-width: 37.8rem;
+    width: 100%;
+    height: 41.3rem;
+    font-family: "Rubik", sans-serif;
+    padding-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    /* or 120% */
+    margin-left: 24rem;
+    color: #031d5b;
+  }
+  .slide-say {
+    display: flex;
+    align-items: center;
+    margin-top: -18rem;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .item1 {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #1fdb84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fas1 {
+    width: 83%;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .fas2 {
+    width: 83%;
+    font-size: 2rem;
+    color: #1fdb84;
+  }
+  .slide-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #ffffff;
+  }
+  .slide2-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #5b6c94;
+  }
+  .artist {
+    display: flex;
+    width: 83%;
+  }
+  .artist1 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #ffffff;
+  }
+  .artist2 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #ffffff;
+  }
+  .artist3 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #031d5b;
+  }
+  .artist4 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #031d5b;
+    opacity: 0.4;
+  }
+  .item {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* platform */
+  .platform {
+    background: #f2f2f2;
+  }
+  .platform-title {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    color: #031d5b;
+  }
+  .donors {
+    padding-top: 4.7rem;
+  }
+  /* footer */
+  footer {
+    background: #f2f2f2;
+  }
+  .copy-right {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding-top: 18rem;
+    color: #5b6c94;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 19.5rem;
+  }
+  .item-menu-footer {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    color: #5b6c94;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* menu */
+  header {
+    background: #313a5a;
+    max-height: 83.9rem;
+    height: 100%;
+  }
+
+  .logo a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6rem;
+    max-width: 7.1875rem;
+    line-height: 5.8rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo a:hover {
+    color: red;
+  }
+  .menu-item-center a {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-center a:hover {
+    color: red;
+  }
+  .menu-item-center {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5.8rem;
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  .menu-item-right a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-right a:hover {
+    color: red;
+  }
+  .menu-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .menu-item-register {
+    max-width: 12rem;
+    width: 1005;
+    max-height: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+  }
+
+  /* banner */
+  .banner {
+    padding-top: 6.4rem;
+    height: 92rem;
+  }
+  .description-banner {
+    padding-top: 10rem;
+  }
+  .title-banner {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.7rem;
+
+    color: #ffffff;
+  }
+  .content-banner {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    color: #ffffff;
+    padding-top: 5rem;
+  }
+  .get-started p {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    text-decoration: none;
+    margin-top: 10rem;
+    background: #1fdb84;
+    box-shadow: 0px -8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 0px 10px;
+    color: #ffffff;
+    max-width: 20rem;
+    width: 100%;
+    max-height: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started p:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .get-started:hover {
+    text-decoration: none;
+  }
+  .image-banner img {
+    margin-left: -2rem;
+  }
+
+  /* main */
+
+  .banner-main-parent {
+    background: #ffffff;
+    box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.4rem;
+  }
+  .banner-main-icon .fas,
+  .banner-main-icon .fab {
+    font-size: 4rem;
+  }
+  .banner-main-icon {
+    max-width: 7.2rem;
+    max-height: 7.2rem;
+    width: 100%;
+    height: 100%;
+    background: #cdeedf;
+    color: #1fdb84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .banner-main-child {
+    padding-top: 8.7rem;
+    padding-bottom: 8.7rem;
+  }
+  .banner-main-title {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-top: 2.8rem;
+    color: #031d5b;
+  }
+  .banner-main-line {
+    max-width: 60px;
+    width: 100%;
+    height: 4px;
+    max-height: 100%;
+    background: #1fdb84;
+    margin-top: 3rem;
+  }
+  .banner-main-content {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    margin-top: 3rem;
+
+    color: #5b6c94;
+  }
+  .paid-plant {
+    background: #f2f2f2;
+    padding-bottom: 26rem;
+  }
+  .title-paid-plant {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6.4rem;
+    /* or 160% */
+
+    margin: 0 auto;
+
+    color: #32325c;
+  }
+  .give {
+    padding-top: 7.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .give .month {
+    max-width: 16.2rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #aefdd9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month {
+    max-width: 30.8rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1fff8;
+    border-left: 1px solid #aefdd9;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month:hover,
+  .give .month:hover {
+    text-decoration: none;
+  }
+  .option {
+    padding-top: 7.8rem;
+  }
+  .option-name {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.266667px;
+
+    color: #32325c;
+  }
+  .price {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.2rem;
+    line-height: 6.4rem;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    padding-top: 3.9rem;
+    color: #1fdb84;
+  }
+  .per-month {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.2rem;
+    color: #5b6c94;
+  }
+  .pixel {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 7.7rem;
+    color: #5b6c94;
+  }
+  .url {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+  }
+  .option-content {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+    padding-bottom: 11.5rem;
+  }
+  .free-trial {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    max-width: 25.5rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.7rem;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .option-two {
+    background-color: #fff;
+    padding-top: 6.3rem;
+  }
+  .option {
+    padding-top: 6.3rem;
+  }
+  /* what-say */
+
+  .what-say {
+    background-image: url("img/Rectangle\ 5\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 60rem 97rem;
+    background-position: right;
+    height: 97rem;
+
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .what-say-child {
+    width: 100%;
+  }
+  .what-say-title {
+    background-image: url("img/Rectangle\ 7\ Copy\ 6.png");
+    background-size: 37.8rem 41.3rem;
+    max-width: 17.8rem;
+    width: 100%;
+    height: 41.3rem;
+    font-family: "Rubik", sans-serif;
+    padding-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    /* or 120% */
+    margin-left: 10rem;
+    color: #031d5b;
+  }
+  .slide-say {
+    display: flex;
+    align-items: center;
+    margin-top: -18rem;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .item1 {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #1fdb84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fas1 {
+    width: 83%;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .fas2 {
+    width: 83%;
+    font-size: 2rem;
+    color: #1fdb84;
+  }
+  .slide-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #ffffff;
+  }
+  .slide2-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #5b6c94;
+  }
+  .artist {
+    display: flex;
+    width: 83%;
+  }
+  .artist1 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #ffffff;
+  }
+  .artist2 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #ffffff;
+  }
+  .artist3 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #031d5b;
+  }
+  .artist4 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #031d5b;
+    opacity: 0.4;
+  }
+  .item {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* platform */
+  .platform {
+    background: #f2f2f2;
+  }
+  .platform-title {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    color: #031d5b;
+  }
+  .donors img {
+    padding-top: 4.7rem;
+    width: 100%;
+  }
+  /* footer */
+  footer {
+    background: #f2f2f2;
+  }
+  .copy-right {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding-top: 18rem;
+    color: #5b6c94;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 19.5rem;
+  }
+  .item-menu-footer {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    color: #5b6c94;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* menu */
+  header {
+    background: #313a5a;
+    max-height: 83.9rem;
+    height: 100%;
+  }
+
+  .logo a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6rem;
+    max-width: 7.1875rem;
+    line-height: 5.8rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo a:hover {
+    color: red;
+  }
+  .menu-item-center a {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+    display: none;
+  }
+  .menu-item-center a:hover {
+    color: red;
+    display: none;
+  }
+  .menu-item-center {
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5.8rem;
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  .menu-item-right a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-right a:hover {
+    color: red;
+  }
+  .menu-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: none;
+  }
+  .menu-item-register {
+    max-width: 12rem;
+    width: 1005;
+    max-height: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+  }
+
+  /* banner */
+  .banner {
+    /* padding-top: 6.4rem; */
+    height: 92rem;
+  }
+  .description-banner {
+    padding-top: 10rem;
+  }
+  .title-banner {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.7rem;
+
+    color: #ffffff;
+  }
+  .content-banner {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    color: #ffffff;
+    padding-top: 5rem;
+  }
+  .get-started p {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    text-decoration: none;
+    margin-top: 4rem;
+    background: #1fdb84;
+    box-shadow: 0px -8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 0px 10px;
+    color: #ffffff;
+    max-width: 20rem;
+    width: 100%;
+    max-height: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started p:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .get-started:hover {
+    text-decoration: none;
+  }
+  .image-banner img {
+    width: 100%;
+    padding-top: 10.7rem;
+    margin-left: -2rem;
+  }
+
+  /* main */
+  main {
+    background: #f2f2f2;
+  }
+
+  .banner-main-parent {
+    background: #ffffff;
+    box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -4.4rem; */
+  }
+  .banner-main-icon .fas,
+  .banner-main-icon .fab {
+    font-size: 4rem;
+  }
+  .banner-main-icon {
+    max-width: 7.2rem;
+    max-height: 7.2rem;
+    width: 100%;
+    height: 100%;
+    background: #cdeedf;
+    color: #1fdb84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .banner-main-child {
+    padding-top: 8.7rem;
+    padding-bottom: 8.7rem;
+  }
+  .banner-main-title {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-top: 2.8rem;
+    color: #031d5b;
+  }
+  .banner-main-line {
+    max-width: 60px;
+    width: 100%;
+    height: 4px;
+    max-height: 100%;
+    background: #1fdb84;
+    margin-top: 3rem;
+  }
+  .banner-main-content {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    margin-top: 3rem;
+
+    color: #5b6c94;
+  }
+
+  .paid-plant {
+    background: #f2f2f2;
+    padding-bottom: 10rem;
+  }
+  .title-paid-plant {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6.4rem;
+    /* or 160% */
+
+    margin: 0 auto;
+
+    color: #32325c;
+  }
+  .give {
+    padding-top: 7.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .give .month {
+    max-width: 16.2rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #aefdd9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month {
+    max-width: 30.8rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1fff8;
+    border-left: 1px solid #aefdd9;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month:hover,
+  .give .month:hover {
+    text-decoration: none;
+  }
+  .option {
+    padding-top: 7.8rem;
+  }
+  .option-name {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.266667px;
+
+    color: #32325c;
+  }
+  .price {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.2rem;
+    line-height: 6.4rem;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    padding-top: 3.9rem;
+    color: #1fdb84;
+  }
+  .per-month {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.2rem;
+    color: #5b6c94;
+  }
+  .pixel {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 7.7rem;
+    color: #5b6c94;
+  }
+  .url {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+  }
+  .option-content {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.4rem;
+    color: #5b6c94;
+    padding-bottom: 5rem;
+  }
+  .free-trial {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    max-width: 25.5rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.7rem;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .option-two {
+    background-color: #fff;
+    padding-top: 6.3rem;
+  }
+  .option {
+    padding-top: 6.3rem;
+  }
+  /* what-say */
+
+  .what-say {
+    background-image: url("img/Rectangle\ 5\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 60rem 97rem;
+    background-position: right;
+    height: 97rem;
+
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .what-say-child {
+    width: 100%;
+  }
+  .what-say-title {
+    background-image: url("img/Rectangle\ 7\ Copy\ 6.png");
+    background-size: 30.8rem 41.3rem;
+    background-repeat: no-repeat;
+
+    max-width: 17.8rem;
+    width: 100%;
+    height: 41.3rem;
+    font-family: "Rubik", sans-serif;
+    padding-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    /* or 120% */
+    margin-left: 3rem;
+    color: #031d5b;
+  }
+  .slide-say {
+    display: flex;
+    align-items: center;
+    margin-top: -18rem;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .item1 {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #1fdb84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fas1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .fas2 {
+    width: 100%;
+    font-size: 2rem;
+    color: #1fdb84;
+  }
+  .slide-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #ffffff;
+  }
+  .slide2-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #5b6c94;
+  }
+  .artist {
+    display: flex;
+    width: 100%;
+  }
+  .artist1 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #ffffff;
+  }
+  .artist2 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #ffffff;
+  }
+  .artist3 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #031d5b;
+  }
+  .artist4 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #031d5b;
+    opacity: 0.4;
+  }
+  .item {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* platform */
+  .platform {
+    background: #f2f2f2;
+  }
+  .platform-title {
+    padding-top: 20rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    color: #031d5b;
+  }
+  .donors img {
+    padding-top: 4.7rem;
+    width: 100%;
+  }
+  /* footer */
+  footer {
+    background: #f2f2f2;
+  }
+  .copy-right {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding-top: 18rem;
+    color: #5b6c94;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 19.5rem;
+  }
+  .item-menu-footer {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    color: #5b6c94;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* menu */
+  header {
+    background: #313a5a;
+    max-height: 83.9rem;
+    height: 100%;
+  }
+
+  .logo a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6rem;
+    max-width: 7.1875rem;
+    line-height: 5.8rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo a:hover {
+    color: red;
+  }
+  .menu-item-center a {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+    display: none;
+  }
+  .menu-item-center a:hover {
+    color: red;
+    display: none;
+  }
+  .menu-item-center {
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5.8rem;
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  .menu-item-right a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-right a:hover {
+    color: red;
+  }
+  .menu-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: none;
+  }
+  .menu-item-register {
+    max-width: 12rem;
+    width: 1005;
+    max-height: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+  }
+
+  /* banner */
+  .banner {
+    /* padding-top: 6.4rem; */
+    height: 65rem;
+  }
+  .description-banner {
+    padding-top: 10rem;
+  }
+  .title-banner {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.7rem;
+
+    color: #ffffff;
+  }
+  .content-banner {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    color: #ffffff;
+    padding-top: 5rem;
+  }
+  .get-started p {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    text-decoration: none;
+    margin-top: 4rem;
+    background: #1fdb84;
+    box-shadow: 0px -8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 0px 10px;
+    color: #ffffff;
+    max-width: 20rem;
+    width: 100%;
+    max-height: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started p:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .get-started:hover {
+    text-decoration: none;
+  }
+  .image-banner img {
+    width: 100%;
+    padding-top: 10.7rem;
+    margin-left: -2rem;
+    display: none;
+  }
+
+  /* main */
+  main {
+    background: #f2f2f2;
+  }
+
+  .banner-main-parent {
+    background: #ffffff;
+    box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .banner-main-icon .fas,
+  .banner-main-icon .fab {
+    font-size: 4rem;
+  }
+  .banner-main-icon {
+    
+    max-width: 7.2rem;
+    max-height: 7.2rem;
+    width: 100%;
+    height: 100%;
+    background: #cdeedf;
+    color: #1fdb84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .banner-main-child {
+    padding-top: 3.7rem;
+    
+  }
+  .banner-main-title {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-top: 2.8rem;
+    color: #031d5b;
+  }
+  .banner-main-line {
+    max-width: 60px;
+    width: 100%;
+    height: 4px;
+    max-height: 100%;
+    background: #1fdb84;
+    margin-top: 3rem;
+  }
+  .banner-main-content {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+
+    color: #5b6c94;
+  }
+
+  .paid-plant {
+    background: #f2f2f2;
+    padding-bottom: 10rem;
+  }
+  .title-paid-plant {
+    padding-top: 10rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 5.4rem;
+    /* or 160% */
+
+    margin: 0 auto;
+
+    color: #32325c;
+  }
+  .give {
+    padding-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .give .month {
+    max-width: 16.2rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #aefdd9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month {
+    max-width: 30.8rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1fff8;
+    border-left: 1px solid #aefdd9;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month:hover,
+  .give .month:hover {
+    text-decoration: none;
+  }
+  .option {
+    padding-top: 5.8rem;
+  }
+  .option-name {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.266667px;
+
+    color: #32325c;
+  }
+  .price {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.2rem;
+    line-height: 6.4rem;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    padding-top: 3.9rem;
+    color: #1fdb84;
+  }
+  .per-month {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.2rem;
+    color: #5b6c94;
+  }
+  .pixel {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.7rem;
+    color: #5b6c94;
+  }
+  .url {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+  }
+  .option-content {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.4rem;
+    color: #5b6c94;
+    padding-bottom: 5rem;
+  }
+  .free-trial {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    max-width: 25.5rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.7rem;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .option-two {
+    background-color: #fff;
+    padding-top: 6.3rem;
+  }
+  
+  /* what-say */
+
+  .what-say {
+    /* background-image: url("img/Rectangle\ 5\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 60rem 97rem;
+    background-position: right;
+    height: 97rem; */
+
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .what-say-child {
+    width: 100%;
+  }
+  .what-say-title {
+    background-image: url("img/Rectangle\ 7\ Copy\ 6.png");
+    background-size: 30.8rem 21.3rem;
+    background-repeat: no-repeat;
+
+    max-width: 28.8rem;
+    width: 100%;
+    height: 41.3rem;
+    font-family: "Rubik", sans-serif;
+    padding-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    /* or 120% */
+    margin-left: 3rem;
+    color: #031d5b;
+  }
+  .slide-say {
+    display: flex;
+    align-items: center;
+    margin-top: -18rem;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .item1 {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #1fdb84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fas1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .fas2 {
+    width: 100%;
+    font-size: 2rem;
+    color: #1fdb84;
+  }
+  .slide-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #ffffff;
+  }
+  .slide2-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #5b6c94;
+  }
+  .artist {
+    display: flex;
+    width: 100%;
+  }
+  .artist1 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #ffffff;
+  }
+  .artist2 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #ffffff;
+  }
+  .artist3 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #031d5b;
+  }
+  .artist4 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #031d5b;
+    opacity: 0.4;
+  }
+  .item {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* platform */
+  .platform {
+    background: #f2f2f2;
+  }
+  .platform-title {
+    padding-top: 42rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    color: #031d5b;
+  }
+  .donors img {
+    padding-top: 4.7rem;
+    width: 100%;
+  }
+  /* footer */
+  footer {
+    background: #f2f2f2;
+  }
+  .copy-right {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding-top: 10rem;
+    color: #5b6c94;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 10.5rem;
+  }
+  .item-menu-footer {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    color: #5b6c94;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width:575px){
+    /* menu */
+  header {
+    background: #313a5a;
+    max-height: 83.9rem;
+    height: 100%;
+  }
+
+  .logo a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.6rem;
+    max-width: 7.1875rem;
+    line-height: 5.8rem;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo a:hover {
+    color: red;
+  }
+  .menu-item-center a {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+    display: none;
+  }
+  .menu-item-center a:hover {
+    color: red;
+    display: none;
+  }
+  .menu-item-center {
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5.8rem;
+    height: 100%;
+    padding-top: 2.5rem;
+  }
+  .menu-item-right a {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 5.8rem;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+  }
+  .menu-item-right a:hover {
+    color: red;
+  }
+  .menu-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: none;
+  }
+  .menu-item-register {
+    max-width: 12rem;
+    width: 1005;
+    max-height: 4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+  }
+
+  /* banner */
+  .banner {
+    /* padding-top: 6.4rem; */
+    height: 65rem;
+  }
+  .description-banner {
+    padding-top: 10rem;
+  }
+  .title-banner {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 5.7rem;
+
+    color: #ffffff;
+  }
+  .content-banner {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    color: #ffffff;
+    padding-top: 5rem;
+  }
+  .get-started p {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    text-decoration: none;
+    margin-top: 4rem;
+    background: #1fdb84;
+    box-shadow: 0px -8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 0px 10px;
+    color: #ffffff;
+    max-width: 20rem;
+    width: 100%;
+    max-height: 6rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started p:hover {
+    text-decoration: none;
+    color: red;
+  }
+  .get-started:hover {
+    text-decoration: none;
+  }
+  .image-banner img {
+    width: 100%;
+    padding-top: 10.7rem;
+    margin-left: -2rem;
+    display: none;
+  }
+
+  /* main */
+  main {
+    background: #f2f2f2;
+  }
+
+  .banner-main-parent {
+    background: #ffffff;
+    box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.5);
+    border-radius: 10px;
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .banner-main-icon .fas,
+  .banner-main-icon .fab {
+    font-size: 4rem;
+  }
+  .banner-main-icon {
+    
+    max-width: 7.2rem;
+    max-height: 7.2rem;
+    width: 100%;
+    height: 100%;
+    background: #cdeedf;
+    color: #1fdb84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .banner-main-child {
+    padding-top: 3.7rem;
+    
+  }
+  .banner-main-title {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    padding-top: 2.8rem;
+    color: #031d5b;
+  }
+  .banner-main-line {
+    max-width: 60px;
+    width: 100%;
+    height: 4px;
+    max-height: 100%;
+    background: #1fdb84;
+    margin-top: 3rem;
+  }
+  .banner-main-content {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* or 200% */
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+
+    color: #5b6c94;
+  }
+
+  .paid-plant {
+    background: #f2f2f2;
+    padding-bottom: 10rem;
+  }
+  .title-paid-plant {
+    padding-top: 10rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 5.4rem;
+    /* or 160% */
+
+    margin: 0 auto;
+
+    color: #32325c;
+  }
+  .give {
+    padding-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .give .month {
+    max-width: 15.2rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #aefdd9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month {
+    max-width: 25.8rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f1fff8;
+    border-left: 1px solid #aefdd9;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    letter-spacing: 0.2rem;
+
+    color: #1fdb84;
+  }
+  .give .two-month:hover,
+  .give .month:hover {
+    text-decoration: none;
+  }
+  .option {
+    padding-top: 3.8rem;
+  }
+  .option-name {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    letter-spacing: 0.266667px;
+
+    color: #32325c;
+  }
+  .price {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 6.4rem;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    padding-top: 3.9rem;
+    color: #1fdb84;
+  }
+  .per-month {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.2rem;
+    color: #5b6c94;
+  }
+  .pixel {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.7rem;
+    color: #5b6c94;
+  }
+  .url {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 3.4rem;
+    color: #5b6c94;
+  }
+  .option-content {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.177778px;
+    padding-top: 2.4rem;
+    color: #5b6c94;
+    padding-bottom: 5rem;
+  }
+  .free-trial {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+    max-width: 25.5rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1fdb84;
+    box-shadow: 0px 8px 34px rgba(31, 219, 132, 0.6);
+    border-radius: 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5.7rem;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .option-two {
+    background-color: #fff;
+    padding-top: 6.3rem;
+  }
+  
+  /* what-say */
+
+  .what-say {
+    /* background-image: url("img/Rectangle\ 5\ Copy.png");
+    background-repeat: no-repeat;
+    background-size: 60rem 97rem;
+    background-position: right;
+    height: 97rem; */
+
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .what-say-child {
+    width: 100%;
+  }
+  .what-say-title {
+    background-image: url("img/Rectangle\ 7\ Copy\ 6.png");
+    background-size: 30.8rem 21.3rem;
+    background-repeat: no-repeat;
+
+    max-width: 28.8rem;
+    width: 100%;
+    height: 41.3rem;
+    font-family: "Rubik", sans-serif;
+    padding-top: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    /* or 120% */
+    margin-left: 3rem;
+    color: #031d5b;
+  }
+  .slide-say {
+    display: flex;
+    align-items: center;
+    margin-top: -18rem;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .item1 {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #1fdb84;
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fas1 {
+    width: 80%;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .fas2 {
+    width: 80%;
+    font-size: 2rem;
+    color: #1fdb84;
+  }
+  .slide-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #ffffff;
+  }
+  .slide2-say-content {
+    max-width: 31rem;
+
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    /* or 200% */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    color: #5b6c94;
+  }
+  .artist {
+    display: flex;
+    width: 80%;
+  }
+  .artist1 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #ffffff;
+  }
+  .artist2 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #ffffff;
+  }
+  .artist3 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+
+    color: #031d5b;
+  }
+  .artist4 {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.6rem;
+    /* identical to box height, or 200% */
+    opacity: 0.8;
+
+    color: #031d5b;
+    opacity: 0.4;
+  }
+  .item {
+    max-width: 42rem;
+    width: 100%;
+    height: 50rem;
+    background: #fff;
+
+    box-shadow: 12px 12px 40px rgba(31, 219, 132, 0.5);
+    backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* platform */
+  .platform {
+    background: #f2f2f2;
+  }
+  .platform-title {
+    padding-top: 42rem;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+
+    color: #031d5b;
+  }
+  .donors img {
+      margin: 0 auto;
+    padding-top: 4.7rem;
+    width: 90%;
+  }
+  /* footer */
+  footer {
+    background: #f2f2f2;
+  }
+  .copy-right {
+    font-family: "Rubik", sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    padding-top: 10rem;
+    color: #5b6c94;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 10.5rem;
+  }
+  .item-menu-footer {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    /* identical to box height, or 200% */
+
+    color: #5b6c94;
+  }
+}
