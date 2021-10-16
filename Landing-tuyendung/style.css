@@ -1,0 +1,2395 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 62.5%;
+  }
+  header {
+    font-family: "Roboto", sans-serif;
+  }
+  .content1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .menu-desktop {
+    background: #eee;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+  }
+  .nav-item a:hover {
+    color: #fff;
+  }
+  .nav-item a:active {
+    color: #fff;
+  }
+  .banner-recruitment img {
+    width: 100%;
+  }
+  .content2-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content2 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-image: url("./picture/PageTuyenDung/bg-co-hoi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -40rem;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+    margin: 0px 1rem;
+  }
+  .nav-item .nav-link img {
+    max-width: 14rem;
+    width: 100%;
+    margin: 0px 4rem;
+  }
+  .menu-mobile {
+    display: none;
+  }
+
+  .nav-item-parent:hover {
+    padding: 0px 0.3rem;
+    background: orange;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    color: #fff;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+  }
+  .nav-item:active {
+    transform: translateY(4px);
+  }
+
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+  .shameless-plug {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    padding: 8px 20px;
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  /* content */
+  .parent-content {
+    width: 100%;
+    display: flex;
+  }
+
+  .text-parent-content {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .text-child-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .fa-location-arrow,
+  .text-parent-content {
+    color: orange;
+  }
+  .fa-location-arrow {
+    font-size: 2rem;
+    padding: 2rem 2rem 0px 0px;
+  }
+  .fa-arrow-alt-circle-down {
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  .button-custom {
+    margin: 4rem 0px 0px 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+  }
+  .title-content {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-font {
+    font-family: "Carattere", cursive;
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1.5rem;
+  }
+  .content-test {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+  }
+  .shopping-img img {
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .line {
+    height: 2px;
+    max-width: 10rem;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .baner-3 {
+    width: 100%;
+    height: 30rem;
+    background-image: url("./picture/PageTuyenDung/7.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+  }
+  .title-content-yellow {
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: #fff600;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+  }
+  .sub-content {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+  }
+  .title-content-1 {
+    padding-top: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #304ad4;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .sub-title-content {
+    color: #304ad4;
+    font-size: 2.5rem;
+  }
+  .fa-caret-right {
+    margin-right: 2rem;
+  }
+  .info-border {
+    background: #304ad4;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    margin: 0 auto;
+  }
+  .margin-content-border {
+    padding: 3rem 0px;
+  }
+  .bottom-three-item {
+    margin-top: 10rem;
+  }
+  .button-custom1 {
+    /* margin: 4rem 0px 0px 4rem; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+    margin: 0 auto;
+  }
+  .sub-text-red {
+    font-family: "Carattere", cursive;
+    color: #ff0101;
+    font-size: 4rem;
+    padding: 1rem 0px;
+  }
+  .content-bg-orange {
+    background-color: #e77f25;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+  }
+  .child-certify {
+    color: #fff;
+    font-size: 4rem;
+  }
+  .child-certify1 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .number-certify {
+    padding: 2rem 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .content-three-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-black {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .line-blue {
+    max-width: 10rem;
+    width: 100%;
+    height: 4px;
+    margin: 0 auto;
+    background: blue;
+  }
+  .parent-content-grow img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .title-content-orange {
+    color: #ff7600;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0px 0.5rem 0px;
+  }
+  .son-content {
+    font-size: 1.6rem;
+  }
+  .parent-three-item {
+    padding-top: 7rem;
+  }
+  .parent-staff img {
+    max-width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    outline: #e77f25;
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 11.8rem;
+  }
+  .parent-staff {
+    border: 1px solid #fff;
+    padding: 3rem;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 5px;
+    
+  }
+  .parent-staff:hover {
+    background: #fff;
+    color: #e77f25;
+  }
+
+  .child-content-staff {
+    position: relative;
+  }
+
+  .border-position-cs {
+    border: 1px solid #fff;
+  }
+  .share-staff {
+    background: orange;
+  }
+  .staff {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 6rem;
+  }
+  .content-five-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .content-staff {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .content-five-item {
+    padding-top: 3rem;
+  }
+  .feel-staff img {
+    max-width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .parent-feel-staff {
+    font-size: 1.8rem;
+    color: #ff7600;
+    text-transform: uppercase;
+  }
+  .child-feel-staff {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .text-content-feel-staff {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  .logo-white {
+    max-width: 15rem;
+    width: 100%;
+    padding-left: 2rem;
+  }
+  footer {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .content-left-footer {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  .title-footer {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #fff;
+    border-bottom: 1px solid #fce7af;
+    border-top: 1px solid #fce7af;
+    border-bottom-width: 80%;
+  }
+  .input-custom {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .input-custom1 {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem 1rem 0px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .buttons-submit {
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffa800;
+  }
+  .sub-content-title {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .content-text-hope {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 9rem 0px;
+    text-transform: uppercase;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blue-vector-background-with-stripes-can-be-used-for-cover-vector-id1270261573?b=1&k=20&m=1270261573&s=612x612&w=0&h=k91TiSYcXClmfAPaQ-5AIri5SOkseOWJ9bE7EdDxvbU=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
+  .number-business {
+    font-size: 8rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-desktop {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+    background: #000;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+  }
+  #active:checked ~ .wrapper {
+    clip-path: circle(75%);
+  }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    background: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  #active:checked ~ .menu-btn {
+    color: #fff;
+  }
+  #active:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  .wrapper ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li {
+    margin: 15px 0;
+  }
+  .wrapper ul li a {
+    color: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    background: #000;
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%; /* if the font is 'Oswald'*/
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after {
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover {
+    color: #fff;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  .content .title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+  html {
+    font-size: 50%;
+  }
+  header {
+    font-family: "Roboto", sans-serif;
+  }
+  .content1 {
+    font-family: "Roboto", sans-serif;
+  }
+  .menu-desktop {
+    display: none;
+  }
+  
+  .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+    background: #ffba00;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .wrapper {
+    clip-path: circle(75%);
+  }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    background: #ffba00;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .menu-btn {
+    color: #fff;
+  }
+  #active:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  .wrapper ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li {
+    margin: 15px 0;
+  }
+  .wrapper ul li a {
+    color: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    color: #fff;
+   
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%; /* if the font is 'Oswald'*/
+    border-radius: 5rem;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after {
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover {
+    color: #fff;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  
+  .content .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+.three-content-hope{
+  flex-direction: column;
+  margin: 0 auto;
+}
+  .menu-desktop {
+    background: #eee;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+  }
+  .nav-item a:hover {
+    color: #fff;
+  }
+  .nav-item a:active {
+    color: #fff;
+  }
+  .banner-recruitment img {
+    width: 100%;
+    height: 40rem;
+    object-fit: fill;
+    
+  }
+  .content2-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content2 {
+    padding: 5rem 1rem;
+    background-image: url("./picture/PageTuyenDung/bg-co-hoi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -25rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+    margin: 0px 1rem;
+  }
+  .nav-item .nav-link img {
+    max-width: 14rem;
+    width: 100%;
+    margin: 0px 4rem;
+  }
+
+  .nav-item-parent:hover {
+    padding: 0px 0.3rem;
+    background: orange;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    color: #fff;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+  }
+  .nav-item:active {
+    transform: translateY(4px);
+  }
+
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+  .shameless-plug {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    padding: 8px 20px;
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  /* content */
+  .parent-content {
+    width: 100%;
+    display: flex;
+  }
+
+  .text-parent-content {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .text-child-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .fa-location-arrow,
+  .text-parent-content {
+    color: orange;
+  }
+  .fa-location-arrow {
+    font-size: 2rem;
+    padding: 2rem 2rem 0px 0px;
+  }
+  .fa-arrow-alt-circle-down {
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  .button-custom {
+    margin: 4rem 0px 0px 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+  }
+  .title-content {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-font {
+    font-family: "Carattere", cursive;
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1.5rem;
+  }
+  .content-test {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+  }
+  .shopping-img img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .line {
+    height: 2px;
+    max-width: 10rem;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .baner-3 {
+    width: 100%;
+    height: 30rem;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+  }
+  .baner-3 img {
+    display: none;
+  }
+  .title-content-yellow {
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: #fff600;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+  }
+  .sub-content {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .title-content-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #304ad4;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .sub-title-content {
+    color: #304ad4;
+    font-size: 2.5rem;
+  }
+  .fa-caret-right {
+    margin-right: 2rem;
+  }
+  .info-border {
+    background: #304ad4;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    margin: 0 auto;
+  }
+  .margin-content-border {
+    padding: 3rem 0px;
+  }
+  .bottom-three-item {
+    margin-top: 40rem;
+  }
+  .button-custom1 {
+    /* margin: 4rem 0px 0px 4rem; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+    margin: 0 auto;
+  }
+  .sub-text-red {
+    font-family: "Carattere", cursive;
+    color: #ff0101;
+    font-size: 4rem;
+    padding: 1rem 0px;
+  }
+  .content-bg-orange {
+    background-color: #e77f25;
+    /* position: absolute;
+    bottom: -50rem;
+    left: 0;
+    right: 0; */
+  }
+  .child-certify {
+    color: #fff;
+    font-size: 4rem;
+  }
+  .child-certify1 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .number-certify {
+    padding: 2rem 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .content-three-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-black {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .line-blue {
+    max-width: 10rem;
+    width: 100%;
+    height: 4px;
+    margin: 0 auto;
+    background: blue;
+  }
+  .parent-content-grow img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .parent-content-grow p{
+    font-size: 2rem;
+  }
+  
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .title-content-orange {
+    color: #ff7600;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0px 0.5rem 0px;
+  }
+  .son-content {
+    font-size: 1.6rem;
+  }
+  .parent-three-item {
+    padding-top: 7rem;
+    flex-direction: column;
+  }
+  .parent-staff img {
+    max-width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    outline: #e77f25;
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 42%;
+    right: 0;
+    
+  }
+  
+  .parent-staff {
+    border: 1px solid #fff;
+    padding: 3rem;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 3rem;
+  }
+  .parent-staff:hover {
+    background: #fff;
+    color: #e77f25;
+  }
+
+  .child-content-staff {
+    position: relative;
+  }
+.feel-staff-mobile{
+  flex-direction: column;
+  margin-top: 5rem;
+}
+  .border-position-cs {
+    border: 1px solid #fff;
+  }
+  .share-staff {
+    background: orange;
+  }
+  .staff {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 6rem;
+  }
+  .content-five-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .content-staff {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .content-five-item {
+    padding-top: 3rem;
+    flex-direction: column;
+  }
+  .feel-staff{
+    margin-top: 4rem;
+  }
+  .feel-staff img {
+    max-width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .parent-feel-staff {
+    font-size: 1.8rem;
+    color: #ff7600;
+    text-transform: uppercase;
+  }
+  .child-feel-staff {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .child-feel-staff-mobile{
+    margin-bottom: 5rem;
+  }
+  .text-content-feel-staff {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  .logo-white {
+    max-width: 15rem;
+    width: 100%;
+    padding-left: 2rem;
+  }
+  footer {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .content-left-footer {
+    font-size: 1.6rem;
+    color: #fff;
+    padding-left: 4rem;
+  }
+  .title-footer {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #fff;
+    border-bottom: 1px solid #fce7af;
+    border-top: 1px solid #fce7af;
+    border-bottom-width: 80%;
+    margin-top: 5rem;
+  }
+  .input-custom {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .input-custom1 {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem 1rem 0px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .button-submit-mobile{
+    margin-bottom: 4rem;
+  }
+  .buttons-submit {
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffa800;
+  }
+  .sub-content-title {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .content-text-hope {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 9rem 0px;
+    text-transform: uppercase;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blue-vector-background-with-stripes-can-be-used-for-cover-vector-id1270261573?b=1&k=20&m=1270261573&s=612x612&w=0&h=k91TiSYcXClmfAPaQ-5AIri5SOkseOWJ9bE7EdDxvbU=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+  }
+  .number-business {
+    font-size: 8rem;
+  }
+  .content2-left-mobile{
+    display: none;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px){
+  html {
+    font-size: 52%;
+  }
+  header {
+    font-family: "Roboto", sans-serif;
+  }
+  .content1 {
+    font-family: "Roboto", sans-serif;
+  }
+  .menu-desktop {
+    display: none;
+  }
+  
+  .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+    background: #ffba00;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .wrapper {
+    clip-path: circle(75%);
+  }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    background: #ffba00;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .menu-btn {
+    color: #fff;
+  }
+  #active:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  .wrapper ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li {
+    margin: 15px 0;
+  }
+  .wrapper ul li a {
+    color: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    color: #fff;
+   
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%; /* if the font is 'Oswald'*/
+    border-radius: 5rem;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after {
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover {
+    color: #fff;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  
+  .content .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+.three-content-hope{
+  flex-direction: column;
+  margin: 0 auto;
+}
+  .menu-desktop {
+    background: #eee;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+  }
+  .nav-item a:hover {
+    color: #fff;
+  }
+  .nav-item a:active {
+    color: #fff;
+  }
+  .banner-recruitment img {
+    width: 100%;
+    height: 40rem;
+    object-fit: fill;
+    
+  }
+  .content2-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content2 {
+    padding: 5rem 1rem;
+    background-image: url("./picture/PageTuyenDung/bg-co-hoi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -14rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+    margin: 0px 1rem;
+  }
+  .nav-item .nav-link img {
+    max-width: 14rem;
+    width: 100%;
+    margin: 0px 4rem;
+  }
+
+  .nav-item-parent:hover {
+    padding: 0px 0.3rem;
+    background: orange;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    color: #fff;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+  }
+  .nav-item:active {
+    transform: translateY(4px);
+  }
+
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+  .shameless-plug {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    padding: 8px 20px;
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  /* content */
+  .parent-content {
+    width: 100%;
+    display: flex;
+  }
+
+  .text-parent-content {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .text-child-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .fa-location-arrow,
+  .text-parent-content {
+    color: orange;
+  }
+  .fa-location-arrow {
+    font-size: 2rem;
+    padding: 2rem 2rem 0px 0px;
+  }
+  .fa-arrow-alt-circle-down {
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  .button-custom {
+    margin: 4rem 0px 0px 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+  }
+  .title-content {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-font {
+    font-family: "Carattere", cursive;
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1.5rem;
+  }
+  .content-test {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+  }
+  .shopping-img img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .line {
+    height: 2px;
+    max-width: 10rem;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .baner-3 {
+    width: 100%;
+    height: 30rem;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+  }
+  .baner-3 img {
+    display: none;
+  }
+  .title-content-yellow {
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: #fff600;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+  }
+  .sub-content {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .title-content-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #304ad4;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .sub-title-content {
+    color: #304ad4;
+    font-size: 2.5rem;
+  }
+  .fa-caret-right {
+    margin-right: 2rem;
+  }
+  .info-border {
+    background: #304ad4;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    margin: 0 auto;
+  }
+  .margin-content-border {
+    padding: 3rem 0px;
+  }
+  .bottom-three-item {
+    margin-top: 40rem;
+  }
+  .button-custom1 {
+    /* margin: 4rem 0px 0px 4rem; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+    margin: 0 auto;
+  }
+  .sub-text-red {
+    font-family: "Carattere", cursive;
+    color: #ff0101;
+    font-size: 4rem;
+    padding: 1rem 0px;
+  }
+  .content-bg-orange {
+    background-color: #e77f25;
+    /* position: absolute;
+    bottom: -50rem;
+    left: 0;
+    right: 0; */
+  }
+  .child-certify {
+    color: #fff;
+    font-size: 4rem;
+  }
+  .child-certify1 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .number-certify {
+    padding: 2rem 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .content-three-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-black {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .line-blue {
+    max-width: 10rem;
+    width: 100%;
+    height: 4px;
+    margin: 0 auto;
+    background: blue;
+  }
+  .parent-content-grow img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .parent-content-grow p{
+    font-size: 2rem;
+  }
+  
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .title-content-orange {
+    color: #ff7600;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0px 0.5rem 0px;
+  }
+  .son-content {
+    font-size: 1.6rem;
+  }
+  .parent-three-item {
+    padding-top: 7rem;
+    flex-direction: column;
+  }
+  .parent-staff img {
+    max-width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    outline: #e77f25;
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 42%;
+    right: 0;
+    
+  }
+  
+  .parent-staff {
+    border: 1px solid #fff;
+    padding: 3rem;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 3rem;
+  }
+  .parent-staff:hover {
+    background: #fff;
+    color: #e77f25;
+  }
+
+  .child-content-staff {
+    position: relative;
+  }
+.feel-staff-mobile{
+  flex-direction: column;
+  margin-top: 5rem;
+}
+  .border-position-cs {
+    border: 1px solid #fff;
+  }
+  .share-staff {
+    background: orange;
+  }
+  .staff {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 6rem;
+  }
+  .content-five-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .content-staff {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .content-five-item {
+    padding-top: 3rem;
+    flex-direction: column;
+  }
+  .feel-staff{
+    margin-top: 4rem;
+  }
+  .feel-staff img {
+    max-width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .parent-feel-staff {
+    font-size: 1.8rem;
+    color: #ff7600;
+    text-transform: uppercase;
+  }
+  .child-feel-staff {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .child-feel-staff-mobile{
+    margin-bottom: 5rem;
+  }
+  .text-content-feel-staff {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  .logo-white {
+    max-width: 15rem;
+    width: 100%;
+    padding-left: 2rem;
+  }
+  footer {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .content-left-footer {
+    font-size: 1.6rem;
+    color: #fff;
+    padding-left: 4rem;
+  }
+  .title-footer {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #fff;
+    border-bottom: 1px solid #fce7af;
+    border-top: 1px solid #fce7af;
+    border-bottom-width: 80%;
+    margin-top: 5rem;
+  }
+  .input-custom {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .input-custom1 {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem 1rem 0px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .button-submit-mobile{
+    margin-bottom: 4rem;
+  }
+  .buttons-submit {
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffa800;
+  }
+  .sub-content-title {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .content-text-hope {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 9rem 0px;
+    text-transform: uppercase;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blue-vector-background-with-stripes-can-be-used-for-cover-vector-id1270261573?b=1&k=20&m=1270261573&s=612x612&w=0&h=k91TiSYcXClmfAPaQ-5AIri5SOkseOWJ9bE7EdDxvbU=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+  }
+  .number-business {
+    font-size: 8rem;
+  }
+  .content2-left-mobile{
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    font-family: "Roboto", sans-serif;
+  }
+  .content1 {
+    font-family: "Roboto", sans-serif;
+  }
+  .menu-desktop {
+    display: none;
+  }
+  
+  .wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+    background: #ffba00;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .wrapper {
+    clip-path: circle(75%);
+  }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    background: #ffba00;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #active:checked ~ .menu-btn {
+    color: #fff;
+  }
+  #active:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  .wrapper ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li {
+    margin: 15px 0;
+  }
+  .wrapper ul li a {
+    color: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    color: #fff;
+   
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%; /* if the font is 'Oswald'*/
+    border-radius: 5rem;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after {
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover {
+    color: #fff;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  
+  .content .title {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+.three-content-hope{
+  flex-direction: column;
+  margin: 0 auto;
+}
+  .menu-desktop {
+    background: #eee;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+  }
+  .nav-item a:hover {
+    color: #fff;
+  }
+  .nav-item a:active {
+    color: #fff;
+  }
+  .banner-recruitment img {
+    width: 100%;
+    height: 30rem;
+    object-fit: fill;
+    
+  }
+  .content2-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content2 {
+    padding: 5rem 1rem;
+    background-image: url("./picture/PageTuyenDung/bg-co-hoi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -40rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+    margin: 0px 1rem;
+  }
+  .nav-item .nav-link img {
+    max-width: 14rem;
+    width: 100%;
+    margin: 0px 4rem;
+  }
+
+  .nav-item-parent:hover {
+    padding: 0px 0.3rem;
+    background: orange;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    color: #fff;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #ef816c;
+  }
+  .nav-item:active {
+    transform: translateY(4px);
+  }
+
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+  .shameless-plug {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    padding: 8px 20px;
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  /* content */
+  .parent-content {
+    width: 100%;
+    display: flex;
+  }
+
+  .text-parent-content {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .text-child-content {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .fa-location-arrow,
+  .text-parent-content {
+    color: orange;
+  }
+  .fa-location-arrow {
+    font-size: 2rem;
+    padding: 2rem 2rem 0px 0px;
+  }
+  .fa-arrow-alt-circle-down {
+    padding-right: 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  .button-custom {
+    margin: 4rem 0px 0px 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+  }
+  .title-content {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-font {
+    font-family: "Carattere", cursive;
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 1.5rem;
+  }
+  .content-test {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+  }
+  .shopping-img img {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+  }
+  .line {
+    height: 2px;
+    max-width: 10rem;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .baner-3 {
+    width: 100%;
+    height: 30rem;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+  }
+  .baner-3 img {
+    display: none;
+  }
+  .title-content-yellow {
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: #fff600;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+  }
+  .sub-content {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .title-content-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #304ad4;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .sub-title-content {
+    color: #304ad4;
+    font-size: 2.5rem;
+  }
+  .fa-caret-right {
+    margin-right: 2rem;
+  }
+  .info-border {
+    background: #304ad4;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+
+    margin: 0 auto;
+  }
+  .margin-content-border {
+    padding: 3rem 0px;
+  }
+  .bottom-three-item {
+    margin-top: 40rem;
+  }
+  .button-custom1 {
+    /* margin: 4rem 0px 0px 4rem; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffa800;
+    margin: 0 auto;
+  }
+  .sub-text-red {
+    font-family: "Carattere", cursive;
+    color: #ff0101;
+    font-size: 4rem;
+    padding: 1rem 0px;
+  }
+  .content-bg-orange {
+    background-color: #e77f25;
+    /* position: absolute;
+    bottom: -50rem;
+    left: 0;
+    right: 0; */
+  }
+  .child-certify {
+    color: #fff;
+    font-size: 4rem;
+  }
+  .child-certify1 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .number-certify {
+    padding: 2rem 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .content-three-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .title-content-black {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .line-blue {
+    max-width: 10rem;
+    width: 100%;
+    height: 4px;
+    margin: 0 auto;
+    background: blue;
+  }
+  .parent-content-grow img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .parent-content-grow p{
+    font-size: 2rem;
+  }
+  
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .title-content-orange {
+    color: #ff7600;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0px 0.5rem 0px;
+  }
+  .son-content {
+    font-size: 1.6rem;
+  }
+  .parent-three-item {
+    padding-top: 7rem;
+    flex-direction: column;
+  }
+  .parent-staff img {
+    max-width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    outline: #e77f25;
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    left: 42%;
+    right: 0;
+    
+  }
+  
+  .parent-staff {
+    border: 1px solid #fff;
+    padding: 3rem;
+    position: relative;
+    margin-top: 5rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 3rem;
+  }
+  .parent-staff:hover {
+    background: #fff;
+    color: #e77f25;
+  }
+
+  .child-content-staff {
+    position: relative;
+  }
+.feel-staff-mobile{
+  flex-direction: column;
+  margin-top: 5rem;
+}
+  .border-position-cs {
+    border: 1px solid #fff;
+  }
+  .share-staff {
+    background: orange;
+  }
+  .staff {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 6rem;
+  }
+  .content-five-item {
+    font-family: "Roboto", sans-serif;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .content-staff {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  .content-five-item {
+    padding-top: 3rem;
+    flex-direction: column;
+  }
+  .feel-staff{
+    margin-top: 4rem;
+  }
+  .feel-staff img {
+    max-width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .parent-feel-staff {
+    font-size: 1.8rem;
+    color: #ff7600;
+    text-transform: uppercase;
+  }
+  .child-feel-staff {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .child-feel-staff-mobile{
+    margin-bottom: 5rem;
+  }
+  .text-content-feel-staff {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  .logo-white {
+    max-width: 15rem;
+    width: 100%;
+    padding-left: 2rem;
+  }
+  footer {
+    background-image: url("./picture/PageTuyenDung/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .content-left-footer {
+    font-size: 1.6rem;
+    color: #fff;
+    padding-left: 4rem;
+  }
+  .title-footer {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #fff;
+    border-bottom: 1px solid #fce7af;
+    border-top: 1px solid #fce7af;
+    border-bottom-width: 80%;
+    margin-top: 5rem;
+  }
+  .input-custom {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .input-custom1 {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem 1rem 0px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+  }
+  .button-submit-mobile{
+    margin-bottom: 4rem;
+  }
+  .buttons-submit {
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffa800;
+  }
+  .sub-content-title {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .content-text-hope {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 9rem 0px;
+    text-transform: uppercase;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-blue-vector-background-with-stripes-can-be-used-for-cover-vector-id1270261573?b=1&k=20&m=1270261573&s=612x612&w=0&h=k91TiSYcXClmfAPaQ-5AIri5SOkseOWJ9bE7EdDxvbU=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+  }
+  .number-business {
+    font-size: 8rem;
+  }
+  .content2-left-mobile{
+    display: none;
+  }
+}
